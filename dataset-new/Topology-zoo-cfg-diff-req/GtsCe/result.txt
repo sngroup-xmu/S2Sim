@@ -1,0 +1,391 @@
+*******************128.0.3.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.7.0/24********************
+
+Error Configuration: balvanesti.cfg
+ErrorLineNumber: 76
+Command: route-map RMap_Balvanesti_to_Craiova deny 10
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.75 route-map RMap_Balvanesti_to_Craiova out
+ErrorLineNumber: 77
+Command: match ip address prefix-list 1
+ErrorLineNumber: 78
+Command: route-map RMap_Balvanesti_to_Craiova permit 100
+*******************128.0.1.0/24********************
+
+Error Configuration: sanktttpeterburg.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.2.0/24********************
+
+Error Configuration: ankara.cfg
+ErrorLineNumber: -1
+Command: network 128.0.2.0 mask 255.255.255.0
+
+Error Configuration: iasi.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.189 remote-as 360
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.189 description "To galati"
+*******************128.0.3.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.5.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: 75
+Command: route-map RMap_Bacau_to_Iasi deny 10
+ErrorLineNumber: 68
+Command: neighbor 10.0.0.186 route-map RMap_Bacau_to_Iasi out
+ErrorLineNumber: 76
+Command: match ip address prefix-list 1
+ErrorLineNumber: 77
+Command: route-map RMap_Bacau_to_Iasi permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: balikesir.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Balikesir_to_Edirne permit 100
+ErrorLineNumber: 70
+Command: neighbor 10.0.1.68 route-map RMap_Balikesir_to_Edirne out
+ErrorLineNumber: 86
+Command: route-map RMap_Balikesir_to_Edirne deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.9.0/24********************
+
+Error Configuration: beograd.cfg
+ErrorLineNumber: 136
+Command: route-map RMap_Beograd_to_Sarajevo deny 10
+ErrorLineNumber: 113
+Command: neighbor 10.0.0.67 route-map RMap_Beograd_to_Sarajevo out
+ErrorLineNumber: 137
+Command: match ip address prefix-list 1
+ErrorLineNumber: 138
+Command: route-map RMap_Beograd_to_Sarajevo permit 100
+*******************128.0.0.0/24********************
+
+Error Configuration: nodeid11.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.1.0/24********************
+
+Error Configuration: sanktttpeterburg.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.2.0/24********************
+
+Error Configuration: ankara.cfg
+ErrorLineNumber: -1
+Command: network 128.0.2.0 mask 255.255.255.0
+
+Error Configuration: iasi.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.189 remote-as 360
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.189 description "To galati"
+*******************128.0.3.0/24********************
+*******************128.0.4.0/24********************
+
+Error Configuration: athina.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: 75
+Command: route-map RMap_Bacau_to_Iasi deny 10
+ErrorLineNumber: 68
+Command: neighbor 10.0.0.186 route-map RMap_Bacau_to_Iasi out
+ErrorLineNumber: 76
+Command: match ip address prefix-list 1
+ErrorLineNumber: 77
+Command: route-map RMap_Bacau_to_Iasi permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: balikesir.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Balikesir_to_Edirne permit 100
+ErrorLineNumber: 70
+Command: neighbor 10.0.1.68 route-map RMap_Balikesir_to_Edirne out
+ErrorLineNumber: 86
+Command: route-map RMap_Balikesir_to_Edirne deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.7.0/24********************
+
+Error Configuration: balvanesti.cfg
+ErrorLineNumber: 76
+Command: route-map RMap_Balvanesti_to_Craiova deny 10
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.75 route-map RMap_Balvanesti_to_Craiova out
+ErrorLineNumber: 77
+Command: match ip address prefix-list 1
+ErrorLineNumber: 78
+Command: route-map RMap_Balvanesti_to_Craiova permit 100
+*******************128.0.8.0/24********************
+*******************128.0.0.0/24********************
+
+Error Configuration: nodeid11.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.1.0/24********************
+
+Error Configuration: sanktttpeterburg.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.2.0/24********************
+
+Error Configuration: ankara.cfg
+ErrorLineNumber: -1
+Command: network 128.0.2.0 mask 255.255.255.0
+
+Error Configuration: iasi.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.189 remote-as 360
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.189 description "To galati"
+*******************128.0.3.0/24********************
+*******************128.0.4.0/24********************
+
+Error Configuration: athina.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: 75
+Command: route-map RMap_Bacau_to_Iasi deny 10
+ErrorLineNumber: 68
+Command: neighbor 10.0.0.186 route-map RMap_Bacau_to_Iasi out
+ErrorLineNumber: 76
+Command: match ip address prefix-list 1
+ErrorLineNumber: 77
+Command: route-map RMap_Bacau_to_Iasi permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: balikesir.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Balikesir_to_Edirne permit 100
+ErrorLineNumber: 70
+Command: neighbor 10.0.1.68 route-map RMap_Balikesir_to_Edirne out
+ErrorLineNumber: 86
+Command: route-map RMap_Balikesir_to_Edirne deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.7.0/24********************
+
+Error Configuration: balvanesti.cfg
+ErrorLineNumber: 76
+Command: route-map RMap_Balvanesti_to_Craiova deny 10
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.75 route-map RMap_Balvanesti_to_Craiova out
+ErrorLineNumber: 77
+Command: match ip address prefix-list 1
+ErrorLineNumber: 78
+Command: route-map RMap_Balvanesti_to_Craiova permit 100
+*******************128.0.8.0/24********************
+
+Error Configuration: banskattbystrica.cfg
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.225 route-map RMap_BanskaTTBystrica_to_Zilina out
+ErrorLineNumber: 77
+Command: route-map RMap_BanskaTTBystrica_to_Zilina deny 10
+ErrorLineNumber: 78
+Command: match ip address prefix-list 1
+ErrorLineNumber: 79
+Command: route-map RMap_BanskaTTBystrica_to_Zilina permit 100
+*******************128.0.9.0/24********************
+
+Error Configuration: beograd.cfg
+ErrorLineNumber: 136
+Command: route-map RMap_Beograd_to_Sarajevo deny 10
+ErrorLineNumber: 113
+Command: neighbor 10.0.0.67 route-map RMap_Beograd_to_Sarajevo out
+ErrorLineNumber: 137
+Command: match ip address prefix-list 1
+ErrorLineNumber: 138
+Command: route-map RMap_Beograd_to_Sarajevo permit 100
+*******************128.0.3.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.7.0/24********************
+
+Error Configuration: balvanesti.cfg
+ErrorLineNumber: 76
+Command: route-map RMap_Balvanesti_to_Craiova deny 10
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.75 route-map RMap_Balvanesti_to_Craiova out
+ErrorLineNumber: 77
+Command: match ip address prefix-list 1
+ErrorLineNumber: 78
+Command: route-map RMap_Balvanesti_to_Craiova permit 100
+*******************128.0.1.0/24********************
+
+Error Configuration: sanktttpeterburg.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.2.0/24********************
+
+Error Configuration: ankara.cfg
+ErrorLineNumber: -1
+Command: network 128.0.2.0 mask 255.255.255.0
+
+Error Configuration: iasi.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.189 remote-as 360
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.189 description "To galati"
+*******************128.0.3.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.5.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: 75
+Command: route-map RMap_Bacau_to_Iasi deny 10
+ErrorLineNumber: 68
+Command: neighbor 10.0.0.186 route-map RMap_Bacau_to_Iasi out
+ErrorLineNumber: 76
+Command: match ip address prefix-list 1
+ErrorLineNumber: 77
+Command: route-map RMap_Bacau_to_Iasi permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: balikesir.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Balikesir_to_Edirne permit 100
+ErrorLineNumber: 70
+Command: neighbor 10.0.1.68 route-map RMap_Balikesir_to_Edirne out
+ErrorLineNumber: 86
+Command: route-map RMap_Balikesir_to_Edirne deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.9.0/24********************
+
+Error Configuration: beograd.cfg
+ErrorLineNumber: 136
+Command: route-map RMap_Beograd_to_Sarajevo deny 10
+ErrorLineNumber: 113
+Command: neighbor 10.0.0.67 route-map RMap_Beograd_to_Sarajevo out
+ErrorLineNumber: 137
+Command: match ip address prefix-list 1
+ErrorLineNumber: 138
+Command: route-map RMap_Beograd_to_Sarajevo permit 100
+*******************128.0.0.0/24********************
+
+Error Configuration: nodeid11.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.194 remote-as 160
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.194 description "To brasov"
+*******************128.0.1.0/24********************
+
+Error Configuration: sanktttpeterburg.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.2.0/24********************
+
+Error Configuration: ankara.cfg
+ErrorLineNumber: -1
+Command: network 128.0.2.0 mask 255.255.255.0
+
+Error Configuration: iasi.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.189 remote-as 360
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.189 description "To galati"
+*******************128.0.3.0/24********************
+*******************128.0.4.0/24********************
+
+Error Configuration: athina.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: bacau.cfg
+ErrorLineNumber: 75
+Command: route-map RMap_Bacau_to_Iasi deny 10
+ErrorLineNumber: 68
+Command: neighbor 10.0.0.186 route-map RMap_Bacau_to_Iasi out
+ErrorLineNumber: 76
+Command: match ip address prefix-list 1
+ErrorLineNumber: 77
+Command: route-map RMap_Bacau_to_Iasi permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: balikesir.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Balikesir_to_Edirne permit 100
+ErrorLineNumber: 70
+Command: neighbor 10.0.1.68 route-map RMap_Balikesir_to_Edirne out
+ErrorLineNumber: 86
+Command: route-map RMap_Balikesir_to_Edirne deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.7.0/24********************
+
+Error Configuration: balvanesti.cfg
+ErrorLineNumber: 76
+Command: route-map RMap_Balvanesti_to_Craiova deny 10
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.75 route-map RMap_Balvanesti_to_Craiova out
+ErrorLineNumber: 77
+Command: match ip address prefix-list 1
+ErrorLineNumber: 78
+Command: route-map RMap_Balvanesti_to_Craiova permit 100
+*******************128.0.8.0/24********************
+
+Error Configuration: banskattbystrica.cfg
+ErrorLineNumber: 69
+Command: neighbor 10.0.0.225 route-map RMap_BanskaTTBystrica_to_Zilina out
+ErrorLineNumber: 77
+Command: route-map RMap_BanskaTTBystrica_to_Zilina deny 10
+ErrorLineNumber: 78
+Command: match ip address prefix-list 1
+ErrorLineNumber: 79
+Command: route-map RMap_BanskaTTBystrica_to_Zilina permit 100
+*******************128.0.9.0/24********************
+
+Error Configuration: beograd.cfg
+ErrorLineNumber: 136
+Command: route-map RMap_Beograd_to_Sarajevo deny 10
+ErrorLineNumber: 113
+Command: neighbor 10.0.0.67 route-map RMap_Beograd_to_Sarajevo out
+ErrorLineNumber: 137
+Command: match ip address prefix-list 1
+ErrorLineNumber: 138
+Command: route-map RMap_Beograd_to_Sarajevo permit 100

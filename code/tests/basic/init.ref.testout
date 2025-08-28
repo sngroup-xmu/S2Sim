@@ -1,0 +1,30 @@
+{
+  "answerElements" : [
+    {
+      "class" : "org.batfish.datamodel.answers.InitInfoAnswerElement",
+      "parseStatus" : {
+        "configs/as1border1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as1border2.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as1core1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2border1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2border2.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2core1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2core2.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2dept1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2dist1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as2dist2.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as3border1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as3border2.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "configs/as3core1.cfg" : "PARTIALLY_UNRECOGNIZED",
+        "hosts/host1.json" : "FAILED",
+        "hosts/host2.json" : "FAILED"
+      }
+    }
+  ],
+  "status" : "SUCCESS",
+  "summary" : {
+    "numFailed" : 0,
+    "numPassed" : 0,
+    "numResults" : 0
+  }
+}

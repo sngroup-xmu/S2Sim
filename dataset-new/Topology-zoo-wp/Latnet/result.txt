@@ -1,0 +1,27 @@
+*******************128.0.1.0/24********************
+
+Error Configuration: jelgava.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Jelgava_from_Riga permit 10
+ErrorLineNumber: 73
+Command: set local-preference 120
+ErrorLineNumber: 74
+Command: route-map RMap_Jelgava_from_Riga permit 100
+ErrorLineNumber: 110
+Command: neighbor 10.0.0.90 route-map RMap_Jelgava_from_Riga in
+
+Error Configuration: kegums.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.77 remote-as 190
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.77 description "To ikskile"
+
+Error Configuration: livani.cfg
+ErrorLineNumber: 60
+Command: network 128.0.1.0 mask 255.255.255.0 route-map Route_from_Static
+ErrorLineNumber: 53
+Command: route-map Route_from_Static deny 10
+ErrorLineNumber: 54
+Command: match ip address prefix-list 1
+ErrorLineNumber: 55
+Command: route-map Route_from_Static permit 100

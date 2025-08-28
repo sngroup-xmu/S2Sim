@@ -1,0 +1,18 @@
+Exception in container:ab46ff31-e86a-486e-87f5-17f8ffef93a2, testrig:dfaa2b70-7f24-42a2-b9f0-ad948fbccf3b; exception:com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 2 column 17 path $.srcNode
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:397)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	at com.google.gson.Gson.fromJson(Gson.java:1137)
+	at com.google.gson.Gson.fromJson(Gson.java:1047)
+	at com.google.gson.Gson.fromJson(Gson.java:982)
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:109)
+	at org.batfish.main.Batfish.repair(Batfish.java:2193)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was STRING at line 2 column 17 path $.srcNode
+	at com.google.gson.stream.JsonReader.beginArray(JsonReader.java:358)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:80)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:433)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:393)
+	... 8 more

@@ -1,0 +1,62 @@
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Generated data-plane for snapshot:1b74aba2-28a7-4db1-a728-5c9fbe1c8856; iterations:4Time taken for this task: 0.489 seconds
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Loading configurations for NetworkSnapshot{network=5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, snapshot=1b74aba2-28a7-4db1-a728-5c9fbe1c8856}
+Exception in container:5328ce84-4d9f-4fbe-b555-468ffcf5d3dc, testrig:1b74aba2-28a7-4db1-a728-5c9fbe1c8856; exception:java.lang.NullPointerException
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:564)
+	at java.base/java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:591)
+	at java.base/java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:689)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:765)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeIterationOfBgpRoutes(IncrementalBdpEngine.java:547)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDependentRoutesIteration(IncrementalBdpEngine.java:531)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeNonMonotonicPortionOfDataPlane(IncrementalBdpEngine.java:823)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:302)
+	at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)
+	at org.batfish.main.Batfish.computeDataPlane(Batfish.java:830)
+	at org.batfish.main.Batfish.repair(Batfish.java:2249)
+	at org.batfish.main.Driver.lambda$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.batfish.diagnosis.conditions.SelectionRoute.get_networkString()" because the return value of "org.batfish.diagnosis.conditions.BgpCondition.get_route()" is null
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.transformBgpRouteOnExport(BgpRoutingProcess.java:1522)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.lambda$getOutgoingRoutesForEdge$29(BgpRoutingProcess.java:1178)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Collections$2.tryAdvance(Collections.java:4853)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)
+	at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)
+	at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.pullV4UnicastMessages(BgpRoutingProcess.java:837)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.processBgpV4UnicastMessages(BgpRoutingProcess.java:779)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.processBgpMessages(BgpRoutingProcess.java:661)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.executeIteration(BgpRoutingProcess.java:496)
+	at org.batfish.dataplane.ibdp.VirtualRouter.bgpIteration(VirtualRouter.java:1402)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.lambda$null$16(IncrementalBdpEngine.java:550)
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:405)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.lambda$computeIterationOfBgpRoutes$17(IncrementalBdpEngine.java:550)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.base/java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$0(Driver.java:357)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException","   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","   at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","   at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","   at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)","   at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)","   at java.base/java.util.concurrent.ForkJoinTask.getThrowableException(ForkJoinTask.java:564)","   at java.base/java.util.concurrent.ForkJoinTask.reportException(ForkJoinTask.java:591)","   at java.base/java.util.concurrent.ForkJoinTask.invoke(ForkJoinTask.java:689)","   at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateParallel(ForEachOps.java:159)","   at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateParallel(ForEachOps.java:173)","   at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:233)","   at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)","   at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:765)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeIterationOfBgpRoutes(IncrementalBdpEngine.java:547)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDependentRoutesIteration(IncrementalBdpEngine.java:531)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeNonMonotonicPortionOfDataPlane(IncrementalBdpEngine.java:823)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:302)","   at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)","   at org.batfish.main.Batfish.computeDataPlane(Batfish.java:830)","   at org.batfish.main.Batfish.repair(Batfish.java:2249)","   at org.batfish.main.Driver.lambda$0(Driver.java:315)","   ... 1 more","Caused by: java.lang.NullPointerException: Cannot invoke \"org.batfish.diagnosis.conditions.SelectionRoute.get_networkString()\" because the return value of \"org.batfish.diagnosis.conditions.BgpCondition.get_route()\" is null","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.transformBgpRouteOnExport(BgpRoutingProcess.java:1522)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.lambda$getOutgoingRoutesForEdge$29(BgpRoutingProcess.java:1178)","   at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)","   at java.base/java.util.Collections$2.tryAdvance(Collections.java:4853)","   at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.lambda$initPartialTraversalState$0(StreamSpliterators.java:292)","   at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.fillBuffer(StreamSpliterators.java:206)","   at java.base/java.util.stream.StreamSpliterators$AbstractWrappingSpliterator.doAdvance(StreamSpliterators.java:161)","   at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.tryAdvance(StreamSpliterators.java:298)","   at java.base/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)","   at java.base/java.util.stream.Streams$ConcatSpliterator.tryAdvance(Streams.java:720)","   at java.base/java.util.Spliterators$1Adapter.hasNext(Spliterators.java:681)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.pullV4UnicastMessages(BgpRoutingProcess.java:837)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.processBgpV4UnicastMessages(BgpRoutingProcess.java:779)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.processBgpMessages(BgpRoutingProcess.java:661)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.executeIteration(BgpRoutingProcess.java:496)","   at org.batfish.dataplane.ibdp.VirtualRouter.bgpIteration(VirtualRouter.java:1402)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.lambda$null$16(IncrementalBdpEngine.java:550)","   at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:405)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.lambda$computeIterationOfBgpRoutes$17(IncrementalBdpEngine.java:550)","   at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)","   at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)","   at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)","   at java.base/java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)","   at java.base/java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)","   at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)","   at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)","   at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)","   at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)","   at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

@@ -1,0 +1,7 @@
+{
+    "srcNode": "nyix",
+    "dstNode": "peernyix_1",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/yrl-sse-data/bgp_small/error_cfg/case1/case1.2/Airte_abs_simple_2"
+}
+    

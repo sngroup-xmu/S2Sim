@@ -1,0 +1,11 @@
+[
+    {
+        "srcNode": ["cr2"],
+        "dstNode": "bng5",
+        "reqDstPrefixString": "176.0.0.17/30",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/multi-protocol/Ipmetro-2006-bgp-3.2/configs"
+    }
+    
+]
+

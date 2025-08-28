@@ -1,0 +1,16 @@
+*******************90.20.242.0/24********************
+
+Error Configuration: edge-383.cfg
+ErrorLineNumber: 82
+Command: route-map RMap_edge-383_from_aggregation-378 deny 10
+ErrorLineNumber: 75
+Command: neighbor 10.21.47.0 route-map RMap_edge-383_from_aggregation-378 out
+ErrorLineNumber: 83
+Command: match ip address prefix-list 1
+ErrorLineNumber: 84
+Command: route-map RMap_edge-383_from_aggregation-378 permit 100
+*******************90.8.220.0/24********************
+
+Error Configuration: edge-162.cfg
+ErrorLineNumber: -1
+Command: network 90.8.220.0 mask 255.255.255.0

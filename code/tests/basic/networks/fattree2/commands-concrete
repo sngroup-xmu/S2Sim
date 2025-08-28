@@ -1,0 +1,2 @@
+init-snapshot /home/dell/yrl/pybatfish/jupyter_notebooks/fattree-cfg/fattree4
+test concrete get smt-reachability finalIfaceRegex="Ethernet.0", stats=True

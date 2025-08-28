@@ -1,0 +1,7 @@
+{
+    "srcNode": ["ormoz"],
+    "dstNode": "sezana",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":1,
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/Topology-zoo-cfg/Arnes/configs"
+}

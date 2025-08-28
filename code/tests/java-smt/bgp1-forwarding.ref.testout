@@ -1,0 +1,25 @@
+[
+  {
+    "class" : "org.batfish.common.BatfishException$BatfishStackTrace",
+    "answer" : [
+      "org.batfish.common.BatfishException: Batfish job failed",
+      "   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:352)",
+      "   at java.lang.Thread.run(Thread.java:748)",
+      "Caused by: java.lang.UnsatisfiedLinkError: no libz3java in java.library.path",
+      "   at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1860)",
+      "   at java.lang.Runtime.loadLibrary0(Runtime.java:871)",
+      "   at java.lang.System.loadLibrary(System.java:1122)",
+      "   at com.microsoft.z3.Native.<clinit>(Native.java:14)",
+      "   at com.microsoft.z3.Context.<init>(Context.java:73)",
+      "   at org.batfish.minesweeper.smt.Encoder.<init>(Encoder.java:145)",
+      "   at org.batfish.minesweeper.smt.Encoder.<init>(Encoder.java:93)",
+      "   at org.batfish.minesweeper.smt.PropertyChecker.checkForwarding(PropertyChecker.java:328)",
+      "   at org.batfish.minesweeper.question.SmtForwardingQuestionPlugin$ForwardingAnswerer.answer(SmtForwardingQuestionPlugin.java:27)",
+      "   at org.batfish.main.Batfish.answer(Batfish.java:652)",
+      "   at org.batfish.main.Batfish.run(Batfish.java:2196)",
+      "   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:312)",
+      "   ... 1 more",
+      ""
+    ]
+  }
+]

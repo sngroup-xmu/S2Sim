@@ -1,0 +1,9 @@
+[
+    {
+    "srcNode": "a",
+    "dstNode": "f",
+    "path":"a-b-e-f",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/user/hg/batfish-repair-/yrl-sse-data/networks/sc-demo-7nodes/configs/"
+    }
+]

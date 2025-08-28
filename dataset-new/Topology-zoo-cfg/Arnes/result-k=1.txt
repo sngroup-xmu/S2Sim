@@ -1,0 +1,702 @@
+*******************128.0.16.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Izola_from_Koper permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 101
+ErrorLineNumber: 53
+Command: set community 100:0 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Izola_from_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_from_Koper in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.28.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.2.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.3.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Izola_from_Koper permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 101
+ErrorLineNumber: 53
+Command: set community 100:0 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Izola_from_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_from_Koper in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.4.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.5.0/24********************
+
+Error Configuration: ljutomer.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.80 remote-as 180
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.80 description "To murskattsobota"
+
+Error Configuration: gornjattradgona.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.55 remote-as 170
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.55 description "To maribor"
+*******************128.0.6.0/24********************
+
+Error Configuration: postojna.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.64 route-map RMap_Postojna_from_Senozece in
+ErrorLineNumber: 58
+Command: route-map RMap_Postojna_from_Senozece permit 10
+ErrorLineNumber: 59
+Command: match community 1
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_Postojna_from_Senozece permit 100
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.7.0/24********************
+
+Error Configuration: postojna.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.64 route-map RMap_Postojna_from_Senozece in
+ErrorLineNumber: 58
+Command: route-map RMap_Postojna_from_Senozece permit 10
+ErrorLineNumber: 59
+Command: match community 1
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_Postojna_from_Senozece permit 100
+
+Error Configuration: ajdovscina.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Ajdovscina_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Ajdovscina_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.68 route-map RMap_Ajdovscina_from_Divaca in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.8.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.9.0/24********************
+
+Error Configuration: postojna.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.64 route-map RMap_Postojna_from_Senozece in
+ErrorLineNumber: 58
+Command: route-map RMap_Postojna_from_Senozece permit 10
+ErrorLineNumber: 59
+Command: match community 1
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_Postojna_from_Senozece permit 100
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.10.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.11.0/24********************
+
+Error Configuration: postojna.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.64 route-map RMap_Postojna_from_Senozece in
+ErrorLineNumber: 58
+Command: route-map RMap_Postojna_from_Senozece permit 10
+ErrorLineNumber: 59
+Command: match community 1
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_Postojna_from_Senozece permit 100
+
+Error Configuration: ajdovscina.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Ajdovscina_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Ajdovscina_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.68 route-map RMap_Ajdovscina_from_Divaca in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.12.0/24********************
+
+Error Configuration: lasko.cfg
+ErrorLineNumber: 64
+Command: match as-path 10
+ErrorLineNumber: 97
+Command: neighbor 10.0.0.19 route-map RMap_Lasko_from_Ljubljana in
+ErrorLineNumber: 65
+Command: set local-preference 1
+ErrorLineNumber: 66
+Command: set community 100:1 additive
+ErrorLineNumber: 67
+Command: route-map RMap_Lasko_from_Ljubljana permit 100
+ErrorLineNumber: 63
+Command: route-map RMap_Lasko_from_Ljubljana permit 10
+*******************128.0.13.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.14.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.15.0/24********************
+*******************128.0.0.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+
+Error Configuration: maribor.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.18.0/24********************
+
+Error Configuration: postojna.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.64 route-map RMap_Postojna_from_Senozece in
+ErrorLineNumber: 58
+Command: route-map RMap_Postojna_from_Senozece permit 10
+ErrorLineNumber: 59
+Command: match community 1
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_Postojna_from_Senozece permit 100
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.19.0/24********************
+*******************128.0.20.0/24********************
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.21.0/24********************
+*******************128.0.22.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.23.0/24********************
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.24.0/24********************
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.25.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.26.0/24********************
+
+Error Configuration: portoroz.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Portoroz_from_Divaca permit 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Portoroz_from_Divaca permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.49 route-map RMap_Portoroz_from_Divaca in
+*******************128.0.27.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Izola_from_Koper permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 101
+ErrorLineNumber: 53
+Command: set community 100:0 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Izola_from_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_from_Koper in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: kranj.cfg
+ErrorLineNumber: 65
+Command: route-map RMap_Kranj_from_Koper permit 10
+ErrorLineNumber: 66
+Command: match community 1
+ErrorLineNumber: 67
+Command: set local-preference 101
+ErrorLineNumber: 68
+Command: set community 100:1 additive
+ErrorLineNumber: 69
+Command: route-map RMap_Kranj_from_Koper permit 100
+ErrorLineNumber: 104
+Command: neighbor 10.0.0.23 route-map RMap_Kranj_from_Koper in
+*******************128.0.1.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_Izola_from_Koper permit 10
+ErrorLineNumber: 51
+Command: match community 2
+ErrorLineNumber: 52
+Command: set local-preference 101
+ErrorLineNumber: 53
+Command: set community 100:0 additive
+ErrorLineNumber: 54
+Command: route-map RMap_Izola_from_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_from_Koper in
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+
+Error Configuration: ptuj.cfg
+ErrorLineNumber: 64
+Command: route-map RMap_Ptuj_to_Ormoz deny 10
+ErrorLineNumber: 65
+Command: match ip address prefix-list 1
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.84 route-map RMap_Ptuj_to_Ormoz out
+ErrorLineNumber: 66
+Command: route-map RMap_Ptuj_to_Ormoz permit 100
+
+Error Configuration: kranj.cfg
+ErrorLineNumber: 65
+Command: route-map RMap_Kranj_from_Koper permit 10
+ErrorLineNumber: 66
+Command: match community 1
+ErrorLineNumber: 67
+Command: set local-preference 101
+ErrorLineNumber: 68
+Command: set community 100:1 additive
+ErrorLineNumber: 69
+Command: route-map RMap_Kranj_from_Koper permit 100
+ErrorLineNumber: 104
+Command: neighbor 10.0.0.23 route-map RMap_Kranj_from_Koper in
+*******************128.0.29.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.30.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.31.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.32.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90
+*******************128.0.33.0/24********************
+
+Error Configuration: murskattsobota.cfg
+ErrorLineNumber: 65
+Command: neighbor 10.0.0.81 route-map RMap_MurskaTTSobota_from_Ljutomer in
+ErrorLineNumber: 43
+Command: route-map RMap_MurskaTTSobota_from_Ljutomer permit 100
+ErrorLineNumber: 44
+Command: set local-preference 110
+ErrorLineNumber: 45
+Command: route-map RMap_MurskaTTSobota_from_Radenci permit 100
+ErrorLineNumber: 46
+Command: set local-preference 90

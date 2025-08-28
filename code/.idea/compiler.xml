@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <annotationProcessing>
+      <profile name="Annotation profile for Batfish" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+        </processorPath>
+        <module name="minesweeper" />
+      </profile>
+      <profile name="Annotation profile for allinone" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="allinone" />
+      </profile>
+      <profile name="Annotation profile for batfish" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="batfish" />
+      </profile>
+      <profile name="Annotation profile for batfish-client" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="batfish-client" />
+      </profile>
+      <profile name="Annotation profile for batfish-common-protocol" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="batfish-common-protocol" />
+      </profile>
+      <profile name="Annotation profile for bdd" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="bdd" />
+      </profile>
+      <profile name="Annotation profile for build-tools" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="build-tools" />
+      </profile>
+      <profile name="Annotation profile for coordinator" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="coordinator" />
+      </profile>
+      <profile name="Annotation profile for question" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="question" />
+      </profile>
+      <profile name="Annotation profile for symbolic" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0-rc6/auto-service-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0-rc6/auto-service-annotations-1.0-rc6.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/0.10/auto-common-0.10.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/27.0.1-jre/guava-27.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.16/compile-testing-0.16.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.44/truth-0.44.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value-annotations/1.6.3/auto-value-annotations-1.6.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/value/auto-value/1.5.3/auto-value-1.5.3.jar" />
+          <entry name="/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/../lib/tools.jar" />
+        </processorPath>
+        <module name="symbolic" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="allinone" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="batfish" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="batfish-client" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="batfish-common-protocol" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="bdd" options="-Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="build-tools" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="coordinator" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="question" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+      <module name="symbolic" options="-Werror -Xlint:all -Xlint:-options -Xlint:-processing -Xlint:-serial -XDignore.symbol.file" />
+    </option>
+  </component>
+</project>

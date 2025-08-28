@@ -1,0 +1,15 @@
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Generated data-plane for snapshot:103bcb3e-fbd9-45ff-9a7e-374b51bcc892; iterations:1Time taken for this task: 0.049 seconds
+Loading configurations for NetworkSnapshot{network=47560e65-332a-4c4c-ba57-a500cc5f61ef, snapshot=103bcb3e-fbd9-45ff-9a7e-374b51bcc892}
+Exception in container:47560e65-332a-4c4c-ba57-a500cc5f61ef, testrig:103bcb3e-fbd9-45ff-9a7e-374b51bcc892; exception:java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "thisNode" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:137)
+	at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:209)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:123)
+	at org.batfish.main.Batfish.repair(Batfish.java:2247)
+	at org.batfish.main.Driver.lambda$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$0(Driver.java:357)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.equals(Object)\" because \"thisNode\" is null","   at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:137)","   at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:209)","   at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:123)","   at org.batfish.main.Batfish.repair(Batfish.java:2247)","   at org.batfish.main.Driver.lambda$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

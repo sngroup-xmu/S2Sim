@@ -1,0 +1,9 @@
+[
+    {
+        "srcNode": ["bng6","bng7","bng8"],
+        "dstNode": "bng1",
+        "failure":0,
+        "reqDstPrefixString": "174.0.0.1/30",
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/multi-protocol/IPmetro_36/configs"
+    }
+]

@@ -1,0 +1,7 @@
+Exception in container:faf1084c-5355-4043-a6f6-83598964f3d6, testrig:be6bc0ea-5684-44d5-ab60-26892c2ebc7f; exception:java.lang.NoClassDefFoundError: Could not initialize class org.batfish.specifier.RoutingProtocolSpecifier
+	at org.batfish.question.routes.RoutesQuestion.getRoutingProtocolSpecifier(RoutesQuestion.java:133)
+	at org.batfish.question.routes.RoutesAnswerer.answer(RoutesAnswerer.java:86)
+	at org.batfish.main.Batfish.answer(Batfish.java:636)
+	at org.batfish.main.Batfish.run(Batfish.java:2151)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:316)
+	at java.base/java.lang.Thread.run(Thread.java:833)

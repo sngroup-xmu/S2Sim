@@ -1,0 +1,11 @@
+*******************90.31.144.0/24********************
+
+Error Configuration: edge-505.cfg
+ErrorLineNumber: 92
+Command: route-map RMap_edge-505_from_aggregation deny 10
+ErrorLineNumber: 93
+Command: match ip address prefix-list 1
+ErrorLineNumber: 94
+Command: route-map RMap_edge-505_from_aggregation permit 100
+ErrorLineNumber: 87
+Command: neighbor 10.31.217.0 route-map RMap_edge-505_from_aggregation out

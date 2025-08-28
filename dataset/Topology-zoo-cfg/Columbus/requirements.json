@@ -1,0 +1,7 @@
+{
+    "srcNode": ["antigua","bonaire","curacao","nodeid14"],
+    "dstNode": "StTTCroix",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/Columbus/configs"
+}

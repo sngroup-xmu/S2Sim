@@ -1,0 +1,72 @@
+[
+    {
+        "srcNode": ["Ljubjana"],
+        "dstNode": "Bucharest",
+        "reqDstPrefixString": "128.0.0.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Ljubjana"],
+        "dstNode": "Athens",
+        "reqDstPrefixString": "128.0.17.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Ljubjana"],
+        "dstNode": "Barcelona",
+        "reqDstPrefixString": "128.0.21.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Ljubjana"],
+        "dstNode": "Basel",
+        "reqDstPrefixString": "128.0.3.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Ljubjana"],
+        "dstNode": "Bratislava",
+        "reqDstPrefixString": "128.0.4.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Paris"],
+        "dstNode": "Brussels",
+        "reqDstPrefixString": "128.0.5.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Frankfurt"],
+        "dstNode": "Amsterdam",
+        "reqDstPrefixString": "128.0.6.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Bucharest"],
+        "dstNode": "Budapest",
+        "reqDstPrefixString": "128.0.7.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["London"],
+        "dstNode": "Dublin",
+        "reqDstPrefixString": "128.0.8.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    },
+    {
+        "srcNode": ["Warsaw"],
+        "dstNode": "Frankfurt",
+        "reqDstPrefixString": "128.0.9.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Bics/configs"
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "srcNode": ["bacau","Pleven","chisinau","iasi"],
+    "dstNode": "SanktTTPeterburg",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/GtsCe/configs"
+}

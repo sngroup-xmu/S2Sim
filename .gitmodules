@@ -1,0 +1,6 @@
+[submodule "https:/github.com/yrll/batfish-repair-.git"]
+	path = https:/github.com/yrll/batfish-repair-.git
+	url = https://github.com/sngroup-xmu/Scalpel-batfish.git
+[submodule "code/code/batfish-repair-merge"]
+	path = code/code/batfish-repair-merge
+	url = https://github.com/yrll/batfish-repair-.git

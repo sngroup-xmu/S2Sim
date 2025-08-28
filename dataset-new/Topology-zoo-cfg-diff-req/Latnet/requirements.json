@@ -1,0 +1,16 @@
+[
+    {
+        "srcNode": ["Vircava", "Vangazi", "Lielvarde", "Jekabpils", "Daugapils", "Ventspits", "Malnava", "Limbazi", "Pusmucova", "Pociems", "Kegums", "Jumprava", "Cibla", "Sigulda", "Jurmala", "Ozolnieki", "Talsi", "Saldus", "Strenci", "Riga", "Carnikava", "Ledurga", "Jelgava", "Balvi", "Skriveri", "Platone", "Kalnciems", "Zvigzdene", "Eleja", "Kekava", "Viesite", "Mazsalaca", "Ludza", "Gulbene", "Livberze", "Dobele", "Aloja", "Ogre", "Adazi", "Iecava", "Vilani", "Baldone", "Ikskile", "Salagriva", "Rezekne", "Aizkroukle", "Kapsede", "Aizpute", "Karsava", "Auce", "Olaine", "Liepupe", "Valmiera", "Rujiena", "Zilupe", "Ragona", "Broceni", "Liepaja", "Salaspils", "Bauska", "Tukums", "Preili", "Krimulda", "Vijkene", "Grobina", "Livani", "Ulbroka", "GEANT2"],
+        "dstNode": "Kraslava",
+        "reqDstPrefixString": "128.0.0.0/24",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg/Latnet/configs"
+    },
+    {
+        "srcNode": ["Vircava", "Vangazi", "Lielvarde", "Jekabpils", "Daugapils", "Ventspits", "Malnava", "Limbazi", "Pusmucova", "Pociems", "Kegums", "Jumprava", "Cibla", "Sigulda", "Jurmala", "Ozolnieki", "Talsi", "Saldus", "Strenci", "Riga", "Carnikava", "Ledurga", "Jelgava", "Balvi", "Skriveri", "Platone", "Kalnciems", "Zvigzdene", "Eleja", "Kekava", "Viesite", "Mazsalaca", "Ludza", "Gulbene", "Livberze", "Dobele", "Aloja", "Ogre", "Adazi", "Iecava", "Vilani", "Baldone", "Ikskile", "Salagriva", "Rezekne", "Aizkroukle", "Kapsede", "Aizpute", "Karsava", "Auce", "Kraslava", "Olaine", "Liepupe", "Valmiera", "Rujiena", "Zilupe", "Ragona", "Broceni", "Liepaja", "Salaspils", "Bauska", "Tukums", "Preili", "Krimulda", "Vijkene", "Grobina", "Ulbroka", "GEANT2"],
+        "dstNode": "Livani",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg/Latnet/configs"
+    }
+]

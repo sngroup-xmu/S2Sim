@@ -1,0 +1,9 @@
+[
+    {
+    "srcNode": ["london"],
+    "dstNode": "lyon",
+    "existingFlowPath":"london,amsterdam,frankfurt,zurich,geneva,lyon",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-wp/Bics/configs"
+    }
+]

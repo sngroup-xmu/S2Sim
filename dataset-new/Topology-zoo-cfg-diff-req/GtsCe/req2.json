@@ -1,0 +1,16 @@
+[
+    {
+        "srcNode": ["bacau"],
+        "dstNode": "Arad",
+        "reqDstPrefixString": "128.0.3.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/GtsCe/configs"
+    },
+    {
+        "srcNode": ["Craiova"],
+        "dstNode": "Balvanesti",
+        "reqDstPrefixString": "128.0.7.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/GtsCe/configs"
+    }
+]

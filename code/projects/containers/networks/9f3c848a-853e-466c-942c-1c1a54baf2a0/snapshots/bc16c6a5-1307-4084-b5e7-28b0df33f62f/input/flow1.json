@@ -1,0 +1,7 @@
+{
+    "srcNode": "warsaw",
+    "dstNode": "bucharest",
+    "existingFlowPath":"",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/synet_py3/yrl_data/np-configs/Bics_abs_simple_2/configs/"
+}

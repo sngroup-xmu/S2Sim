@@ -1,0 +1,70 @@
+*******************90.0.0.0/24********************
+*******************90.0.8.0/24********************
+*******************90.0.80.0/24********************
+*******************90.3.32.0/24********************
+*******************90.3.104.0/24********************
+*******************90.0.88.0/24********************
+*******************90.3.136.0/24********************
+*******************90.0.96.0/24********************
+*******************90.3.208.0/24********************
+*******************90.3.216.0/24********************
+
+Error Configuration: edge-123.cfg
+ErrorLineNumber: -1
+Command: network 90.3.216.0 mask 255.255.255.0
+*******************90.3.248.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.176.0/24********************
+*******************90.1.32.0/24********************
+*******************90.1.144.0/24********************
+*******************90.2.64.0/24********************
+*******************90.2.120.0/24********************
+*******************90.2.168.0/24********************
+
+Error Configuration: edge-85.cfg
+ErrorLineNumber: 64
+Command: route-map RMap_edge-35_from_aggregation-84 deny 10
+ErrorLineNumber: 65
+Command: match ip address prefix-list 1
+ErrorLineNumber: 66
+Command: route-map RMap_edge-35_from_aggregation-84 permit 100
+ErrorLineNumber: 67
+Command: route-map RMap_edge-35_from_aggregation-85 deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_edge-35_from_aggregation-85 permit 100
+ErrorLineNumber: 70
+Command: route-map RMap_edge-35_from_aggregation-86 deny 10
+ErrorLineNumber: 71
+Command: match ip address prefix-list 1
+ErrorLineNumber: 72
+Command: route-map RMap_edge-35_from_aggregation-86 permit 100
+ErrorLineNumber: 73
+Command: route-map RMap_edge-35_from_aggregation-87 deny 10
+ErrorLineNumber: 74
+Command: match ip address prefix-list 1
+ErrorLineNumber: 43
+Command: neighbor 10.2.141.0 route-map RMap_edge-35_from_aggregation-81 out
+ErrorLineNumber: 75
+Command: route-map RMap_edge-35_from_aggregation-87 permit 100
+ErrorLineNumber: 55
+Command: route-map RMap_edge-35_from_aggregation-81 deny 10
+ErrorLineNumber: 56
+Command: match ip address prefix-list 1
+ErrorLineNumber: 57
+Command: route-map RMap_edge-35_from_aggregation-81 permit 100
+ErrorLineNumber: 58
+Command: route-map RMap_edge-35_from_aggregation-82 deny 10
+ErrorLineNumber: 59
+Command: match ip address prefix-list 1
+ErrorLineNumber: 60
+Command: route-map RMap_edge-35_from_aggregation-82 permit 100
+ErrorLineNumber: 61
+Command: route-map RMap_edge-35_from_aggregation-83 deny 10
+ErrorLineNumber: 62
+Command: match ip address prefix-list 1
+ErrorLineNumber: 63
+Command: route-map RMap_edge-35_from_aggregation-83 permit 100
+*******************90.2.216.0/24********************
+*******************90.2.224.0/24********************

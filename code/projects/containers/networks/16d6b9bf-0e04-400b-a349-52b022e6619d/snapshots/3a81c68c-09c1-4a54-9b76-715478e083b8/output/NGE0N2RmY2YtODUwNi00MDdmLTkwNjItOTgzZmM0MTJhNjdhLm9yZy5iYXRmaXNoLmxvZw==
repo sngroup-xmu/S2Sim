@@ -1,0 +1,21 @@
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Generated data-plane for snapshot:3a81c68c-09c1-4a54-9b76-715478e083b8; iterations:4Time taken for this task: 0.048 seconds
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Loading configurations for NetworkSnapshot{network=16d6b9bf-0e04-400b-a349-52b022e6619d, snapshot=3a81c68c-09c1-4a54-9b76-715478e083b8}
+Generated data-plane for snapshot:3a81c68c-09c1-4a54-9b76-715478e083b8; iterations:8Time taken for this task: 0.011 seconds
+Exception in container:16d6b9bf-0e04-400b-a349-52b022e6619d, testrig:3a81c68c-09c1-4a54-9b76-715478e083b8; exception:java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "str" is null
+	at org.batfish.diagnosis.util.ConfigTaint.transPrefixOrIpToIpString(ConfigTaint.java:338)
+	at org.batfish.diagnosis.util.ConfigTaint.isIpv4OrIpv6(ConfigTaint.java:352)
+	at org.batfish.diagnosis.util.ConfigTaint.peerTaint(ConfigTaint.java:387)
+	at org.batfish.diagnosis.localization.RouteForbiddenLocalizer.genErrorConfigLines(RouteForbiddenLocalizer.java:104)
+	at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$2(Violation.java:255)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:254)
+	at org.batfish.main.Batfish.repair(Batfish.java:2267)
+	at org.batfish.main.Driver.lambda$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$0(Driver.java:357)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.contains(java.lang.CharSequence)\" because \"str\" is null","   at org.batfish.diagnosis.util.ConfigTaint.transPrefixOrIpToIpString(ConfigTaint.java:338)","   at org.batfish.diagnosis.util.ConfigTaint.isIpv4OrIpv6(ConfigTaint.java:352)","   at org.batfish.diagnosis.util.ConfigTaint.peerTaint(ConfigTaint.java:387)","   at org.batfish.diagnosis.localization.RouteForbiddenLocalizer.genErrorConfigLines(RouteForbiddenLocalizer.java:104)","   at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$2(Violation.java:255)","   at java.base/java.lang.Iterable.forEach(Iterable.java:75)","   at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:254)","   at org.batfish.main.Batfish.repair(Batfish.java:2267)","   at org.batfish.main.Driver.lambda$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

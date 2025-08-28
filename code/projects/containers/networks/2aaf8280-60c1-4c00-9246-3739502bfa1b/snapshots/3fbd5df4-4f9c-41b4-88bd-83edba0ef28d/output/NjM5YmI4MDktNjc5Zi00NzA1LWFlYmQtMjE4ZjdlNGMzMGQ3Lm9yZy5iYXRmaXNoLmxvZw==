@@ -1,0 +1,14 @@
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Generated data-plane for snapshot:3fbd5df4-4f9c-41b4-88bd-83edba0ef28d; iterations:2Time taken for this task: 0.059 seconds
+Loading configurations for NetworkSnapshot{network=2aaf8280-60c1-4c00-9246-3739502bfa1b, snapshot=3fbd5df4-4f9c-41b4-88bd-83edba0ef28d}
+Exception in container:2aaf8280-60c1-4c00-9246-3739502bfa1b, testrig:3fbd5df4-4f9c-41b4-88bd-83edba0ef28d; exception:java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configPathMap" is null
+	at org.batfish.diagnosis.common.DiagnosedFlow.getConfigPath(DiagnosedFlow.java:86)
+	at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:112)
+	at org.batfish.main.Batfish.repair(Batfish.java:2243)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"java.util.Map.get(Object)\" because \"this.configPathMap\" is null","   at org.batfish.diagnosis.common.DiagnosedFlow.getConfigPath(DiagnosedFlow.java:86)","   at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:112)","   at org.batfish.main.Batfish.repair(Batfish.java:2243)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

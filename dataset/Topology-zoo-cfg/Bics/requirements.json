@@ -1,0 +1,7 @@
+{
+    "srcNode": ["Ljubjana","roma","athens","budapest","istanbul","kiev","sofia","zagreb"],
+    "dstNode": "lyon",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/Bics/configs"
+}

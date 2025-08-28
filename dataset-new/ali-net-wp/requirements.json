@@ -1,0 +1,18 @@
+[
+    {
+        "srcNode": ["role_3-site_23-device_0"],
+        "dstNode": "role_3-site_10-device_0",
+        "reqDstPrefixString": "124.124.5.0/24",
+        "existingFlowPath":"role_3-site_23-device_0,role_1-site_17-device_0,role_3-site_10-device_0",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/ali-net-wp/configs"
+    },
+    {
+        "srcNode": ["role_3-site_23-device_0"],
+        "dstNode": "role_3-site_5-device_0",
+        "reqDstPrefixString": "124.124.77.0/24",
+        "existingFlowPath":"role_3-site_23-device_0,role_1-site_10-device_0,role_3-site_5-device_0",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/ali-net-wp/configs"
+    }
+]

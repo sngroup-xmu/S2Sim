@@ -1,0 +1,7 @@
+{
+    "srcNode": "london",
+    "dstNode": "lyon",
+    "existingFlowPath":"london,amsterdam,frankfurt,zurich,geneva,lyon",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/4.1/Bics/configs"
+}

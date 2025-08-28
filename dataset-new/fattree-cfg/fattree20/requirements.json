@@ -1,0 +1,21 @@
+[
+    {
+        "srcNode": [
+            "core-0",
+            "core-1"
+        ],
+        "dstNode": "edge-17",
+        "reqDstPrefixString": "90.0.170.0/24",
+        "failure": 1,
+        "configRootPath": "/home/dell/hg/batfish-condition/dateset/fattree-cfg/fattree20/configs"
+    },
+    {
+        "srcNode": [
+            "edge-52"
+        ],
+        "dstNode": "edge-99",
+        "reqDstPrefixString": "90.3.222.0/24",
+        "failure": 0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree20/configs"
+    }
+]

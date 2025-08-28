@@ -1,0 +1,42 @@
+*******************124.124.5.0/24********************
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in
+*******************124.124.77.0/24********************
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in

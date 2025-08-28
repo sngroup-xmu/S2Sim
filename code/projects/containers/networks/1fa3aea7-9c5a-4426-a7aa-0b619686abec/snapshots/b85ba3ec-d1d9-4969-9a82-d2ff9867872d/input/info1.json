@@ -1,0 +1,7 @@
+{
+    "srcNode": "a",
+    "dstNode": "h",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/yrl-sse-data/networks/sc-demo-7nodes/configs/"
+}
+    

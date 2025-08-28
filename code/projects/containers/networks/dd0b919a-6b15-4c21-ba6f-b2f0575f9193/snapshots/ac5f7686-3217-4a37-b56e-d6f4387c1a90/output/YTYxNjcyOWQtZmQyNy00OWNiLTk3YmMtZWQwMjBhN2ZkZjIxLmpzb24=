@@ -1,0 +1,1 @@
+{"answerElements":[{"class":"org.batfish.datamodel.answers.IncrementalBdpAnswerElement","bgpBestPathRibRoutesByIteration":{"1":0},"bgpMultipathRibRoutesByIteration":{"1":0},"dependentRoutesIterations":1,"mainRibRoutesByIteration":{"1":116},"ospfInternalIterations":1,"version":"0.36.0","warnings":{}}],"status":"SUCCESS","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

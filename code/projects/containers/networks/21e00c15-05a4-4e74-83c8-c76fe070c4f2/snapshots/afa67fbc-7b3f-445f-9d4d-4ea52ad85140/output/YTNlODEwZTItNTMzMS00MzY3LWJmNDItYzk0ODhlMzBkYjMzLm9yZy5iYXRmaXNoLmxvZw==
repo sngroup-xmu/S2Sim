@@ -1,0 +1,19 @@
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Generated data-plane for snapshot:afa67fbc-7b3f-445f-9d4d-4ea52ad85140; iterations:2Time taken for this task: 0.123 seconds
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Loading configurations for NetworkSnapshot{network=21e00c15-05a4-4e74-83c8-c76fe070c4f2, snapshot=afa67fbc-7b3f-445f-9d4d-4ea52ad85140}
+Exception in container:21e00c15-05a4-4e74-83c8-c76fe070c4f2, testrig:afa67fbc-7b3f-445f-9d4d-4ea52ad85140; exception:java.lang.ClassCastException: class org.batfish.datamodel.Prefix cannot be cast to class java.lang.Integer (org.batfish.datamodel.Prefix is in unnamed module of loader 'app'; java.lang.Integer is in module java.base of loader 'bootstrap')
+	at java.base/java.lang.Integer.compareTo(Integer.java:71)
+	at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)
+	at java.base/java.util.TreeMap.get(TreeMap.java:279)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:424)
+	at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)
+	at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)
+	at org.batfish.main.Batfish.repair(Batfish.java:2248)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.ClassCastException: class org.batfish.datamodel.Prefix cannot be cast to class java.lang.Integer (org.batfish.datamodel.Prefix is in unnamed module of loader 'app'; java.lang.Integer is in module java.base of loader 'bootstrap')","   at java.base/java.lang.Integer.compareTo(Integer.java:71)","   at java.base/java.util.TreeMap.getEntry(TreeMap.java:350)","   at java.base/java.util.TreeMap.get(TreeMap.java:279)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:424)","   at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)","   at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)","   at org.batfish.main.Batfish.repair(Batfish.java:2248)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

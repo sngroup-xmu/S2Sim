@@ -1,0 +1,9 @@
+Exception in container:c766c603-9872-4592-8bb1-e74dd7fb46c4, testrig:2fa343df-aafe-4e01-ac1e-75d2450293d4; exception:java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.configPathMap" is null
+	at org.batfish.diagnosis.common.DiagnosedFlow.getConfigPath(DiagnosedFlow.java:93)
+	at org.batfish.diagnosis.Diagnoser.lambda$localizeErrorsFromViolations$3(Diagnoser.java:401)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.batfish.diagnosis.Diagnoser.localizeErrorsFromViolations(Diagnoser.java:400)
+	at org.batfish.diagnosis.Diagnoser.localize(Diagnoser.java:370)
+	at org.batfish.main.Batfish.repair(Batfish.java:2208)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

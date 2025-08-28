@@ -1,0 +1,21 @@
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Generated data-plane for snapshot:982a4500-ef5c-4881-835e-4f74f4864747; iterations:2Time taken for this task: 0.056 seconds
+Loading configurations for NetworkSnapshot{network=e3b83774-fa9d-4d3f-b0a9-0bc826926494, snapshot=982a4500-ef5c-4881-835e-4f74f4864747}
+Exception in container:e3b83774-fa9d-4d3f-b0a9-0bc826926494, testrig:982a4500-ef5c-4881-835e-4f74f4864747; exception:java.lang.NullPointerException: Cannot invoke "String.hashCode()" because "this._vrfName" is null
+	at org.batfish.datamodel.BgpPeerConfigId.hashCode(BgpPeerConfigId.java:153)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.LinkedHashMap.get(LinkedHashMap.java:441)
+	at com.google.common.graph.MapIteratorCache.getWithoutCaching(MapIteratorCache.java:79)
+	at com.google.common.graph.MapIteratorCache.get(MapIteratorCache.java:75)
+	at com.google.common.graph.ConfigurableMutableValueGraph.putEdgeValue(ConfigurableMutableValueGraph.java:85)
+	at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:50)
+	at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)
+	at org.batfish.main.Batfish.repair(Batfish.java:2243)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.hashCode()\" because \"this._vrfName\" is null","   at org.batfish.datamodel.BgpPeerConfigId.hashCode(BgpPeerConfigId.java:153)","   at java.base/java.util.HashMap.hash(HashMap.java:338)","   at java.base/java.util.HashMap.getNode(HashMap.java:568)","   at java.base/java.util.LinkedHashMap.get(LinkedHashMap.java:441)","   at com.google.common.graph.MapIteratorCache.getWithoutCaching(MapIteratorCache.java:79)","   at com.google.common.graph.MapIteratorCache.get(MapIteratorCache.java:75)","   at com.google.common.graph.ConfigurableMutableValueGraph.putEdgeValue(ConfigurableMutableValueGraph.java:85)","   at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:50)","   at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)","   at org.batfish.main.Batfish.repair(Batfish.java:2243)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

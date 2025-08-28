@@ -1,0 +1,16 @@
+a,FastEthernet0/0|w,FastEthernet0/1
+a,FastEthernet0/1|s,FastEthernet0/0
+a,FastEthernet1/0|b,FastEthernet1/0
+b,FastEthernet0/0|w,FastEthernet1/0
+b,FastEthernet0/1|d,FastEthernet1/0
+b,FastEthernet1/0|a,FastEthernet1/0
+b,FastEthernet1/1|s,FastEthernet0/1
+c,FastEthernet0/0|d,FastEthernet1/1
+c,FastEthernet0/1|w,FastEthernet0/0
+d,FastEthernet1/0|b,FastEthernet0/1
+d,FastEthernet1/1|c,FastEthernet0/0
+s,FastEthernet0/0|a,FastEthernet0/1
+s,FastEthernet0/1|b,FastEthernet1/1
+w,FastEthernet0/0|c,FastEthernet0/1
+w,FastEthernet0/1|a,FastEthernet0/0
+w,FastEthernet1/0|b,FastEthernet0/0

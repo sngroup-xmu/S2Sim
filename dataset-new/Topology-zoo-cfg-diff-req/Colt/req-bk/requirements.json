@@ -1,0 +1,7 @@
+{
+    "srcNode": ["essen","almere","amsterdam","bern","biel_bienne","breda","charleroi","denttbosch","eindhoven","hilversum","hoofddorp","kortnijk","liege","rotterdam","schaffhausen","utrecht"],
+    "dstNode": "thetthague",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/Colt/configs"
+}

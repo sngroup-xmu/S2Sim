@@ -1,0 +1,11 @@
+[
+    {
+        "srcNode": [
+            "edge-134"
+        ],
+        "dstNode": "edge-505",
+        "reqDstPrefixString": "90.31.144.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree32/configs"
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "srcNode": "ljubljana",
+    "dstNode": "sezana",
+    "existingFlowPath":"ljubljana,postojna,sezana",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/yrl-sse-data/networks/Arnes/configs/"
+}

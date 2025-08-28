@@ -1,0 +1,6 @@
+{
+    "srcNode": "zurich",
+    "dstNode": "nodeid73",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/Topology-zoo-cfg/Colt/configs"
+}

@@ -1,0 +1,7 @@
+{
+    "srcNode": ["role_3-site_24-device_0"],
+    "dstNode": "role_3-site_10-device_0",
+    "reqDstPrefixString": "124.124.5.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/ali-net/configs"
+}

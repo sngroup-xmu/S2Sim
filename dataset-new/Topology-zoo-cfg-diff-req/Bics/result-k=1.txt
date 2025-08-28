@@ -1,0 +1,919 @@
+*******************128.0.6.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.17.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.5 remote-as 80
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.5 description "To budapest"
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 96
+Command: set community 100:0 additive
+ErrorLineNumber: 132
+Command:  neighbor 10.0.0.12 route-map RMap_Frankfurt_from_Praha in
+ErrorLineNumber: 93
+Command: route-map RMap_Frankfurt_from_Praha deny 10
+ErrorLineNumber: 94
+Command: match as-path 10
+ErrorLineNumber: 95
+Command: set local-preference 1
+
+Error Configuration: kiev.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.90 remote-as 310
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.90 description "To warsaw"
+*******************128.0.21.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.3.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.4.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 96
+Command: set community 100:0 additive
+ErrorLineNumber: 132
+Command:  neighbor 10.0.0.12 route-map RMap_Frankfurt_from_Praha in
+ErrorLineNumber: 93
+Command: route-map RMap_Frankfurt_from_Praha deny 10
+ErrorLineNumber: 94
+Command: match as-path 10
+ErrorLineNumber: 95
+Command: set local-preference 1
+*******************128.0.5.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: budapest.cfg
+ErrorLineNumber: 64
+Command: set community 100:1 additive
+ErrorLineNumber: 89
+Command:  neighbor 10.0.0.23 route-map RMap_Budapest_from_Bucharest in
+ErrorLineNumber: 61
+Command: route-map RMap_Budapest_from_Bucharest deny 10
+ErrorLineNumber: 62
+Command: match as-path 10
+ErrorLineNumber: 63
+Command: set local-preference 1
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command:  neighbor 10.0.0.77 route-map RMap_Frankfurt_from_Warsaw in
+ErrorLineNumber: 99
+Command: route-map RMap_Frankfurt_from_Warsaw deny 10
+ErrorLineNumber: 100
+Command: match as-path 20
+ErrorLineNumber: 101
+Command: set local-preference 1
+ErrorLineNumber: 102
+Command: set community 100:0 additive
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.7.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.8.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.9.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.10.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.11.0/24********************
+
+Error Configuration: geneva.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.67 remote-as 180
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.67 description "To lyon"
+
+Error Configuration: budapest.cfg
+ErrorLineNumber: 64
+Command: set community 100:1 additive
+ErrorLineNumber: 89
+Command:  neighbor 10.0.0.23 route-map RMap_Budapest_from_Bucharest in
+ErrorLineNumber: 61
+Command: route-map RMap_Budapest_from_Bucharest deny 10
+ErrorLineNumber: 62
+Command: match as-path 10
+ErrorLineNumber: 63
+Command: set local-preference 1
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command:  neighbor 10.0.0.77 route-map RMap_Frankfurt_from_Warsaw in
+ErrorLineNumber: 99
+Command: route-map RMap_Frankfurt_from_Warsaw deny 10
+ErrorLineNumber: 100
+Command: match as-path 20
+ErrorLineNumber: 101
+Command: set local-preference 1
+ErrorLineNumber: 102
+Command: set community 100:0 additive
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.12.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: budapest.cfg
+ErrorLineNumber: 64
+Command: set community 100:1 additive
+ErrorLineNumber: 89
+Command:  neighbor 10.0.0.23 route-map RMap_Budapest_from_Bucharest in
+ErrorLineNumber: 61
+Command: route-map RMap_Budapest_from_Bucharest deny 10
+ErrorLineNumber: 62
+Command: match as-path 10
+ErrorLineNumber: 63
+Command: set local-preference 1
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command:  neighbor 10.0.0.77 route-map RMap_Frankfurt_from_Warsaw in
+ErrorLineNumber: 99
+Command: route-map RMap_Frankfurt_from_Warsaw deny 10
+ErrorLineNumber: 100
+Command: match as-path 20
+ErrorLineNumber: 101
+Command: set local-preference 1
+ErrorLineNumber: 102
+Command: set community 100:0 additive
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.13.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+*******************128.0.14.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 96
+Command: set community 100:0 additive
+ErrorLineNumber: 132
+Command:  neighbor 10.0.0.12 route-map RMap_Frankfurt_from_Praha in
+ErrorLineNumber: 93
+Command: route-map RMap_Frankfurt_from_Praha deny 10
+ErrorLineNumber: 94
+Command: match as-path 10
+ErrorLineNumber: 95
+Command: set local-preference 1
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.15.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+*******************128.0.16.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.1.0/24********************
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 80
+Command: set local-preference 1
+ErrorLineNumber: 81
+Command: set community 100:0 additive
+ErrorLineNumber: 114
+Command:  neighbor 10.0.0.87 route-map RMap_Paris_from_Lyon in
+ErrorLineNumber: 78
+Command: route-map RMap_Paris_from_Lyon deny 10
+ErrorLineNumber: 79
+Command: match as-path 20
+
+Error Configuration: roma.cfg
+ErrorLineNumber: 81
+Command:  neighbor 10.0.0.21 route-map RMap_Roma_from_Zurich in
+ErrorLineNumber: 51
+Command: route-map RMap_Roma_from_Zurich deny 10
+ErrorLineNumber: 52
+Command: match ip address prefix-list 1
+
+Error Configuration: marseille.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_Marseille_from_Lyon deny 10
+ErrorLineNumber: 57
+Command: match ip address prefix-list 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:0 additive
+ErrorLineNumber: 84
+Command:  neighbor 10.0.0.97 route-map RMap_Marseille_from_Lyon in
+*******************128.0.18.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.19.0/24********************
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 80
+Command: set local-preference 1
+ErrorLineNumber: 81
+Command: set community 100:0 additive
+ErrorLineNumber: 114
+Command:  neighbor 10.0.0.87 route-map RMap_Paris_from_Lyon in
+ErrorLineNumber: 78
+Command: route-map RMap_Paris_from_Lyon deny 10
+ErrorLineNumber: 79
+Command: match as-path 20
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.20.0/24********************
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.2.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: london.cfg
+ErrorLineNumber: 64
+Command: route-map RMap_London_from_Paris deny 10
+ErrorLineNumber: 65
+Command: match ip address prefix-list 1
+ErrorLineNumber: 108
+Command:  neighbor 10.0.0.85 route-map RMap_London_from_Paris in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 81
+Command: route-map RMap_Brussels_from_Paris deny 10
+ErrorLineNumber: 122
+Command:  neighbor 10.0.0.61 route-map RMap_Brussels_from_Paris in
+ErrorLineNumber: 82
+Command: match ip address prefix-list 1
+*******************128.0.22.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 96
+Command: set community 100:0 additive
+ErrorLineNumber: 132
+Command:  neighbor 10.0.0.12 route-map RMap_Frankfurt_from_Praha in
+ErrorLineNumber: 93
+Command: route-map RMap_Frankfurt_from_Praha deny 10
+ErrorLineNumber: 94
+Command: match as-path 10
+ErrorLineNumber: 95
+Command: set local-preference 1
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.23.0/24********************
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.24.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+*******************128.0.25.0/24********************
+*******************128.0.26.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.27.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.28.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.29.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.30.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command:  neighbor 10.0.0.77 route-map RMap_Frankfurt_from_Warsaw in
+ErrorLineNumber: 99
+Command: route-map RMap_Frankfurt_from_Warsaw deny 10
+ErrorLineNumber: 100
+Command: match as-path 20
+ErrorLineNumber: 101
+Command: set local-preference 1
+ErrorLineNumber: 102
+Command: set community 100:0 additive
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive
+*******************128.0.31.0/24********************
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+*******************128.0.32.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 83
+Command:  neighbor 10.0.0.3 route-map RMap_Bratislava_from_Praha in
+ErrorLineNumber: 55
+Command: route-map RMap_Bratislava_from_Praha deny 10
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_Paris_from_Geneva deny 10
+ErrorLineNumber: 73
+Command: match as-path 10
+ErrorLineNumber: 74
+Command: set local-preference 1
+ErrorLineNumber: 75
+Command: set community 100:0 additive
+ErrorLineNumber: 103
+Command:  neighbor 10.0.0.64 route-map RMap_Paris_from_Geneva in
+
+Error Configuration: istanbul.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Istanbul_from_Bucharest deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 77
+Command:  neighbor 10.0.0.32 route-map RMap_Istanbul_from_Bucharest in
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 73
+Command: route-map RMap_Brussels_from_Frankfurt deny 10
+ErrorLineNumber: 106
+Command:  neighbor 10.0.0.55 route-map RMap_Brussels_from_Frankfurt in
+ErrorLineNumber: 74
+Command: match as-path 10
+ErrorLineNumber: 75
+Command: set local-preference 1
+ErrorLineNumber: 76
+Command: set community 100:1 additive

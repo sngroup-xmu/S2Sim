@@ -1,0 +1,8 @@
+{
+  "srcNode": "d",
+  "dstNode": "s",
+  "reqDstPrefixString": "128.0.10.0/24",
+  "configRootPath": "/home/dell/hg/batfish-repair-/scalpel-demo/network1/configs/"
+}
+
+

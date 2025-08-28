@@ -1,0 +1,61 @@
+Bics：
+Bucharest 128.0.0.0/24
+Lyon 128.0.1.0/24
+Paris 128.0.2.0/24
+注入错误记录：
+对所有prefix：
+Bratislava 2.1（To Budapest）	Kiev 2.1（To Warsaw）	Geneva 2.1（To Lyon）	Istanbul 3.1（from_Bucharest）
+128.0.0.0/24：
+Bucharest 1.1	Budapest 3.1（from_Bucharest）	Frankfurt 3.1 （from_Praha）
+128.0.1.0/24：
+Marseille 3.1 （from_Lyon）	Roma 3.1 （from_Zurich）	Paris 3.1 （from_Lyon）
+128.0.2.0/24：
+London 3.1 （from_Paris）	Brussels 3.1（from_Paris）
+
+Colt：
+NodeID73 128.0.0.0/24
+TheTTHague 128.0.1.0/24
+Valencia 128.0.2.0/24
+注入错误记录：
+对所有prefix：
+Barcelona 2.1 （To Valencia）	Budapest 2.1 （To Vienna）	Dublin 2.1 （To Bristol）	Rome 2.1 （To Padova）	Manchester 2.1 （To Birmingham）
+Bern 3.1 （from_NodeID73）	Biel 3.1 （from_NodeID73）	Kortnijk 3.1 （from_Brussels）	Liege 3.1 （from_Brussels）	Manchester 3.1 （from_London）	Schaffhausen 3.1 （from_StTTGallen，from_Zurich）	Strasbourg 3.1 （from_Basel）	Lausanne 3.1 （from_NodeID73）	Zug 3.1 （from_Zurich）	NewTTYork 3.1 （from_London）
+128.0.0.0/24：
+NodeID73 1.3 		
+128.0.1.0/24：
+Hoofddorp 3.1 （from_TheTTHague）	Rotterdam 3.1 （from_TheTTHague）	NodeID73 3.1 （from_Basel ）
+128.0.2.0/24：
+Valencia 1.1	Monza 3.1 （from_Milan）
+
+Latnet：
+Kraslava 128.0.0.0/24
+Livani 128.0.1.0/24
+注入错误记录：
+对所有prefix：（因为是星状网络，目前代码不支持只有单个peer的Missing peer诊断，因此没有type2的错误）
+Adazi 3.1 （from_Riga）	Carnikava 3.1 （from_Riga）	Aizpute 3.1 （from_Riga）	Baldone 3.1 （from_Riga）	Balvi 3.1 （from_Riga）Bauska 3.1 （from_Riga）	GEANT2 3.1 （from_Riga）	Gulbene 3.1 （from_Riga）	Iecava 3.1 （from_Riga）	Olaine 3.1 （from_Riga）	Preili 3.1 （from_Riga）	Skriveri  3.1 （from_Riga）	Tukums  3.1 （from_Riga）	Ulbroka 3.1 （from_Riga）	Karsava 3.1 （from_Riga）
+128.0.0.0/24：
+Kraslava 1.1	Kraslava 3.1 （to_Riga）	Valmiera 3.1 （from_Riga）
+128.0.1.0/24：
+Livani 1.3	Jurmala 3.1 （from_Riga）	Rezekne 3.1 （from_Riga）	Saldus 3.1 （from_Riga）
+
+TataNld:
+Jhansi 128.0.0.0/24
+Tirupur 128.0.1.0/24
+注入错误记录：
+对所有prefix：
+Vijayavada_from_Ongole Allepey_from_Coimbatore Tirunelveli_from_Sivakasi Madural_from_Sivakasi Allahabad_from_Jhansi Damoh_from_Jabalpur
+128.0.0.0/24：
+Jhansi 1.1 Rourkela_from_Raipur Allahabad_from_Jhansi Rewa_from_Satna 
+128.0.1.0/24：
+Bhubaneshwar_from_Dhenkanal Allahabad_from_Jhansi
+
+UsCarrie：
+Dothan 128.0.0.0/24
+Vadosta 128.0.1.0/24
+注入错误记录：
+对所有prefix：
+LakeTTCity_from_Tallahassee WinterTTPark_from_Maitland LakeTTCity_from_Tallahassee 
+128.0.0.0/24：
+Dothan 1.3 Montgomery_from_Dothan
+128.0.1.0/24:
+Vadosta 1.1 Blountstown_from_Tallahassee 

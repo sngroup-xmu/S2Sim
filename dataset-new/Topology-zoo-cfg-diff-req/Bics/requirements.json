@@ -1,0 +1,23 @@
+[
+    {
+        "srcNode": ["Praha", "Zurich", "Zagreb", "Ljubjana", "Roma", "Frankfurt", "Lisbon", "Brussels", "Amsterdam", "Marseille", "Kiev", "Budapest", "Stockholm", "Warsaw", "Basel", "Athens", "Geneva", "Paris", "Barcelona", "Istanbul", "Dublin", "Vienna", "Milan", "Rotterdam", "Bratislava", "Vaduz", "Strasbourg", "Luxembourg", "London", "Lyon", "Madrid", "Sofia"],
+        "dstNode": "bucharest",
+        "reqDstPrefixString": "128.0.0.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg/Bics/configs"
+    },
+    {
+        "srcNode": ["Praha", "Zurich", "Zagreb", "Ljubjana", "Roma", "Bucharest", "Frankfurt", "Lisbon", "Brussels", "Amsterdam", "Marseille", "Kiev", "Budapest", "Stockholm", "Warsaw", "Basel", "Athens", "Geneva", "Paris", "Barcelona", "Istanbul", "Dublin", "Vienna", "Milan", "Rotterdam", "Bratislava", "Vaduz", "Strasbourg", "Luxembourg", "London", "Madrid", "Sofia"],
+        "dstNode": "lyon",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg/Bics/configs"
+    },
+    {
+        "srcNode": ["Praha", "Zurich", "Zagreb", "Ljubjana", "Roma", "Bucharest", "Frankfurt", "Lisbon", "Brussels", "Amsterdam", "Marseille", "Kiev", "Budapest", "Stockholm", "Warsaw", "Basel", "Athens", "Geneva", "Barcelona", "Istanbul", "Dublin", "Vienna", "Milan", "Rotterdam", "Bratislava", "Vaduz", "Strasbourg", "Luxembourg", "London", "Lyon", "Madrid", "Sofia"],
+        "dstNode": "paris",
+        "reqDstPrefixString": "128.0.2.0/24",
+        "failure":0,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg/Bics/configs"
+    }
+]

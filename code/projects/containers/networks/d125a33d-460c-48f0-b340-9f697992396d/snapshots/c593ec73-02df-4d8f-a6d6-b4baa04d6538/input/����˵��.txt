@@ -1,0 +1,2 @@
+PeerChicago_0节点原发的网段由静态路由引入，
+同时添加route-map：Route-from-Static过滤原发网段，导致原发失败

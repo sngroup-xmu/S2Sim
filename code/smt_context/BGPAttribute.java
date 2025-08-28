@@ -1,0 +1,11 @@
+package smt_context;
+
+public enum BGPAttribute {
+  ANNOUNCEMENT_SORT,
+  PREFIX_SORT,
+  PEER_SORT,
+  BGP_ORIGIN_SORT,
+  ASPATH_SORT,
+  NEXT_HOP_SORT,
+  VALUENOTSET
+}

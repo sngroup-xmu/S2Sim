@@ -1,0 +1,17 @@
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Generated data-plane for snapshot:18f287a9-0244-4aae-a3be-5851e2391749; iterations:2Time taken for this task: 0.057 seconds
+Loading configurations for NetworkSnapshot{network=b3090af8-92d5-4edd-be92-8b22c2b7018b, snapshot=18f287a9-0244-4aae-a3be-5851e2391749}
+Exception in container:b3090af8-92d5-4edd-be92-8b22c2b7018b, testrig:18f287a9-0244-4aae-a3be-5851e2391749; exception:java.lang.NumberFormatException: Cannot parse null string
+	at java.base/java.lang.Long.parseLong(Long.java:674)
+	at java.base/java.lang.Long.parseLong(Long.java:836)
+	at org.batfish.datamodel.bgp.BgpTopology.getAsNumber(BgpTopology.java:193)
+	at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:49)
+	at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)
+	at org.batfish.main.Batfish.repair(Batfish.java:2243)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NumberFormatException: Cannot parse null string","   at java.base/java.lang.Long.parseLong(Long.java:674)","   at java.base/java.lang.Long.parseLong(Long.java:836)","   at org.batfish.datamodel.bgp.BgpTopology.getAsNumber(BgpTopology.java:193)","   at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:49)","   at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)","   at org.batfish.main.Batfish.repair(Batfish.java:2243)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

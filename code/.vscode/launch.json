@@ -1,0 +1,36 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Violation",
+            "request": "launch",
+            "mainClass": "org.batfish.diagnosis.localization.Violation",
+            "projectName": "batfish"
+        },
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Java",
+            "port": 5005,
+            "sourceRoots": [
+                "/home/yrl/yrl/batfish-repair-/projects/allinone/src/main/java"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch allinone",
+            "request": "launch",
+            "mainClass": "org.batfish.allinone.Main",
+            "projectName": "allinone",
+            "args": [
+                "-coordinatorargs",
+                "-templatedirs questions",
+                "-loglevel",
+                "info",
+                "-runmode",
+                "interactive"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Generated data-plane for snapshot:ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474; iterations:4Time taken for this task: 0.067 seconds
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Loading configurations for NetworkSnapshot{network=5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, snapshot=ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474}
+Exception in container:5ba7fad0-5904-4bb3-b9ea-89453dcb84c1, testrig:ca5b8a3d-f4b8-4ab2-b7b1-d89068a4a474; exception:java.lang.UnsupportedOperationException
+	at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:244)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.lambda$redistribute$16(BgpRoutingProcess.java:557)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.redistribute(BgpRoutingProcess.java:556)
+	at org.batfish.dataplane.ibdp.BgpRoutingProcess.redistribute(BgpRoutingProcess.java:541)
+	at org.batfish.dataplane.ibdp.VirtualRouter.lambda$redistribute$40(VirtualRouter.java:1556)
+	at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)
+	at com.google.common.collect.CollectSpliterators$FlatMapSpliterator.lambda$forEachRemaining$1(CollectSpliterators.java:361)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at com.google.common.collect.CollectSpliterators$FlatMapSpliterator.forEachRemaining(CollectSpliterators.java:357)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.batfish.dataplane.ibdp.VirtualRouter.redistribute(VirtualRouter.java:1556)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Collections$2.tryAdvance(Collections.java:4853)
+	at java.base/java.util.Collections$2.forEachRemaining(Collections.java:4861)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeNonMonotonicPortionOfDataPlane(IncrementalBdpEngine.java:795)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:302)
+	at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)
+	at org.batfish.main.Batfish.computeDataPlane(Batfish.java:831)
+	at org.batfish.main.Batfish.repair(Batfish.java:2252)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.UnsupportedOperationException","   at com.google.common.collect.ImmutableCollection.add(ImmutableCollection.java:244)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.lambda$redistribute$16(BgpRoutingProcess.java:557)","   at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)","   at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.redistribute(BgpRoutingProcess.java:556)","   at org.batfish.dataplane.ibdp.BgpRoutingProcess.redistribute(BgpRoutingProcess.java:541)","   at org.batfish.dataplane.ibdp.VirtualRouter.lambda$redistribute$40(VirtualRouter.java:1556)","   at java.base/java.util.stream.Streams$StreamBuilderImpl.forEachRemaining(Streams.java:411)","   at com.google.common.collect.CollectSpliterators$FlatMapSpliterator.lambda$forEachRemaining$1(CollectSpliterators.java:361)","   at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)","   at com.google.common.collect.CollectSpliterators$FlatMapSpliterator.forEachRemaining(CollectSpliterators.java:357)","   at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)","   at org.batfish.dataplane.ibdp.VirtualRouter.redistribute(VirtualRouter.java:1556)","   at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)","   at java.base/java.util.Collections$2.tryAdvance(Collections.java:4853)","   at java.base/java.util.Collections$2.forEachRemaining(Collections.java:4861)","   at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)","   at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)","   at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)","   at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)","   at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)","   at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)","   at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)","   at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)","   at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeNonMonotonicPortionOfDataPlane(IncrementalBdpEngine.java:795)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:302)","   at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)","   at org.batfish.main.Batfish.computeDataPlane(Batfish.java:831)","   at org.batfish.main.Batfish.repair(Batfish.java:2252)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

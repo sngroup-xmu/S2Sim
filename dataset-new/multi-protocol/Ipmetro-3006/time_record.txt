@@ -1,0 +1,24 @@
+start time : 1745553766953
+end time : 1745553848332 : 
+First Simulation Time: 81379 ms
+
+start time : 1745569633567
+end time : 1745569713845 : 
+First Simulation Time: 80278 ms
+
+start time : 1745570150455
+end time : 1745570233744 : 
+First Simulation Time: 83289 ms
+
+start time : 1745571340122
+end time : 1745571423811 : 
+First Simulation Time: 83689 ms
+
+start time : 1745573642289
+end time : 1745573754820 : 
+First Simulation Time: 112531 ms
+
+start time : 1745588619349
+end time : 1745588704577 : 
+First Simulation Time: 85228 ms
+

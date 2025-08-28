@@ -1,0 +1,24 @@
+start time : 1745479877744
+end time : 1745479934384 : 
+First Simulation Time: 56640 ms
+
+start time : 1745482866580
+end time : 1745482924430 : 
+First Simulation Time: 57850 ms
+
+start time : 1745484124752
+end time : 1745484202809 : 
+First Simulation Time: 78057 ms
+
+start time : 1745484547147
+end time : 1745484633444 : 
+First Simulation Time: 86297 ms
+
+start time : 1745488098858
+end time : 1745488157714 : 
+First Simulation Time: 58856 ms
+
+start time : 1745488634898
+end time : 1745488748653 : 
+Generate Forwarding Tree Time : 113755 ms
+

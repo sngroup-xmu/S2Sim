@@ -1,0 +1,7 @@
+{
+    "srcNode": ["strasbourg"],
+    "dstNode": "thetthague",
+    "existingFlowPath":"strasbourg,paris,newark,london,brussels,antwerp,thetthague",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/4.1/Colt/configs"
+}

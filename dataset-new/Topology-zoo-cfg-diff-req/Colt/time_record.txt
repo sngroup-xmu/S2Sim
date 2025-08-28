@@ -1,0 +1,105 @@
+start time : 1745416973823
+end time : 1745416978875 : 
+First Simulation Time: 5052 ms
+
+start time : 1745416982648
+end time : 1745416982963 : 
+Generate Forwarding Tree Time : 315 ms
+
+start time : 1745416982963
+end time : 1745416987733 : 
+Compute dataplane Time : 4770 ms
+
+start time : 1745416987733
+end time : 1745416987741 : 
+Localize and Repair Time: 8 ms
+
+
+
+start time : 1745417506727
+end time : 1745417511471 : 
+First Simulation Time: 4744 ms
+
+start time : 1745417522306
+end time : 1745417522684 : 
+Generate Forwarding Tree Time : 378 ms
+
+start time : 1745417522685
+end time : 1745417529368 : 
+Compute dataplane Time : 6683 ms
+
+start time : 1745417529368
+end time : 1745417529376 : 
+Localize and Repair Time: 8 ms
+
+
+
+
+
+start time : 1745417789109
+end time : 1745417794361 : 
+First Simulation Time: 5252 ms
+
+start time : 1745417799475
+end time : 1745417800059 : 
+Generate Forwarding Tree Time : 584 ms
+
+start time : 1745417800059
+end time : 1745417809075 : 
+Compute dataplane Time : 9016 ms
+
+start time : 1745417809075
+end time : 1745417809084 : 
+Localize and Repair Time: 9 ms
+
+
+
+.................................
+start time : 1745472539315
+end time : 1745472544374 : 
+First Simulation Time: 5059 ms
+
+start time : 1745472554169
+end time : 1745472554303 : 
+Generate Forwarding Tree Time : 134 ms
+
+start time : 1745472554303
+end time : 1745472562108 : 
+Compute dataplane Time : 7805 ms
+
+start time : 1745472562108
+end time : 1745472562117 : 
+Localize and Repair Time: 9 ms
+
+start time : 1745472851256
+end time : 1745472856315 : 
+First Simulation Time: 5059 ms
+
+start time : 1745472866363
+end time : 1745472866636 : 
+Generate Forwarding Tree Time : 273 ms
+
+start time : 1745472866636
+end time : 1745472875702 : 
+Compute dataplane Time : 9066 ms
+
+start time : 1745472875702
+end time : 1745472875713 : 
+Localize and Repair Time: 11 ms
+
+start time : 1745473983112
+end time : 1745473988277 : 
+First Simulation Time: 5165 ms
+
+start time : 1745473997720
+end time : 1745473998294 : 
+Generate Forwarding Tree Time : 574 ms
+
+start time : 1745473998294
+end time : 1745474010651 : 
+Compute dataplane Time : 12357 ms
+
+start time : 1745474010651
+end time : 1745474010664 : 
+Localize and Repair Time: 13 ms
+

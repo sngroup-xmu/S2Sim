@@ -1,0 +1,12 @@
+Small[O(10)]:
+        Arnes.graphml #nodes 36
+        Bics.graphml #nodes 35 
+        Columbus.graphml #nodes 72
+        Latnet.graphml #nodes 71
+Mid[O(100)]:
+        GtsCe.graphml #nodes 149
+        Colt.graphml #nodes 155
+        TataNld.graphml #nodes 147 
+        UsCarrier.graphml #nodes 158
+
+Large:

@@ -1,0 +1,7 @@
+Exception in container:fa37374d-ad5c-47fd-abfa-114a37ffb213, testrig:ec7c2b17-fc85-4c28-b421-dc897cf77dba; exception:java.lang.NullPointerException: Cannot invoke "java.util.Map.keySet()" because "this.bestRoutesFromPathMap" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.genBgpConditionsWithFailure(BgpForwardingTree.java:448)
+	at org.batfish.diagnosis.reference.BgpForwardingTree.genBgpConditions(BgpForwardingTree.java:425)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:239)
+	at org.batfish.main.Batfish.repair(Batfish.java:2201)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

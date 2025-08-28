@@ -1,0 +1,8 @@
+start time : 1745478974560
+end time : 1745479030942 : 
+First Simulation Time: 56382 ms
+
+start time : 1745479063347
+end time : 1745479188279 : 
+Generate Forwarding Tree Time : 124932 ms
+

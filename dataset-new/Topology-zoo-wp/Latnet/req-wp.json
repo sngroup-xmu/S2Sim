@@ -1,0 +1,9 @@
+[
+    {
+        "srcNode": ["jelgava"],
+        "dstNode": "livani",
+        "existingFlowPath":"jelgava,ozolnieki,olaine,riga,livani",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-wp/Latnet/configs"
+    }
+]

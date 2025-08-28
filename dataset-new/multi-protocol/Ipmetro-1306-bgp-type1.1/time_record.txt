@@ -1,0 +1,48 @@
+start time : 1745462470608
+end time : 1745462512131 : 
+First Simulation Time: 41523 ms
+
+start time : 1745463232322
+end time : 1745463275379 : 
+First Simulation Time: 43057 ms
+
+start time : 1745463757192
+end time : 1745463799843 : 
+First Simulation Time: 42651 ms
+
+start time : 1745463862582
+end time : 1745463919644 : 
+Generate Forwarding Tree Time : 57062 ms
+
+start time : 1745467719713
+end time : 1745467785146 : 
+First Simulation Time: 65433 ms
+
+start time : 1745467800468
+end time : 1745467975265 : 
+Generate Forwarding Tree Time : 174797 ms
+
+start time : 1745468159788
+end time : 1745468201096 : 
+First Simulation Time: 41308 ms
+
+start time : 1745468229564
+end time : 1745468289145 : 
+Generate Forwarding Tree Time : 59581 ms
+
+start time : 1745470264112
+end time : 1745470304026 : 
+First Simulation Time: 39914 ms
+
+start time : 1745477967696
+end time : 1745478020174 : 
+First Simulation Time: 52478 ms
+
+start time : 1745478486235
+end time : 1745478530805 : 
+First Simulation Time: 44570 ms
+
+start time : 1745478572124
+end time : 1745478623919 : 
+Generate Forwarding Tree Time : 51795 ms
+

@@ -1,0 +1,15 @@
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Generated data-plane for snapshot:f00570cd-7da2-4fae-adf5-3089c7206a7d; iterations:1Time taken for this task: 0.054 seconds
+Loading configurations for NetworkSnapshot{network=59584f35-179a-454e-8240-5e4eaf0ab09c, snapshot=f00570cd-7da2-4fae-adf5-3089c7206a7d}
+Exception in container:59584f35-179a-454e-8240-5e4eaf0ab09c, testrig:f00570cd-7da2-4fae-adf5-3089c7206a7d; exception:java.lang.NullPointerException: Cannot invoke "org.batfish.diagnosis.common.DiagnosedFlow.getDstNode()" because "flow" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.<init>(BgpForwardingTree.java:82)
+	at org.batfish.diagnosis.reference.BgpGenerator.initializeBgpForwardingTree(BgpGenerator.java:76)
+	at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:70)
+	at org.batfish.main.Batfish.repair(Batfish.java:2244)
+	at org.batfish.main.Driver.lambda$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$0(Driver.java:357)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"org.batfish.diagnosis.common.DiagnosedFlow.getDstNode()\" because \"flow\" is null","   at org.batfish.diagnosis.reference.BgpForwardingTree.<init>(BgpForwardingTree.java:82)","   at org.batfish.diagnosis.reference.BgpGenerator.initializeBgpForwardingTree(BgpGenerator.java:76)","   at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:70)","   at org.batfish.main.Batfish.repair(Batfish.java:2244)","   at org.batfish.main.Driver.lambda$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

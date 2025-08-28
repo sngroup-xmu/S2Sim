@@ -1,0 +1,24 @@
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Generated data-plane for snapshot:c753e117-93e1-4142-a658-a5247c4a51c1; iterations:5Time taken for this task: 0.051 seconds
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Loading configurations for NetworkSnapshot{network=39d2e807-351a-4cd2-ad93-33c22b6fc16f, snapshot=c753e117-93e1-4142-a658-a5247c4a51c1}
+Generated data-plane for snapshot:c753e117-93e1-4142-a658-a5247c4a51c1; iterations:10Time taken for this task: 0.012 seconds
+Exception in container:39d2e807-351a-4cd2-ad93-33c22b6fc16f, testrig:c753e117-93e1-4142-a658-a5247c4a51c1; exception:java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 2
+	at org.batfish.diagnosis.localization.RedistributionLocalizer.lambda$genErrorConfigLines$0(RedistributionLocalizer.java:135)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.batfish.diagnosis.localization.RedistributionLocalizer.genErrorConfigLines(RedistributionLocalizer.java:107)
+	at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$5(Violation.java:335)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:334)
+	at org.batfish.diagnosis.Diagnoser.lambda$localizeErrorsFromViolations$3(Diagnoser.java:387)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.batfish.diagnosis.Diagnoser.localizeErrorsFromViolations(Diagnoser.java:386)
+	at org.batfish.diagnosis.Diagnoser.localize(Diagnoser.java:356)
+	at org.batfish.main.Batfish.repair(Batfish.java:2265)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 2","   at org.batfish.diagnosis.localization.RedistributionLocalizer.lambda$genErrorConfigLines$0(RedistributionLocalizer.java:135)","   at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)","   at org.batfish.diagnosis.localization.RedistributionLocalizer.genErrorConfigLines(RedistributionLocalizer.java:107)","   at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$5(Violation.java:335)","   at java.base/java.lang.Iterable.forEach(Iterable.java:75)","   at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:334)","   at org.batfish.diagnosis.Diagnoser.lambda$localizeErrorsFromViolations$3(Diagnoser.java:387)","   at java.base/java.util.HashMap.forEach(HashMap.java:1421)","   at org.batfish.diagnosis.Diagnoser.localizeErrorsFromViolations(Diagnoser.java:386)","   at org.batfish.diagnosis.Diagnoser.localize(Diagnoser.java:356)","   at org.batfish.main.Batfish.repair(Batfish.java:2265)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

@@ -1,0 +1,72 @@
+[
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "sezana",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Izola",
+        "reqDstPrefixString": "128.0.6.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Celje",
+        "reqDstPrefixString": "128.0.2.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Divaca",
+        "reqDstPrefixString": "128.0.3.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Jesenice",
+        "reqDstPrefixString": "128.0.7.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Koper",
+        "reqDstPrefixString": "128.0.9.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "maribor",
+        "reqDstPrefixString": "128.0.0.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Dravograd",
+        "reqDstPrefixString": "128.0.4.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Kamnik",
+        "reqDstPrefixString": "128.0.8.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "GornjaTTRadgona",
+        "reqDstPrefixString": "128.0.5.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    }
+]

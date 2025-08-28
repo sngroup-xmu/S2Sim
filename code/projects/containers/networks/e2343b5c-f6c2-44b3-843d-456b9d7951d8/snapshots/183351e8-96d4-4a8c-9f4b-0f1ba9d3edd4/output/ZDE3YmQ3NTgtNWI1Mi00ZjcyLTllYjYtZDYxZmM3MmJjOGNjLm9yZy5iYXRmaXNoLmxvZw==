@@ -1,0 +1,15 @@
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Generated data-plane for snapshot:183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4; iterations:5Time taken for this task: 0.069 seconds
+Loading configurations for NetworkSnapshot{network=e2343b5c-f6c2-44b3-843d-456b9d7951d8, snapshot=183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4}
+Exception in container:e2343b5c-f6c2-44b3-843d-456b9d7951d8, testrig:183351e8-96d4-4a8c-9f4b-0f1ba9d3edd4; exception:java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.util.List.get(int)" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:148)
+	at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:200)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)
+	at org.batfish.main.Batfish.repair(Batfish.java:2242)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.equals(Object)\" because the return value of \"java.util.List.get(int)\" is null","   at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:148)","   at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:200)","   at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)","   at org.batfish.main.Batfish.repair(Batfish.java:2242)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

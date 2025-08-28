@@ -1,0 +1,16 @@
+start time : 1745295171293
+end time : 1745295176812 : 
+First Simulation Time: 5519 ms
+
+start time : 1745295183434
+end time : 1745295208829 : 
+Generate Forwarding Tree Time : 25395 ms
+
+start time : 1745295208829
+end time : 1745295222808 : 
+Compute dataplane Time : 13979 ms
+
+start time : 1745295222808
+end time : 1745295222925 : 
+Localize and Repair Time: 117 ms
+

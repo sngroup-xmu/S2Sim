@@ -1,0 +1,17 @@
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Generated data-plane for snapshot:bc3203b9-f2be-4eec-8b85-5a6bab26a1b5; iterations:10Time taken for this task: 0.066 seconds
+Loading configurations for NetworkSnapshot{network=c8c72340-8d48-4c21-97ed-a03f1001bc2a, snapshot=bc3203b9-f2be-4eec-8b85-5a6bab26a1b5}
+Exception in container:c8c72340-8d48-4c21-97ed-a03f1001bc2a, testrig:bc3203b9-f2be-4eec-8b85-5a6bab26a1b5; exception:java.lang.NullPointerException: Cannot invoke "org.batfish.datamodel.BgpPeerConfigId.getHostname()" because "curPeer" is null
+	at org.batfish.datamodel.bgp.BgpTopology.getPeers(BgpTopology.java:156)
+	at org.batfish.datamodel.bgp.BgpTopology.getPeers(BgpTopology.java:178)
+	at org.batfish.diagnosis.reference.BgpForwardingTree.chooseFirstNodeHasUnreachablePeer(BgpForwardingTree.java:61)
+	at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:153)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)
+	at org.batfish.main.Batfish.repair(Batfish.java:2247)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"org.batfish.datamodel.BgpPeerConfigId.getHostname()\" because \"curPeer\" is null","   at org.batfish.datamodel.bgp.BgpTopology.getPeers(BgpTopology.java:156)","   at org.batfish.datamodel.bgp.BgpTopology.getPeers(BgpTopology.java:178)","   at org.batfish.diagnosis.reference.BgpForwardingTree.chooseFirstNodeHasUnreachablePeer(BgpForwardingTree.java:61)","   at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:153)","   at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)","   at org.batfish.main.Batfish.repair(Batfish.java:2247)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

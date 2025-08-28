@@ -1,0 +1,14 @@
+Exception in container:003c13e4-9279-46a1-b497-54073664379f, testrig:ed3b844c-7c77-4f56-93cf-b7db1bd0fafd; exception:com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2 path $
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:397)
+	at com.google.gson.Gson.fromJson(Gson.java:1227)
+	at com.google.gson.Gson.fromJson(Gson.java:1137)
+	at com.google.gson.Gson.fromJson(Gson.java:1047)
+	at com.google.gson.Gson.fromJson(Gson.java:982)
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:104)
+	at org.batfish.main.Batfish.repair(Batfish.java:2242)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 1 column 2 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:386)
+	... 8 more

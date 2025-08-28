@@ -1,0 +1,15 @@
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Generated data-plane for snapshot:0356ac30-cdf5-43a8-9394-5dd96b4b8eca; iterations:5Time taken for this task: 0.158 seconds
+Loading configurations for NetworkSnapshot{network=92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, snapshot=0356ac30-cdf5-43a8-9394-5dd96b4b8eca}
+Exception in container:92b710f2-29b2-4ebe-8a4a-33d9f75f7bd5, testrig:0356ac30-cdf5-43a8-9394-5dd96b4b8eca; exception:java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "thisNode" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:135)
+	at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:200)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)
+	at org.batfish.main.Batfish.repair(Batfish.java:2242)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.equals(Object)\" because \"thisNode\" is null","   at org.batfish.diagnosis.reference.BgpForwardingTree.getBestRouteFromPath(BgpForwardingTree.java:135)","   at org.batfish.diagnosis.reference.BgpGenerator.genBgpTree(BgpGenerator.java:200)","   at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:233)","   at org.batfish.main.Batfish.repair(Batfish.java:2242)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

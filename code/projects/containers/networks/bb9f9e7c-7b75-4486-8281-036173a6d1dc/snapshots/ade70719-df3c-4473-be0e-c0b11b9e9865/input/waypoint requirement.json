@@ -1,0 +1,7 @@
+{
+    "srcNode": "wien",
+    "dstNode": "sanktttpeterburg",
+    "existingFlowPath":"wien,frankfurtttamttmain,hamburg,kobenhavn,stockholm,helsinki,sanktttpeterburg",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/4.1/GtsCe/configs"
+}

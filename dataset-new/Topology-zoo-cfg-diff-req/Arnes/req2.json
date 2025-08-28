@@ -1,0 +1,16 @@
+[
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "sezana",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    },
+    {
+        "srcNode": ["ormoz"],
+        "dstNode": "Izola",
+        "reqDstPrefixString": "128.0.6.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Arnes/configs"
+    }
+]

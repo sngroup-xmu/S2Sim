@@ -1,0 +1,3 @@
+改了wien.cfg
+变为：
+Wien-sopron-gyor-bratislava-hodonin...

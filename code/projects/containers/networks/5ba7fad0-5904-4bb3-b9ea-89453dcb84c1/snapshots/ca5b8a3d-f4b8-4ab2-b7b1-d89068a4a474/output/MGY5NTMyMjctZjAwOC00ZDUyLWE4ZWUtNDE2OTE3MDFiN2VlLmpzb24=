@@ -1,0 +1,1 @@
+{"answerElements":[{"class":"org.batfish.datamodel.answers.InitInfoAnswerElement","parseStatus":{"configs/a.cfg":"PASSED","configs/b.cfg":"PASSED","configs/c.cfg":"PASSED","configs/e.cfg":"PARTIALLY_UNRECOGNIZED","configs/f.cfg":"PASSED","configs/g.cfg":"PASSED","configs/h.cfg":"PASSED"}}],"status":"SUCCESS","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

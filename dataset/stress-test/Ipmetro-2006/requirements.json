@@ -1,0 +1,7 @@
+{
+    "srcNode": ["cr1"],
+    "dstNode": "bng1",
+    "reqDstPrefixString": "171.0.0.1/30",
+    "failure":0,
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/stress-test/Ipmetro-3006/configs/"
+}

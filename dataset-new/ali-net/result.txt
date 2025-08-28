@@ -1,0 +1,1870 @@
+*******************124.124.5.0/24********************
+
+Error Configuration: role_1-site_14-device_0.cfg
+ErrorLineNumber: 768
+Command: neighbor group_32 route-map policy_4 out
+ErrorLineNumber: 769
+Command: neighbor group_30 route-map policy_6 out
+ErrorLineNumber: 771
+Command: route-map policy_6 deny 10
+ErrorLineNumber: 772
+Command: 
+ErrorLineNumber: 773
+Command: match protocol bgp
+ErrorLineNumber: 774
+Command: route-map policy_6 deny 20
+ErrorLineNumber: 775
+Command: match ip address prefix-list 27
+ErrorLineNumber: 776
+Command: match protocol bgp
+ErrorLineNumber: 777
+Command: route-map policy_6 permit 30
+ErrorLineNumber: 778
+Command: 
+ErrorLineNumber: 779
+Command: match community 11
+ErrorLineNumber: 780
+Command: match protocol bgp
+ErrorLineNumber: 781
+Command: route-map policy_6 permit 40
+ErrorLineNumber: 782
+Command: 
+ErrorLineNumber: 783
+Command: match protocol bgp
+ErrorLineNumber: 784
+Command: route-map policy_6 permit 50
+ErrorLineNumber: 785
+Command: 
+ErrorLineNumber: 786
+Command: match community 28
+ErrorLineNumber: 787
+Command: match protocol bgp
+ErrorLineNumber: 788
+Command: route-map policy_6 permit 60
+ErrorLineNumber: 789
+Command: 
+ErrorLineNumber: 790
+Command: match community 22
+ErrorLineNumber: 791
+Command: match community 23
+ErrorLineNumber: 792
+Command: match protocol bgp
+ErrorLineNumber: 793
+Command: route-map policy_6 permit 70
+ErrorLineNumber: 794
+Command: match ip address prefix-list 25
+ErrorLineNumber: 795
+Command: match protocol bgp
+ErrorLineNumber: 796
+Command: route-map policy_6 permit 80
+ErrorLineNumber: 797
+Command: match ip address prefix-list 26
+ErrorLineNumber: 798
+Command: match protocol bgp
+ErrorLineNumber: 799
+Command: route-map policy_6 deny 90
+ErrorLineNumber: 800
+Command: 
+ErrorLineNumber: 801
+Command: match community 30
+ErrorLineNumber: 802
+Command: match community 29
+ErrorLineNumber: 803
+Command: match community 31
+ErrorLineNumber: 804
+Command: match protocol bgp
+ErrorLineNumber: 805
+Command: route-map policy_6 permit 100
+ErrorLineNumber: 806
+Command: 
+ErrorLineNumber: 807
+Command: match protocol bgp
+ErrorLineNumber: 732
+Command: neighbor group_9 route-map policy_8 out
+ErrorLineNumber: 733
+Command: neighbor group_8 route-map policy_8 out
+ErrorLineNumber: 734
+Command: neighbor group_19 route-map policy_7 out
+ErrorLineNumber: 735
+Command: neighbor group_5 route-map policy_8 out
+ErrorLineNumber: 736
+Command: neighbor group_17 route-map policy_2 out
+ErrorLineNumber: 737
+Command: neighbor group_4 route-map policy_6 out
+ErrorLineNumber: 738
+Command: neighbor group_18 route-map policy_2 out
+ErrorLineNumber: 739
+Command: neighbor group_7 route-map policy_8 out
+ErrorLineNumber: 740
+Command: neighbor group_15 route-map policy_5 out
+ErrorLineNumber: 741
+Command: neighbor group_37 route-map policy_6 out
+ErrorLineNumber: 742
+Command: neighbor group_6 route-map policy_8 out
+ErrorLineNumber: 743
+Command: neighbor group_16 route-map policy_5 out
+ErrorLineNumber: 744
+Command: neighbor group_38 route-map policy_2 out
+ErrorLineNumber: 745
+Command: neighbor group_1 route-map policy_5 out
+ErrorLineNumber: 746
+Command: neighbor group_13 route-map policy_8 out
+ErrorLineNumber: 747
+Command: neighbor group_35 route-map policy_8 out
+ErrorLineNumber: 748
+Command: neighbor group_0 route-map policy_2 out
+ErrorLineNumber: 749
+Command: neighbor group_14 route-map policy_8 out
+ErrorLineNumber: 750
+Command: neighbor group_36 route-map policy_0 out
+ErrorLineNumber: 751
+Command: neighbor group_3 route-map policy_2 out
+ErrorLineNumber: 752
+Command: neighbor group_11 route-map policy_1 out
+ErrorLineNumber: 753
+Command: neighbor group_33 route-map policy_2 out
+ErrorLineNumber: 754
+Command: neighbor group_2 route-map policy_2 out
+ErrorLineNumber: 755
+Command: neighbor group_12 route-map policy_6 out
+ErrorLineNumber: 756
+Command: neighbor group_34 route-map policy_2 out
+ErrorLineNumber: 757
+Command: neighbor group_20 route-map policy_8 out
+ErrorLineNumber: 758
+Command: neighbor group_21 route-map policy_2 out
+ErrorLineNumber: 759
+Command: neighbor group_28 route-map policy_3 out
+ErrorLineNumber: 760
+Command: neighbor group_29 route-map policy_8 out
+ErrorLineNumber: 761
+Command: neighbor group_26 route-map policy_6 out
+ErrorLineNumber: 762
+Command: neighbor group_24 route-map policy_2 out
+ErrorLineNumber: 763
+Command: neighbor group_25 route-map policy_5 out
+ErrorLineNumber: 764
+Command: neighbor group_22 route-map policy_6 out
+ErrorLineNumber: 765
+Command: neighbor group_23 route-map policy_2 out
+ErrorLineNumber: 766
+Command: neighbor group_31 route-map policy_8 out
+ErrorLineNumber: 767
+Command: neighbor group_10 route-map policy_2 out
+
+Error Configuration: role_3-site_41-device_0.cfg
+ErrorLineNumber: 128
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 129
+Command: match ip address prefix-list 23
+ErrorLineNumber: 130
+Command: route-map policy_1 deny 100
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 27
+ErrorLineNumber: 133
+Command: match community 25
+ErrorLineNumber: 134
+Command: match community 24
+ErrorLineNumber: 135
+Command: route-map policy_1 permit 110
+ErrorLineNumber: 136
+Command: 
+ErrorLineNumber: 137
+Command: match community 29
+ErrorLineNumber: 138
+Command: match community 33
+ErrorLineNumber: 139
+Command: match community 21
+ErrorLineNumber: 140
+Command: match community 39
+ErrorLineNumber: 141
+Command: match community 37
+ErrorLineNumber: 142
+Command: match community 25
+ErrorLineNumber: 143
+Command: match community 20
+ErrorLineNumber: 144
+Command: match community 35
+ErrorLineNumber: 145
+Command: match community 31
+ErrorLineNumber: 146
+Command: match community 24
+ErrorLineNumber: 147
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 148
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 88
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 109
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 110
+Command: match ip address prefix-list 8
+ErrorLineNumber: 111
+Command: set local-preference 100
+ErrorLineNumber: 112
+Command: route-map policy_1 permit 30
+ErrorLineNumber: 113
+Command: 
+ErrorLineNumber: 114
+Command: match community 14
+ErrorLineNumber: 115
+Command: route-map policy_1 permit 50
+ErrorLineNumber: 116
+Command: 
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 19
+ErrorLineNumber: 121
+Command: match community 18
+ErrorLineNumber: 122
+Command: route-map policy_1 permit 65
+ErrorLineNumber: 123
+Command: 
+ErrorLineNumber: 124
+Command: match community 21
+ErrorLineNumber: 125
+Command: match community 20
+ErrorLineNumber: 126
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 127
+Command: match ip address prefix-list 6
+
+Error Configuration: role_3-site_20-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_6 route-map policy_5 in
+ErrorLineNumber: 99
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_3 route-map policy_4 in
+ErrorLineNumber: 101
+Command: neighbor group_2 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in
+
+Error Configuration: role_3-site_34-device_0.cfg
+ErrorLineNumber: 67
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 70
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 71
+Command: match ip address prefix-list 1
+ErrorLineNumber: 72
+Command: set local-preference 100
+ErrorLineNumber: 73
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 74
+Command: 
+ErrorLineNumber: 75
+Command: match community 4
+ErrorLineNumber: 76
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 77
+Command: 
+ErrorLineNumber: 78
+Command: match community 8
+ErrorLineNumber: 79
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 80
+Command: 
+ErrorLineNumber: 81
+Command: match community 10
+ErrorLineNumber: 82
+Command: match community 9
+ErrorLineNumber: 83
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 84
+Command: match ip address prefix-list 12
+ErrorLineNumber: 85
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 86
+Command: match ip address prefix-list 13
+ErrorLineNumber: 87
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 88
+Command: match ip address prefix-list 14
+ErrorLineNumber: 89
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 90
+Command: 
+ErrorLineNumber: 91
+Command: match community 15
+ErrorLineNumber: 92
+Command: match community 17
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 19
+ErrorLineNumber: 96
+Command: match community 18
+ErrorLineNumber: 97
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 98
+Command: 
+
+Error Configuration: role_3-site_30-device_1.cfg
+ErrorLineNumber: 128
+Command: 
+ErrorLineNumber: 129
+Command: match community 5
+ErrorLineNumber: 130
+Command: route-map policy_1 permit 40
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 11
+ErrorLineNumber: 133
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 134
+Command: 
+ErrorLineNumber: 135
+Command: match community 4
+ErrorLineNumber: 136
+Command: match community 6
+ErrorLineNumber: 137
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 138
+Command: match ip address prefix-list 15
+ErrorLineNumber: 139
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 140
+Command: match ip address prefix-list 16
+ErrorLineNumber: 141
+Command: route-map policy_1 permit 100
+ErrorLineNumber: 142
+Command: 
+ErrorLineNumber: 143
+Command: match community 2
+ErrorLineNumber: 144
+Command: match community 3
+ErrorLineNumber: 145
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 146
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 92
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 124
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 125
+Command: match ip address prefix-list 1
+ErrorLineNumber: 126
+Command: set local-preference 100
+ErrorLineNumber: 127
+Command: route-map policy_1 permit 30
+
+Error Configuration: role_3-site_30-device_0.cfg
+ErrorLineNumber: 100
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 101
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 92
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 93
+Command: neighbor group_3 route-map policy_2 in
+ErrorLineNumber: 94
+Command: neighbor group_2 route-map policy_0 in
+
+Error Configuration: role_3-site_32-device_0.cfg
+ErrorLineNumber: 85
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 86
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 90
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 91
+Command: match ip address prefix-list 1
+ErrorLineNumber: 92
+Command: set local-preference 100
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 4
+ErrorLineNumber: 96
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 97
+Command: 
+ErrorLineNumber: 98
+Command: match community 8
+ErrorLineNumber: 99
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 100
+Command: 
+ErrorLineNumber: 101
+Command: match community 10
+ErrorLineNumber: 102
+Command: match community 9
+ErrorLineNumber: 103
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 104
+Command: match ip address prefix-list 12
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 106
+Command: match ip address prefix-list 13
+ErrorLineNumber: 107
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 108
+Command: match ip address prefix-list 14
+ErrorLineNumber: 109
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 110
+Command: 
+ErrorLineNumber: 111
+Command: match community 15
+ErrorLineNumber: 112
+Command: match community 17
+ErrorLineNumber: 113
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 19
+ErrorLineNumber: 116
+Command: match community 18
+ErrorLineNumber: 117
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 118
+Command: 
+
+Error Configuration: role_3-site_40-device_0.cfg
+ErrorLineNumber: 128
+Command: match community 17
+ErrorLineNumber: 129
+Command: match community 31
+ErrorLineNumber: 130
+Command: route-map policy_0 deny 1000
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 88
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 92
+Command: route-map policy_0 permit 5
+ErrorLineNumber: 93
+Command: match ip address prefix-list 1
+ErrorLineNumber: 94
+Command: set local-preference 100
+ErrorLineNumber: 95
+Command: route-map policy_0 permit 30
+ErrorLineNumber: 96
+Command: 
+ErrorLineNumber: 97
+Command: match community 5
+ErrorLineNumber: 98
+Command: route-map policy_0 permit 50
+ErrorLineNumber: 99
+Command: 
+ErrorLineNumber: 100
+Command: match community 8
+ErrorLineNumber: 101
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 102
+Command: 
+ErrorLineNumber: 103
+Command: match community 10
+ErrorLineNumber: 104
+Command: match community 9
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 65
+ErrorLineNumber: 106
+Command: 
+ErrorLineNumber: 107
+Command: match community 11
+ErrorLineNumber: 108
+Command: match community 12
+ErrorLineNumber: 109
+Command: route-map policy_0 permit 80
+ErrorLineNumber: 110
+Command: match ip address prefix-list 14
+ErrorLineNumber: 111
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 112
+Command: match ip address prefix-list 15
+ErrorLineNumber: 113
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 16
+ErrorLineNumber: 116
+Command: match community 19
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 23
+ErrorLineNumber: 121
+Command: match community 16
+ErrorLineNumber: 122
+Command: match community 11
+ErrorLineNumber: 123
+Command: match community 25
+ErrorLineNumber: 124
+Command: match community 29
+ErrorLineNumber: 125
+Command: match community 21
+ErrorLineNumber: 126
+Command: match community 12
+ErrorLineNumber: 127
+Command: match community 27
+
+Error Configuration: role_3-site_24-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_2 route-map policy_2 in
+
+Error Configuration: role_3-site_22-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_5 route-map policy_4 in
+ErrorLineNumber: 99
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_1 route-map policy_5 in
+ErrorLineNumber: 101
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+*******************124.124.77.0/24********************
+
+Error Configuration: role_1-site_14-device_0.cfg
+ErrorLineNumber: 768
+Command: neighbor group_32 route-map policy_4 out
+ErrorLineNumber: 769
+Command: neighbor group_30 route-map policy_6 out
+ErrorLineNumber: 771
+Command: route-map policy_6 deny 10
+ErrorLineNumber: 772
+Command: 
+ErrorLineNumber: 773
+Command: match protocol bgp
+ErrorLineNumber: 774
+Command: route-map policy_6 deny 20
+ErrorLineNumber: 775
+Command: match ip address prefix-list 27
+ErrorLineNumber: 776
+Command: match protocol bgp
+ErrorLineNumber: 777
+Command: route-map policy_6 permit 30
+ErrorLineNumber: 778
+Command: 
+ErrorLineNumber: 779
+Command: match community 11
+ErrorLineNumber: 780
+Command: match protocol bgp
+ErrorLineNumber: 781
+Command: route-map policy_6 permit 40
+ErrorLineNumber: 782
+Command: 
+ErrorLineNumber: 783
+Command: match protocol bgp
+ErrorLineNumber: 784
+Command: route-map policy_6 permit 50
+ErrorLineNumber: 785
+Command: 
+ErrorLineNumber: 786
+Command: match community 28
+ErrorLineNumber: 787
+Command: match protocol bgp
+ErrorLineNumber: 788
+Command: route-map policy_6 permit 60
+ErrorLineNumber: 789
+Command: 
+ErrorLineNumber: 790
+Command: match community 22
+ErrorLineNumber: 791
+Command: match community 23
+ErrorLineNumber: 792
+Command: match protocol bgp
+ErrorLineNumber: 793
+Command: route-map policy_6 permit 70
+ErrorLineNumber: 794
+Command: match ip address prefix-list 25
+ErrorLineNumber: 795
+Command: match protocol bgp
+ErrorLineNumber: 796
+Command: route-map policy_6 permit 80
+ErrorLineNumber: 797
+Command: match ip address prefix-list 26
+ErrorLineNumber: 798
+Command: match protocol bgp
+ErrorLineNumber: 799
+Command: route-map policy_6 deny 90
+ErrorLineNumber: 800
+Command: 
+ErrorLineNumber: 801
+Command: match community 30
+ErrorLineNumber: 802
+Command: match community 29
+ErrorLineNumber: 803
+Command: match community 31
+ErrorLineNumber: 804
+Command: match protocol bgp
+ErrorLineNumber: 805
+Command: route-map policy_6 permit 100
+ErrorLineNumber: 806
+Command: 
+ErrorLineNumber: 807
+Command: match protocol bgp
+ErrorLineNumber: 732
+Command: neighbor group_9 route-map policy_8 out
+ErrorLineNumber: 733
+Command: neighbor group_8 route-map policy_8 out
+ErrorLineNumber: 734
+Command: neighbor group_19 route-map policy_7 out
+ErrorLineNumber: 735
+Command: neighbor group_5 route-map policy_8 out
+ErrorLineNumber: 736
+Command: neighbor group_17 route-map policy_2 out
+ErrorLineNumber: 737
+Command: neighbor group_4 route-map policy_6 out
+ErrorLineNumber: 738
+Command: neighbor group_18 route-map policy_2 out
+ErrorLineNumber: 739
+Command: neighbor group_7 route-map policy_8 out
+ErrorLineNumber: 740
+Command: neighbor group_15 route-map policy_5 out
+ErrorLineNumber: 741
+Command: neighbor group_37 route-map policy_6 out
+ErrorLineNumber: 742
+Command: neighbor group_6 route-map policy_8 out
+ErrorLineNumber: 743
+Command: neighbor group_16 route-map policy_5 out
+ErrorLineNumber: 744
+Command: neighbor group_38 route-map policy_2 out
+ErrorLineNumber: 745
+Command: neighbor group_1 route-map policy_5 out
+ErrorLineNumber: 746
+Command: neighbor group_13 route-map policy_8 out
+ErrorLineNumber: 747
+Command: neighbor group_35 route-map policy_8 out
+ErrorLineNumber: 748
+Command: neighbor group_0 route-map policy_2 out
+ErrorLineNumber: 749
+Command: neighbor group_14 route-map policy_8 out
+ErrorLineNumber: 750
+Command: neighbor group_36 route-map policy_0 out
+ErrorLineNumber: 751
+Command: neighbor group_3 route-map policy_2 out
+ErrorLineNumber: 752
+Command: neighbor group_11 route-map policy_1 out
+ErrorLineNumber: 753
+Command: neighbor group_33 route-map policy_2 out
+ErrorLineNumber: 754
+Command: neighbor group_2 route-map policy_2 out
+ErrorLineNumber: 755
+Command: neighbor group_12 route-map policy_6 out
+ErrorLineNumber: 756
+Command: neighbor group_34 route-map policy_2 out
+ErrorLineNumber: 757
+Command: neighbor group_20 route-map policy_8 out
+ErrorLineNumber: 758
+Command: neighbor group_21 route-map policy_2 out
+ErrorLineNumber: 759
+Command: neighbor group_28 route-map policy_3 out
+ErrorLineNumber: 760
+Command: neighbor group_29 route-map policy_8 out
+ErrorLineNumber: 761
+Command: neighbor group_26 route-map policy_6 out
+ErrorLineNumber: 762
+Command: neighbor group_24 route-map policy_2 out
+ErrorLineNumber: 763
+Command: neighbor group_25 route-map policy_5 out
+ErrorLineNumber: 764
+Command: neighbor group_22 route-map policy_6 out
+ErrorLineNumber: 765
+Command: neighbor group_23 route-map policy_2 out
+ErrorLineNumber: 766
+Command: neighbor group_31 route-map policy_8 out
+ErrorLineNumber: 767
+Command: neighbor group_10 route-map policy_2 out
+
+Error Configuration: role_3-site_20-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_6 route-map policy_5 in
+ErrorLineNumber: 99
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_3 route-map policy_4 in
+ErrorLineNumber: 101
+Command: neighbor group_2 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+
+Error Configuration: role_3-site_41-device_0.cfg
+ErrorLineNumber: 128
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 129
+Command: match ip address prefix-list 23
+ErrorLineNumber: 130
+Command: route-map policy_1 deny 100
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 27
+ErrorLineNumber: 133
+Command: match community 25
+ErrorLineNumber: 134
+Command: match community 24
+ErrorLineNumber: 135
+Command: route-map policy_1 permit 110
+ErrorLineNumber: 136
+Command: 
+ErrorLineNumber: 137
+Command: match community 29
+ErrorLineNumber: 138
+Command: match community 33
+ErrorLineNumber: 139
+Command: match community 21
+ErrorLineNumber: 140
+Command: match community 39
+ErrorLineNumber: 141
+Command: match community 37
+ErrorLineNumber: 142
+Command: match community 25
+ErrorLineNumber: 143
+Command: match community 20
+ErrorLineNumber: 144
+Command: match community 35
+ErrorLineNumber: 145
+Command: match community 31
+ErrorLineNumber: 146
+Command: match community 24
+ErrorLineNumber: 147
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 148
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 88
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 109
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 110
+Command: match ip address prefix-list 8
+ErrorLineNumber: 111
+Command: set local-preference 100
+ErrorLineNumber: 112
+Command: route-map policy_1 permit 30
+ErrorLineNumber: 113
+Command: 
+ErrorLineNumber: 114
+Command: match community 14
+ErrorLineNumber: 115
+Command: route-map policy_1 permit 50
+ErrorLineNumber: 116
+Command: 
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 19
+ErrorLineNumber: 121
+Command: match community 18
+ErrorLineNumber: 122
+Command: route-map policy_1 permit 65
+ErrorLineNumber: 123
+Command: 
+ErrorLineNumber: 124
+Command: match community 21
+ErrorLineNumber: 125
+Command: match community 20
+ErrorLineNumber: 126
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 127
+Command: match ip address prefix-list 6
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in
+
+Error Configuration: role_3-site_34-device_0.cfg
+ErrorLineNumber: 67
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 70
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 71
+Command: match ip address prefix-list 1
+ErrorLineNumber: 72
+Command: set local-preference 100
+ErrorLineNumber: 73
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 74
+Command: 
+ErrorLineNumber: 75
+Command: match community 4
+ErrorLineNumber: 76
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 77
+Command: 
+ErrorLineNumber: 78
+Command: match community 8
+ErrorLineNumber: 79
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 80
+Command: 
+ErrorLineNumber: 81
+Command: match community 10
+ErrorLineNumber: 82
+Command: match community 9
+ErrorLineNumber: 83
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 84
+Command: match ip address prefix-list 12
+ErrorLineNumber: 85
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 86
+Command: match ip address prefix-list 13
+ErrorLineNumber: 87
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 88
+Command: match ip address prefix-list 14
+ErrorLineNumber: 89
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 90
+Command: 
+ErrorLineNumber: 91
+Command: match community 15
+ErrorLineNumber: 92
+Command: match community 17
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 19
+ErrorLineNumber: 96
+Command: match community 18
+ErrorLineNumber: 97
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 98
+Command: 
+
+Error Configuration: role_3-site_30-device_1.cfg
+ErrorLineNumber: 128
+Command: 
+ErrorLineNumber: 129
+Command: match community 5
+ErrorLineNumber: 130
+Command: route-map policy_1 permit 40
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 11
+ErrorLineNumber: 133
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 134
+Command: 
+ErrorLineNumber: 135
+Command: match community 4
+ErrorLineNumber: 136
+Command: match community 6
+ErrorLineNumber: 137
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 138
+Command: match ip address prefix-list 15
+ErrorLineNumber: 139
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 140
+Command: match ip address prefix-list 16
+ErrorLineNumber: 141
+Command: route-map policy_1 permit 100
+ErrorLineNumber: 142
+Command: 
+ErrorLineNumber: 143
+Command: match community 2
+ErrorLineNumber: 144
+Command: match community 3
+ErrorLineNumber: 145
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 146
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 92
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 124
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 125
+Command: match ip address prefix-list 1
+ErrorLineNumber: 126
+Command: set local-preference 100
+ErrorLineNumber: 127
+Command: route-map policy_1 permit 30
+
+Error Configuration: role_3-site_30-device_0.cfg
+ErrorLineNumber: 100
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 101
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 92
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 93
+Command: neighbor group_3 route-map policy_2 in
+ErrorLineNumber: 94
+Command: neighbor group_2 route-map policy_0 in
+
+Error Configuration: role_3-site_32-device_0.cfg
+ErrorLineNumber: 85
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 86
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 90
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 91
+Command: match ip address prefix-list 1
+ErrorLineNumber: 92
+Command: set local-preference 100
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 4
+ErrorLineNumber: 96
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 97
+Command: 
+ErrorLineNumber: 98
+Command: match community 8
+ErrorLineNumber: 99
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 100
+Command: 
+ErrorLineNumber: 101
+Command: match community 10
+ErrorLineNumber: 102
+Command: match community 9
+ErrorLineNumber: 103
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 104
+Command: match ip address prefix-list 12
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 106
+Command: match ip address prefix-list 13
+ErrorLineNumber: 107
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 108
+Command: match ip address prefix-list 14
+ErrorLineNumber: 109
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 110
+Command: 
+ErrorLineNumber: 111
+Command: match community 15
+ErrorLineNumber: 112
+Command: match community 17
+ErrorLineNumber: 113
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 19
+ErrorLineNumber: 116
+Command: match community 18
+ErrorLineNumber: 117
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 118
+Command: 
+
+Error Configuration: role_3-site_40-device_0.cfg
+ErrorLineNumber: 128
+Command: match community 17
+ErrorLineNumber: 129
+Command: match community 31
+ErrorLineNumber: 130
+Command: route-map policy_0 deny 1000
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 88
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 92
+Command: route-map policy_0 permit 5
+ErrorLineNumber: 93
+Command: match ip address prefix-list 1
+ErrorLineNumber: 94
+Command: set local-preference 100
+ErrorLineNumber: 95
+Command: route-map policy_0 permit 30
+ErrorLineNumber: 96
+Command: 
+ErrorLineNumber: 97
+Command: match community 5
+ErrorLineNumber: 98
+Command: route-map policy_0 permit 50
+ErrorLineNumber: 99
+Command: 
+ErrorLineNumber: 100
+Command: match community 8
+ErrorLineNumber: 101
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 102
+Command: 
+ErrorLineNumber: 103
+Command: match community 10
+ErrorLineNumber: 104
+Command: match community 9
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 65
+ErrorLineNumber: 106
+Command: 
+ErrorLineNumber: 107
+Command: match community 11
+ErrorLineNumber: 108
+Command: match community 12
+ErrorLineNumber: 109
+Command: route-map policy_0 permit 80
+ErrorLineNumber: 110
+Command: match ip address prefix-list 14
+ErrorLineNumber: 111
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 112
+Command: match ip address prefix-list 15
+ErrorLineNumber: 113
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 16
+ErrorLineNumber: 116
+Command: match community 19
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 23
+ErrorLineNumber: 121
+Command: match community 16
+ErrorLineNumber: 122
+Command: match community 11
+ErrorLineNumber: 123
+Command: match community 25
+ErrorLineNumber: 124
+Command: match community 29
+ErrorLineNumber: 125
+Command: match community 21
+ErrorLineNumber: 126
+Command: match community 12
+ErrorLineNumber: 127
+Command: match community 27
+
+Error Configuration: role_3-site_24-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_2 route-map policy_2 in
+
+Error Configuration: role_3-site_22-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_5 route-map policy_4 in
+ErrorLineNumber: 99
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_1 route-map policy_5 in
+ErrorLineNumber: 101
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+*******************138.115.24.0/21********************
+
+Error Configuration: role_3-site_20-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_6 route-map policy_5 in
+ErrorLineNumber: 99
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_3 route-map policy_4 in
+ErrorLineNumber: 101
+Command: neighbor group_2 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+
+Error Configuration: role_5-site_10-device_0.cfg
+ErrorLineNumber: 96
+Command: match community 5
+ErrorLineNumber: 97
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 98
+Command: 
+ErrorLineNumber: 85
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 86
+Command: neighbor group_2 route-map policy_1 in
+ErrorLineNumber: 87
+Command: neighbor group_0 route-map policy_0 out
+ErrorLineNumber: 88
+Command: neighbor group_2 route-map policy_0 out
+ErrorLineNumber: 90
+Command: route-map policy_0 deny 15
+ErrorLineNumber: 91
+Command: match ip address prefix-list 2
+ErrorLineNumber: 92
+Command: route-map policy_0 permit 20
+ErrorLineNumber: 93
+Command: match ip address prefix-list 3
+ErrorLineNumber: 94
+Command: set community 23118:8006 23118:91007 23118:39000 23118:95537 additive
+ErrorLineNumber: 95
+Command: route-map policy_0 permit 40
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in
+
+Error Configuration: role_3-site_5-device_0.cfg
+ErrorLineNumber: 112
+Command: neighbor group_0 route-map policy_3 out
+ErrorLineNumber: 113
+Command: neighbor group_3 route-map policy_3 out
+ErrorLineNumber: 114
+Command: neighbor group_2 route-map policy_0 out
+ErrorLineNumber: 116
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 117
+Command: 
+ErrorLineNumber: 107
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 108
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 109
+Command: neighbor group_3 route-map policy_2 in
+ErrorLineNumber: 110
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 111
+Command: neighbor group_1 route-map policy_1 out
+
+Error Configuration: role_2-site_4-device_0.cfg
+ErrorLineNumber: 82
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 83
+Command: 
+ErrorLineNumber: 86
+Command: route-map policy_2 deny 10
+ErrorLineNumber: 87
+Command: 
+ErrorLineNumber: 75
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 76
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 77
+Command: neighbor group_2 route-map policy_0 in
+
+Error Configuration: role_3-site_24-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_2 route-map policy_2 in
+
+Error Configuration: role_3-site_22-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_5 route-map policy_4 in
+ErrorLineNumber: 99
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_1 route-map policy_5 in
+ErrorLineNumber: 101
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+
+Error Configuration: role_2-site_44-device_0.cfg
+ErrorLineNumber: 77
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 78
+Command: neighbor group_2 route-map policy_2 in
+ErrorLineNumber: 82
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 83
+Command: match ip address prefix-list 1
+ErrorLineNumber: 84
+Command: set local-preference 100
+ErrorLineNumber: 85
+Command: set community 23111:39000 35607:4606 additive
+ErrorLineNumber: 86
+Command: route-map policy_0 permit 20
+ErrorLineNumber: 87
+Command: match ip address prefix-list 3
+ErrorLineNumber: 88
+Command: set local-preference 100
+ErrorLineNumber: 89
+Command: set community 23111:39000 35607:4606 additive
+ErrorLineNumber: 90
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 91
+Command: 
+ErrorLineNumber: 94
+Command: route-map policy_2 deny 10
+ErrorLineNumber: 95
+Command: 
+*******************124.124.5.0/24********************
+
+Error Configuration: role_3-site_41-device_0.cfg
+ErrorLineNumber: 128
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 129
+Command: match ip address prefix-list 23
+ErrorLineNumber: 130
+Command: route-map policy_1 deny 100
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 27
+ErrorLineNumber: 133
+Command: match community 25
+ErrorLineNumber: 134
+Command: match community 24
+ErrorLineNumber: 135
+Command: route-map policy_1 permit 110
+ErrorLineNumber: 136
+Command: 
+ErrorLineNumber: 137
+Command: match community 29
+ErrorLineNumber: 138
+Command: match community 33
+ErrorLineNumber: 139
+Command: match community 21
+ErrorLineNumber: 140
+Command: match community 39
+ErrorLineNumber: 141
+Command: match community 37
+ErrorLineNumber: 142
+Command: match community 25
+ErrorLineNumber: 143
+Command: match community 20
+ErrorLineNumber: 144
+Command: match community 35
+ErrorLineNumber: 145
+Command: match community 31
+ErrorLineNumber: 146
+Command: match community 24
+ErrorLineNumber: 147
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 148
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 88
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 109
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 110
+Command: match ip address prefix-list 8
+ErrorLineNumber: 111
+Command: set local-preference 100
+ErrorLineNumber: 112
+Command: route-map policy_1 permit 30
+ErrorLineNumber: 113
+Command: 
+ErrorLineNumber: 114
+Command: match community 14
+ErrorLineNumber: 115
+Command: route-map policy_1 permit 50
+ErrorLineNumber: 116
+Command: 
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 19
+ErrorLineNumber: 121
+Command: match community 18
+ErrorLineNumber: 122
+Command: route-map policy_1 permit 65
+ErrorLineNumber: 123
+Command: 
+ErrorLineNumber: 124
+Command: match community 21
+ErrorLineNumber: 125
+Command: match community 20
+ErrorLineNumber: 126
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 127
+Command: match ip address prefix-list 6
+
+Error Configuration: role_3-site_5-device_0.cfg
+ErrorLineNumber: 112
+Command: neighbor group_0 route-map policy_3 out
+ErrorLineNumber: 113
+Command: neighbor group_3 route-map policy_3 out
+ErrorLineNumber: 114
+Command: neighbor group_2 route-map policy_0 out
+ErrorLineNumber: 116
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 117
+Command: 
+ErrorLineNumber: 107
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 108
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 109
+Command: neighbor group_3 route-map policy_2 in
+ErrorLineNumber: 110
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 111
+Command: neighbor group_1 route-map policy_1 out
+
+Error Configuration: role_3-site_34-device_0.cfg
+ErrorLineNumber: 67
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 70
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 71
+Command: match ip address prefix-list 1
+ErrorLineNumber: 72
+Command: set local-preference 100
+ErrorLineNumber: 73
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 74
+Command: 
+ErrorLineNumber: 75
+Command: match community 4
+ErrorLineNumber: 76
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 77
+Command: 
+ErrorLineNumber: 78
+Command: match community 8
+ErrorLineNumber: 79
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 80
+Command: 
+ErrorLineNumber: 81
+Command: match community 10
+ErrorLineNumber: 82
+Command: match community 9
+ErrorLineNumber: 83
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 84
+Command: match ip address prefix-list 12
+ErrorLineNumber: 85
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 86
+Command: match ip address prefix-list 13
+ErrorLineNumber: 87
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 88
+Command: match ip address prefix-list 14
+ErrorLineNumber: 89
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 90
+Command: 
+ErrorLineNumber: 91
+Command: match community 15
+ErrorLineNumber: 92
+Command: match community 17
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 19
+ErrorLineNumber: 96
+Command: match community 18
+ErrorLineNumber: 97
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 98
+Command: 
+
+Error Configuration: role_3-site_32-device_0.cfg
+ErrorLineNumber: 85
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 86
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 90
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 91
+Command: match ip address prefix-list 1
+ErrorLineNumber: 92
+Command: set local-preference 100
+ErrorLineNumber: 93
+Command: route-map policy_0 permit 40
+ErrorLineNumber: 94
+Command: 
+ErrorLineNumber: 95
+Command: match community 4
+ErrorLineNumber: 96
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 97
+Command: 
+ErrorLineNumber: 98
+Command: match community 8
+ErrorLineNumber: 99
+Command: route-map policy_0 permit 70
+ErrorLineNumber: 100
+Command: 
+ErrorLineNumber: 101
+Command: match community 10
+ErrorLineNumber: 102
+Command: match community 9
+ErrorLineNumber: 103
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 104
+Command: match ip address prefix-list 12
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 100
+ErrorLineNumber: 106
+Command: match ip address prefix-list 13
+ErrorLineNumber: 107
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 108
+Command: match ip address prefix-list 14
+ErrorLineNumber: 109
+Command: route-map policy_0 deny 120
+ErrorLineNumber: 110
+Command: 
+ErrorLineNumber: 111
+Command: match community 15
+ErrorLineNumber: 112
+Command: match community 17
+ErrorLineNumber: 113
+Command: route-map policy_0 permit 130
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 19
+ErrorLineNumber: 116
+Command: match community 18
+ErrorLineNumber: 117
+Command: route-map policy_0 deny 140
+ErrorLineNumber: 118
+Command: 
+
+Error Configuration: role_2-site_4-device_0.cfg
+ErrorLineNumber: 82
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 83
+Command: 
+ErrorLineNumber: 86
+Command: route-map policy_2 deny 10
+ErrorLineNumber: 87
+Command: 
+ErrorLineNumber: 75
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 76
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 77
+Command: neighbor group_2 route-map policy_0 in
+
+Error Configuration: role_3-site_24-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_2 route-map policy_2 in
+
+Error Configuration: role_2-site_44-device_0.cfg
+ErrorLineNumber: 77
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 78
+Command: neighbor group_2 route-map policy_2 in
+ErrorLineNumber: 82
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 83
+Command: match ip address prefix-list 1
+ErrorLineNumber: 84
+Command: set local-preference 100
+ErrorLineNumber: 85
+Command: set community 23111:39000 35607:4606 additive
+ErrorLineNumber: 86
+Command: route-map policy_0 permit 20
+ErrorLineNumber: 87
+Command: match ip address prefix-list 3
+ErrorLineNumber: 88
+Command: set local-preference 100
+ErrorLineNumber: 89
+Command: set community 23111:39000 35607:4606 additive
+ErrorLineNumber: 90
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 91
+Command: 
+ErrorLineNumber: 94
+Command: route-map policy_2 deny 10
+ErrorLineNumber: 95
+Command: 
+
+Error Configuration: role_5-site_10-device_1.cfg
+ErrorLineNumber: 103
+Command: route-map policy_2 deny 10
+ErrorLineNumber: 104
+Command: match ip address prefix-list 6
+ErrorLineNumber: 105
+Command: route-map policy_2 deny 20
+ErrorLineNumber: 106
+Command: match ip address prefix-list 7
+ErrorLineNumber: 107
+Command: route-map policy_2 permit 50
+ErrorLineNumber: 108
+Command: match ip address prefix-list 10
+ErrorLineNumber: 109
+Command: route-map policy_2 permit 60
+ErrorLineNumber: 110
+Command: 
+ErrorLineNumber: 111
+Command: match community 11
+ErrorLineNumber: 112
+Command: route-map policy_2 deny 70
+ErrorLineNumber: 113
+Command: 
+ErrorLineNumber: 114
+Command: match community 12
+ErrorLineNumber: 83
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 115
+Command: route-map policy_2 permit 80
+ErrorLineNumber: 84
+Command: neighbor group_2 route-map policy_2 in
+ErrorLineNumber: 116
+Command: 
+
+Error Configuration: role_3-site_20-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_6 route-map policy_5 in
+ErrorLineNumber: 99
+Command: neighbor group_1 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_3 route-map policy_4 in
+ErrorLineNumber: 101
+Command: neighbor group_2 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 
+
+Error Configuration: role_3-site_23-device_0.cfg
+ErrorLineNumber: 114
+Command: route-map policy_2 permit 10
+ErrorLineNumber: 115
+Command: 
+ErrorLineNumber: 116
+Command: match community 4
+ErrorLineNumber: 117
+Command: match community 6
+ErrorLineNumber: 118
+Command: route-map policy_2 permit 100
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 89
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 90
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 91
+Command: neighbor group_3 route-map policy_2 in
+
+Error Configuration: role_3-site_30-device_1.cfg
+ErrorLineNumber: 128
+Command: 
+ErrorLineNumber: 129
+Command: match community 5
+ErrorLineNumber: 130
+Command: route-map policy_1 permit 40
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 132
+Command: match community 11
+ErrorLineNumber: 133
+Command: route-map policy_1 permit 60
+ErrorLineNumber: 134
+Command: 
+ErrorLineNumber: 135
+Command: match community 4
+ErrorLineNumber: 136
+Command: match community 6
+ErrorLineNumber: 137
+Command: route-map policy_1 permit 80
+ErrorLineNumber: 138
+Command: match ip address prefix-list 15
+ErrorLineNumber: 139
+Command: route-map policy_1 permit 90
+ErrorLineNumber: 140
+Command: match ip address prefix-list 16
+ErrorLineNumber: 141
+Command: route-map policy_1 permit 100
+ErrorLineNumber: 142
+Command: 
+ErrorLineNumber: 143
+Command: match community 2
+ErrorLineNumber: 144
+Command: match community 3
+ErrorLineNumber: 145
+Command: route-map policy_1 deny 1000
+ErrorLineNumber: 146
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_0 route-map policy_1 in
+ErrorLineNumber: 92
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 124
+Command: route-map policy_1 permit 5
+ErrorLineNumber: 125
+Command: match ip address prefix-list 1
+ErrorLineNumber: 126
+Command: set local-preference 100
+ErrorLineNumber: 127
+Command: route-map policy_1 permit 30
+
+Error Configuration: role_3-site_30-device_0.cfg
+ErrorLineNumber: 100
+Command: route-map policy_0 permit 10
+ErrorLineNumber: 101
+Command: 
+ErrorLineNumber: 91
+Command: neighbor group_1 route-map policy_0 in
+ErrorLineNumber: 92
+Command: neighbor group_0 route-map policy_2 in
+ErrorLineNumber: 93
+Command: neighbor group_3 route-map policy_2 in
+ErrorLineNumber: 94
+Command: neighbor group_2 route-map policy_0 in
+
+Error Configuration: role_3-site_40-device_0.cfg
+ErrorLineNumber: 128
+Command: match community 17
+ErrorLineNumber: 129
+Command: match community 31
+ErrorLineNumber: 130
+Command: route-map policy_0 deny 1000
+ErrorLineNumber: 131
+Command: 
+ErrorLineNumber: 87
+Command: neighbor group_0 route-map policy_0 in
+ErrorLineNumber: 88
+Command: neighbor group_2 route-map policy_0 in
+ErrorLineNumber: 92
+Command: route-map policy_0 permit 5
+ErrorLineNumber: 93
+Command: match ip address prefix-list 1
+ErrorLineNumber: 94
+Command: set local-preference 100
+ErrorLineNumber: 95
+Command: route-map policy_0 permit 30
+ErrorLineNumber: 96
+Command: 
+ErrorLineNumber: 97
+Command: match community 5
+ErrorLineNumber: 98
+Command: route-map policy_0 permit 50
+ErrorLineNumber: 99
+Command: 
+ErrorLineNumber: 100
+Command: match community 8
+ErrorLineNumber: 101
+Command: route-map policy_0 permit 60
+ErrorLineNumber: 102
+Command: 
+ErrorLineNumber: 103
+Command: match community 10
+ErrorLineNumber: 104
+Command: match community 9
+ErrorLineNumber: 105
+Command: route-map policy_0 permit 65
+ErrorLineNumber: 106
+Command: 
+ErrorLineNumber: 107
+Command: match community 11
+ErrorLineNumber: 108
+Command: match community 12
+ErrorLineNumber: 109
+Command: route-map policy_0 permit 80
+ErrorLineNumber: 110
+Command: match ip address prefix-list 14
+ErrorLineNumber: 111
+Command: route-map policy_0 permit 90
+ErrorLineNumber: 112
+Command: match ip address prefix-list 15
+ErrorLineNumber: 113
+Command: route-map policy_0 deny 100
+ErrorLineNumber: 114
+Command: 
+ErrorLineNumber: 115
+Command: match community 16
+ErrorLineNumber: 116
+Command: match community 19
+ErrorLineNumber: 117
+Command: match community 17
+ErrorLineNumber: 118
+Command: route-map policy_0 permit 110
+ErrorLineNumber: 119
+Command: 
+ErrorLineNumber: 120
+Command: match community 23
+ErrorLineNumber: 121
+Command: match community 16
+ErrorLineNumber: 122
+Command: match community 11
+ErrorLineNumber: 123
+Command: match community 25
+ErrorLineNumber: 124
+Command: match community 29
+ErrorLineNumber: 125
+Command: match community 21
+ErrorLineNumber: 126
+Command: match community 12
+ErrorLineNumber: 127
+Command: match community 27
+
+Error Configuration: role_3-site_22-device_0.cfg
+ErrorLineNumber: 98
+Command: neighbor group_5 route-map policy_4 in
+ErrorLineNumber: 99
+Command: neighbor group_4 route-map policy_1 in
+ErrorLineNumber: 100
+Command: neighbor group_1 route-map policy_5 in
+ErrorLineNumber: 101
+Command: neighbor group_3 route-map policy_1 in
+ErrorLineNumber: 183
+Command: route-map policy_1 permit 10
+ErrorLineNumber: 184
+Command: 

@@ -1,0 +1,14 @@
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Generated data-plane for snapshot:c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3; iterations:7Time taken for this task: 0.079 seconds
+Loading configurations for NetworkSnapshot{network=cd9744ad-9600-4353-83eb-68164cbaade0, snapshot=c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3}
+Exception in container:cd9744ad-9600-4353-83eb-68164cbaade0, testrig:c9319c5e-c8f0-4468-a64f-03a7a1a2bbb3; exception:java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:40)
+	at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)
+	at org.batfish.main.Batfish.repair(Batfish.java:2246)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0","   at org.batfish.main.DiagnosisInfo.addBgpPeer(DiagnosisInfo.java:40)","   at org.batfish.diagnosis.Diagnoser.<init>(Diagnoser.java:128)","   at org.batfish.main.Batfish.repair(Batfish.java:2246)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

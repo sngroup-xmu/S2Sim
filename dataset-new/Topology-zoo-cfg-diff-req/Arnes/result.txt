@@ -1,0 +1,279 @@
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************
+*******************128.0.0.0/24********************
+
+Error Configuration: maribor.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: dravograd.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.8.0/24********************
+
+Error Configuration: kamnik.cfg
+ErrorLineNumber: 88
+Command: match ip address prefix-list 1
+ErrorLineNumber: 89
+Command: route-map RMap_Kamnik_to_Ljubljana permit 100
+ErrorLineNumber: 78
+Command: neighbor 10.0.0.38 route-map RMap_Kamnik_to_Ljubljana out
+ErrorLineNumber: 87
+Command: route-map RMap_Kamnik_to_Ljubljana deny 10
+*******************128.0.5.0/24********************
+
+Error Configuration: gornjattradgona.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.55 remote-as 170
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.55 description "To maribor"
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+
+Error Configuration: gornjattradgona.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.55 remote-as 170
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.55 description "To maribor"
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************
+*******************128.0.0.0/24********************
+
+Error Configuration: maribor.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: dravograd.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.8.0/24********************
+
+Error Configuration: kamnik.cfg
+ErrorLineNumber: 88
+Command: match ip address prefix-list 1
+ErrorLineNumber: 89
+Command: route-map RMap_Kamnik_to_Ljubljana permit 100
+ErrorLineNumber: 78
+Command: neighbor 10.0.0.38 route-map RMap_Kamnik_to_Ljubljana out
+ErrorLineNumber: 87
+Command: route-map RMap_Kamnik_to_Ljubljana deny 10
+*******************128.0.5.0/24********************
+
+Error Configuration: gornjattradgona.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.55 remote-as 170
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.55 description "To maribor"
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************
+*******************128.0.1.0/24********************
+
+Error Configuration: sezana.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+*******************128.0.6.0/24********************
+
+Error Configuration: izola.cfg
+ErrorLineNumber: 88
+Command: route-map RMap_Izola_to_Koper permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.73 route-map RMap_Izola_to_Koper out
+ErrorLineNumber: 86
+Command: route-map RMap_Izola_to_Koper deny 10
+ErrorLineNumber: 87
+Command: match ip address prefix-list 1
+*******************128.0.2.0/24********************
+*******************128.0.3.0/24********************
+*******************128.0.7.0/24********************
+
+Error Configuration: jesenice.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.20 route-map RMap_Jesenice_to_Kranj out
+ErrorLineNumber: 67
+Command: route-map RMap_Jesenice_to_Kranj deny 10
+ErrorLineNumber: 68
+Command: match ip address prefix-list 1
+ErrorLineNumber: 69
+Command: route-map RMap_Jesenice_to_Kranj permit 100
+*******************128.0.9.0/24********************

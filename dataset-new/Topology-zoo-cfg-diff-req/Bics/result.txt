@@ -1,0 +1,252 @@
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.21.0/24********************
+
+Error Configuration: barcelona.cfg
+ErrorLineNumber: -1
+Command: network 128.0.21.0 mask 255.255.255.0
+*******************128.0.3.0/24********************
+
+Error Configuration: basel.cfg
+ErrorLineNumber: -1
+Command: network 128.0.3.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 81
+Command: route-map RMap_Brussels_to_Paris deny 10
+ErrorLineNumber: 122
+Command: neighbor 10.0.0.61 route-map RMap_Brussels_to_Paris out
+ErrorLineNumber: 82
+Command: match ip address prefix-list 1
+ErrorLineNumber: 83
+Command: route-map RMap_Brussels_to_Paris permit 100
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.21.0/24********************
+
+Error Configuration: barcelona.cfg
+ErrorLineNumber: -1
+Command: network 128.0.21.0 mask 255.255.255.0
+*******************128.0.3.0/24********************
+
+Error Configuration: basel.cfg
+ErrorLineNumber: -1
+Command: network 128.0.3.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 81
+Command: route-map RMap_Brussels_to_Paris deny 10
+ErrorLineNumber: 122
+Command: neighbor 10.0.0.61 route-map RMap_Brussels_to_Paris out
+ErrorLineNumber: 82
+Command: match ip address prefix-list 1
+ErrorLineNumber: 83
+Command: route-map RMap_Brussels_to_Paris permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: amsterdam.cfg
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.72 route-map RMap_Amsterdam_to_Frankfurt out
+ErrorLineNumber: 107
+Command: route-map RMap_Amsterdam_to_Frankfurt deny 10
+ErrorLineNumber: 108
+Command: match ip address prefix-list 1
+ErrorLineNumber: 109
+Command: route-map RMap_Amsterdam_to_Frankfurt permit 100
+*******************128.0.7.0/24********************
+
+Error Configuration: budapest.cfg
+ErrorLineNumber: 89
+Command: neighbor 10.0.0.23 route-map RMap_Budapest_to_Bucharest out
+ErrorLineNumber: 107
+Command: route-map RMap_Budapest_to_Bucharest deny 10
+ErrorLineNumber: 108
+Command: match ip address prefix-list 1
+ErrorLineNumber: 109
+Command: route-map RMap_Budapest_to_Bucharest permit 100
+*******************128.0.8.0/24********************
+
+Error Configuration: dublin.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.80 route-map RMap_Dublin_to_London out
+ErrorLineNumber: 66
+Command: route-map RMap_Dublin_to_London deny 10
+ErrorLineNumber: 67
+Command: match ip address prefix-list 1
+ErrorLineNumber: 68
+Command: route-map RMap_Dublin_to_London permit 100
+*******************128.0.9.0/24********************
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command: neighbor 10.0.0.77 route-map RMap_Frankfurt_to_Warsaw out
+ErrorLineNumber: 165
+Command: route-map RMap_Frankfurt_to_Warsaw deny 10
+ErrorLineNumber: 166
+Command: match ip address prefix-list 1
+ErrorLineNumber: 167
+Command: route-map RMap_Frankfurt_to_Warsaw permit 100
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.21.0/24********************
+
+Error Configuration: barcelona.cfg
+ErrorLineNumber: -1
+Command: network 128.0.21.0 mask 255.255.255.0
+*******************128.0.3.0/24********************
+
+Error Configuration: basel.cfg
+ErrorLineNumber: -1
+Command: network 128.0.3.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 81
+Command: route-map RMap_Brussels_to_Paris deny 10
+ErrorLineNumber: 122
+Command: neighbor 10.0.0.61 route-map RMap_Brussels_to_Paris out
+ErrorLineNumber: 82
+Command: match ip address prefix-list 1
+ErrorLineNumber: 83
+Command: route-map RMap_Brussels_to_Paris permit 100
+*******************128.0.0.0/24********************
+
+Error Configuration: bucharest.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+*******************128.0.17.0/24********************
+
+Error Configuration: athens.cfg
+ErrorLineNumber: -1
+Command: network 128.0.17.0 mask 255.255.255.0
+*******************128.0.21.0/24********************
+
+Error Configuration: barcelona.cfg
+ErrorLineNumber: -1
+Command: network 128.0.21.0 mask 255.255.255.0
+*******************128.0.3.0/24********************
+
+Error Configuration: basel.cfg
+ErrorLineNumber: -1
+Command: network 128.0.3.0 mask 255.255.255.0
+*******************128.0.4.0/24********************
+
+Error Configuration: bratislava.cfg
+ErrorLineNumber: -1
+Command: network 128.0.4.0 mask 255.255.255.0
+*******************128.0.5.0/24********************
+
+Error Configuration: brussels.cfg
+ErrorLineNumber: 81
+Command: route-map RMap_Brussels_to_Paris deny 10
+ErrorLineNumber: 122
+Command: neighbor 10.0.0.61 route-map RMap_Brussels_to_Paris out
+ErrorLineNumber: 82
+Command: match ip address prefix-list 1
+ErrorLineNumber: 83
+Command: route-map RMap_Brussels_to_Paris permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: amsterdam.cfg
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.72 route-map RMap_Amsterdam_to_Frankfurt out
+ErrorLineNumber: 107
+Command: route-map RMap_Amsterdam_to_Frankfurt deny 10
+ErrorLineNumber: 108
+Command: match ip address prefix-list 1
+ErrorLineNumber: 109
+Command: route-map RMap_Amsterdam_to_Frankfurt permit 100
+*******************128.0.7.0/24********************
+
+Error Configuration: budapest.cfg
+ErrorLineNumber: 89
+Command: neighbor 10.0.0.23 route-map RMap_Budapest_to_Bucharest out
+ErrorLineNumber: 107
+Command: route-map RMap_Budapest_to_Bucharest deny 10
+ErrorLineNumber: 108
+Command: match ip address prefix-list 1
+ErrorLineNumber: 109
+Command: route-map RMap_Budapest_to_Bucharest permit 100
+*******************128.0.8.0/24********************
+
+Error Configuration: dublin.cfg
+ErrorLineNumber: 58
+Command: neighbor 10.0.0.80 route-map RMap_Dublin_to_London out
+ErrorLineNumber: 66
+Command: route-map RMap_Dublin_to_London deny 10
+ErrorLineNumber: 67
+Command: match ip address prefix-list 1
+ErrorLineNumber: 68
+Command: route-map RMap_Dublin_to_London permit 100
+*******************128.0.9.0/24********************
+
+Error Configuration: frankfurt.cfg
+ErrorLineNumber: 153
+Command: neighbor 10.0.0.77 route-map RMap_Frankfurt_to_Warsaw out
+ErrorLineNumber: 165
+Command: route-map RMap_Frankfurt_to_Warsaw deny 10
+ErrorLineNumber: 166
+Command: match ip address prefix-list 1
+ErrorLineNumber: 167
+Command: route-map RMap_Frankfurt_to_Warsaw permit 100

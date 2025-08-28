@@ -1,0 +1,6 @@
+{
+    "srcNode": ["bacau","Pleven"],
+    "dstNode": "SanktTTPeterburg",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/Topology-zoo-cfg/GtsCe/configs"
+}

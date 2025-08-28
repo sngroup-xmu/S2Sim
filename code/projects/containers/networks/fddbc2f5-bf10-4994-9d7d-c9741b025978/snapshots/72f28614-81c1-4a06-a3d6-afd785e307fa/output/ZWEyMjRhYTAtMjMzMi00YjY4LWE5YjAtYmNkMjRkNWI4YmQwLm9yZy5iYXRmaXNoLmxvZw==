@@ -1,0 +1,5 @@
+Exception in container:fddbc2f5-bf10-4994-9d7d-c9741b025978, testrig:72f28614-81c1-4a06-a3d6-afd785e307fa; exception:java.lang.NullPointerException: Cannot invoke "org.batfish.diagnosis.common.DiagnosedFlow$Builder.build()" because the return value of "com.google.gson.Gson.fromJson(String, java.lang.Class)" is null
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:110)
+	at org.batfish.main.Batfish.repair(Batfish.java:2193)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

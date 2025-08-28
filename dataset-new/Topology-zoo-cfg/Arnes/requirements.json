@@ -1,0 +1,8 @@
+{
+    "srcNode": ["ormoz","gornjattradgona","ljutomer","murskattsobota","radenci"],
+    "dstNode": "sezana",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/Arnes/configs"
+}
+

@@ -1,0 +1,7 @@
+{
+    "srcNode": ["Ogre","adazi","aizkroukle","aizpute","aloja","auce","bauska","carnikava","daugapils","grobina","gulbene","iecava","jekabpils","jumprava","kapsede","kegums","ledurga","liepaja","liepupe","livberze","mazsalaca","ozolnieki","preili","rezekne","salagriva","sigulda","tukums","vangazi","vijkene","zilupe","zvigzdene"],
+    "dstNode": "Kraslava",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/Topology-zoo-cfg/Latnet/configs"
+}

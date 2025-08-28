@@ -1,0 +1,9 @@
+[
+    {
+        "srcNode": ["edge-0", "edge-1", "edge-10", "edge-11", "edge-12", "edge-13", "edge-14", "edge-15", "edge-16", "edge-17", "edge-18", "edge-19", "edge-2", "edge-20", "edge-21", "edge-22", "edge-23", "edge-24", "edge-25", "edge-26", "edge-27", "edge-28", "edge-29", "edge-3", "edge-30", "edge-31", "edge-4", "edge-5", "edge-6", "edge-7", "edge-8", "edge-9"],
+        "dstNode": "edge-16",
+        "reqDstPrefixString": "90.0.64.0/24",
+        "failure":0,
+        "configRootPath": "/home/dell/hg/batfish-condition/dateset/fattree-cfg/fattree8/configs"
+    }
+]

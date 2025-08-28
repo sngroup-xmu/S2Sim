@@ -1,0 +1,7 @@
+{
+    "srcNode": "postojna",
+    "dstNode": "maribor",
+    "existingFlowPath":"ljubljana",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/yrl-sse-data/networks/Arnes/configs/"
+}

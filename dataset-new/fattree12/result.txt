@@ -1,0 +1,744 @@
+*******************90.0.18.0/24********************
+
+Error Configuration: edge-3.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.3.0 route-map RMap_edge-3_from_aggregation-0 out
+ErrorLineNumber: 35
+Command: neighbor 10.0.9.0 route-map RMap_edge-3_from_aggregation-1 out
+ErrorLineNumber: 37
+Command: neighbor 10.0.21.0 route-map RMap_edge-3_from_aggregation-3 out
+ErrorLineNumber: 38
+Command: neighbor 10.0.27.0 route-map RMap_edge-3_from_aggregation-4 out
+ErrorLineNumber: 39
+Command: neighbor 10.0.33.0 route-map RMap_edge-3_from_aggregation-5 out
+ErrorLineNumber: 42
+Command: route-map RMap_edge-3_from_aggregation-0 deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge-3_from_aggregation-0 permit 100
+ErrorLineNumber: 45
+Command: route-map RMap_edge-3_from_aggregation-1 deny 10
+ErrorLineNumber: 46
+Command: match ip address prefix-list 1
+ErrorLineNumber: 47
+Command: route-map RMap_edge-3_from_aggregation-1 permit 100
+ErrorLineNumber: 48
+Command: route-map RMap_edge-3_from_aggregation-2 deny 10
+ErrorLineNumber: 49
+Command: match ip address prefix-list 1
+ErrorLineNumber: 50
+Command: route-map RMap_edge-3_from_aggregation-2 permit 100
+ErrorLineNumber: 51
+Command: route-map RMap_edge-3_from_aggregation-3 deny 10
+ErrorLineNumber: 52
+Command: match ip address prefix-list 1
+ErrorLineNumber: 53
+Command: route-map RMap_edge-3_from_aggregation-3 permit 100
+ErrorLineNumber: 54
+Command: route-map RMap_edge-3_from_aggregation-4 deny 10
+ErrorLineNumber: 55
+Command: match ip address prefix-list 1
+ErrorLineNumber: 56
+Command: route-map RMap_edge-3_from_aggregation-4 permit 100
+ErrorLineNumber: 57
+Command: route-map RMap_edge-3_from_aggregation-5 deny 10
+ErrorLineNumber: 58
+Command: match ip address prefix-list 1
+ErrorLineNumber: 59
+Command: route-map RMap_edge-3_from_aggregation-5 permit 100
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.18.0/24********************
+
+Error Configuration: edge-3.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.3.0 route-map RMap_edge-3_from_aggregation-0 out
+ErrorLineNumber: 35
+Command: neighbor 10.0.9.0 route-map RMap_edge-3_from_aggregation-1 out
+ErrorLineNumber: 37
+Command: neighbor 10.0.21.0 route-map RMap_edge-3_from_aggregation-3 out
+ErrorLineNumber: 38
+Command: neighbor 10.0.27.0 route-map RMap_edge-3_from_aggregation-4 out
+ErrorLineNumber: 39
+Command: neighbor 10.0.33.0 route-map RMap_edge-3_from_aggregation-5 out
+ErrorLineNumber: 42
+Command: route-map RMap_edge-3_from_aggregation-0 deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge-3_from_aggregation-0 permit 100
+ErrorLineNumber: 45
+Command: route-map RMap_edge-3_from_aggregation-1 deny 10
+ErrorLineNumber: 46
+Command: match ip address prefix-list 1
+ErrorLineNumber: 47
+Command: route-map RMap_edge-3_from_aggregation-1 permit 100
+ErrorLineNumber: 48
+Command: route-map RMap_edge-3_from_aggregation-2 deny 10
+ErrorLineNumber: 49
+Command: match ip address prefix-list 1
+ErrorLineNumber: 50
+Command: route-map RMap_edge-3_from_aggregation-2 permit 100
+ErrorLineNumber: 51
+Command: route-map RMap_edge-3_from_aggregation-3 deny 10
+ErrorLineNumber: 52
+Command: match ip address prefix-list 1
+ErrorLineNumber: 53
+Command: route-map RMap_edge-3_from_aggregation-3 permit 100
+ErrorLineNumber: 54
+Command: route-map RMap_edge-3_from_aggregation-4 deny 10
+ErrorLineNumber: 55
+Command: match ip address prefix-list 1
+ErrorLineNumber: 56
+Command: route-map RMap_edge-3_from_aggregation-4 permit 100
+ErrorLineNumber: 57
+Command: route-map RMap_edge-3_from_aggregation-5 deny 10
+ErrorLineNumber: 58
+Command: match ip address prefix-list 1
+ErrorLineNumber: 59
+Command: route-map RMap_edge-3_from_aggregation-5 permit 100
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.127.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.133.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.139.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.127.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.133.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.139.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.127.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.133.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.139.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.130.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.136.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.142.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.127.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.133.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.139.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.130.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.136.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.142.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.48.0/24********************
+*******************90.0.54.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.127.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.133.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.139.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 37
+Command: neighbor 10.0.130.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 38
+Command: neighbor 10.0.136.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 39
+Command: neighbor 10.0.142.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.48.0/24********************
+*******************90.0.54.0/24********************
+*******************90.1.164.0/24********************
+*******************90.1.170.0/24********************
+*******************90.0.18.0/24********************
+
+Error Configuration: edge-3.cfg
+ErrorLineNumber: 51
+Command: route-map RMap_edge-3_from_aggregation-3 deny 10
+ErrorLineNumber: 52
+Command: match ip address prefix-list 1
+ErrorLineNumber: 37
+Command: neighbor 10.0.21.0 route-map RMap_edge-3_from_aggregation-3 out
+ErrorLineNumber: 53
+Command: route-map RMap_edge-3_from_aggregation-3 permit 100
+ErrorLineNumber: 54
+Command: route-map RMap_edge-3_from_aggregation-4 deny 10
+ErrorLineNumber: 39
+Command: neighbor 10.0.33.0 route-map RMap_edge-3_from_aggregation-5 out
+ErrorLineNumber: 55
+Command: match ip address prefix-list 1
+ErrorLineNumber: 56
+Command: route-map RMap_edge-3_from_aggregation-4 permit 100
+ErrorLineNumber: 57
+Command: route-map RMap_edge-3_from_aggregation-5 deny 10
+ErrorLineNumber: 58
+Command: match ip address prefix-list 1
+ErrorLineNumber: 59
+Command: route-map RMap_edge-3_from_aggregation-5 permit 100
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.18.0/24********************
+
+Error Configuration: edge-3.cfg
+ErrorLineNumber: 51
+Command: route-map RMap_edge-3_from_aggregation-3 deny 10
+ErrorLineNumber: 52
+Command: match ip address prefix-list 1
+ErrorLineNumber: 37
+Command: neighbor 10.0.21.0 route-map RMap_edge-3_from_aggregation-3 out
+ErrorLineNumber: 53
+Command: route-map RMap_edge-3_from_aggregation-3 permit 100
+ErrorLineNumber: 54
+Command: route-map RMap_edge-3_from_aggregation-4 deny 10
+ErrorLineNumber: 55
+Command: match ip address prefix-list 1
+ErrorLineNumber: 39
+Command: neighbor 10.0.33.0 route-map RMap_edge-3_from_aggregation-5 out
+ErrorLineNumber: 56
+Command: route-map RMap_edge-3_from_aggregation-4 permit 100
+ErrorLineNumber: 57
+Command: route-map RMap_edge-3_from_aggregation-5 deny 10
+ErrorLineNumber: 58
+Command: match ip address prefix-list 1
+ErrorLineNumber: 59
+Command: route-map RMap_edge-3_from_aggregation-5 permit 100
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.48.0/24********************
+*******************90.0.54.0/24********************
+*******************90.0.0.0/24********************
+*******************90.0.6.0/24********************
+*******************90.0.60.0/24********************
+
+Error Configuration: edge-10.cfg
+ErrorLineNumber: -1
+Command: network 90.0.60.0 mask 255.255.255.0
+*******************90.0.66.0/24********************
+*******************90.0.72.0/24********************
+*******************90.0.78.0/24********************
+*******************90.0.84.0/24********************
+*******************90.0.90.0/24********************
+*******************90.0.96.0/24********************
+*******************90.0.102.0/24********************
+
+Error Configuration: edge-17.cfg
+ErrorLineNumber: -1
+Command: network 90.0.102.0 mask 255.255.255.0
+*******************90.0.108.0/24********************
+*******************90.0.114.0/24********************
+
+Error Configuration: edge-19.cfg
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 34
+Command: neighbor 10.0.109.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.115.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.12.0/24********************
+*******************90.0.120.0/24********************
+*******************90.0.126.0/24********************
+*******************90.0.132.0/24********************
+
+Error Configuration: edge-22.cfg
+ErrorLineNumber: 42
+Command: route-map RMap_edge_from_aggregation deny 10
+ErrorLineNumber: 34
+Command: neighbor 10.0.112.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 35
+Command: neighbor 10.0.118.0 route-map RMap_edge_from_aggregation out
+ErrorLineNumber: 43
+Command: match ip address prefix-list 1
+ErrorLineNumber: 44
+Command: route-map RMap_edge_from_aggregation permit 100
+*******************90.0.138.0/24********************
+*******************90.0.48.0/24********************
+*******************90.0.54.0/24********************
+*******************90.1.164.0/24********************
+*******************90.1.170.0/24********************

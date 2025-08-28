@@ -1,0 +1,7 @@
+{
+    "srcNode": "raipur",
+    "dstNode": "tirupur",
+    "existingFlowPath":"raipur,dhenkanal,visakhapatnam,ongole,nellore,tirupati,kolar,bangalore,erode,tirupur",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/4.1/TataNld/configs"
+}

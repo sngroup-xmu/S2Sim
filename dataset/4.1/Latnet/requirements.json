@@ -1,0 +1,8 @@
+{
+    "srcNode": ["Ogre"],
+    "dstNode": "Kraslava",
+    "existingFlowPath":"ikskile",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "failure":1,
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/Topology-zoo-cfg/Latnet/configs"
+}

@@ -1,0 +1,12 @@
+{
+    "srcNode": ["role_1-site_17-device_0","role_1-site_14-device_0","role_0-site_3-device_0",
+                "role_2-site_4-device_0","role_2-site_44-device_0","role_3-site_20-device_0","role_3-site_22-device_0",
+                "role_3-site_23-device_0","role_3-site_24-device_0","role_3-site_30-device_0","role_3-site_30-device_1",
+                "role_3-site_32-device_0","role_3-site_34-device_0","role_3-site_40-device_0","role_3-site_41-device_0",
+                "role_4-site_12-device_0","role_4-site_28-device_0","role_5-site_10-device_1"
+                ],
+    "dstNode": "role_3-site_10-device_0",
+    "reqDstPrefixString": "124.124.5.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/ali-net/configs"
+}

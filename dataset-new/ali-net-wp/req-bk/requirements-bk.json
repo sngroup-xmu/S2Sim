@@ -1,0 +1,15 @@
+{
+    "srcNode": ["role_0-site_0-device_0","role_0-site_0-device_1","role_0-site_11-device_0","role_0-site_11-device_1",
+                "role_0-site_11-device_2","role_0-site_11-device_3","role_0-site_17-device_0","role_0-site_17-device_1",
+                "role_0-site_2-device_0","role_0-site_2-device_1","role_0-site_25-device_0","role_0-site_25-device_1",
+                "role_0-site_6-device_0","role_0-site_6-device_1","role_0-site_6-device_2","role_0-site_6-device_3",
+                "role_0-site_7-device_0","role_0-site_7-device_1","role_0-site_7-device_2","role_0-site_7-device_3",
+                "role_1-site_1-device_0","role_1-site_1-device_1","role_1-site_15-device_0","role_1-site_18-device_0",
+                "role_1-site_26-device_0","role_1-site_26-device_1","role_3-site_20-device_0","role_3-site_22-device_0",
+                "role_3-site_23-device_0","role_3-site_24-device_0","role_3-site_30-device_0","role_3-site_30-device_1",
+                "role_3-site_32-device_0","role_3-site_34-device_0","role_3-site_40-device_0","role_3-site_41-device_0"],
+    "dstNode": "role_3-site_10-device_0",
+    "reqDstPrefixString": "124.124.5.0/24",
+    "failure":0,
+    "configRootPath": "/home/gaohan/Scalpel-batfish/dataset/ali-net/configs"
+}

@@ -1,0 +1,8 @@
+Exception in container:ab46ff31-e86a-486e-87f5-17f8ffef93a2, testrig:dfaa2b70-7f24-42a2-b9f0-ad948fbccf3b; exception:java.lang.NullPointerException: Cannot invoke "java.util.List.size()" because "path" is null
+	at org.batfish.diagnosis.reference.BgpForwardingTree.getNextHopList(BgpForwardingTree.java:302)
+	at org.batfish.diagnosis.reference.BgpForwardingTree.genBgpConditionsWithoutFailure(BgpForwardingTree.java:362)
+	at org.batfish.diagnosis.reference.BgpForwardingTree.genBgpConditions(BgpForwardingTree.java:406)
+	at org.batfish.diagnosis.Diagnoser.diagnose(Diagnoser.java:239)
+	at org.batfish.main.Batfish.repair(Batfish.java:2201)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

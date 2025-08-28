@@ -1,0 +1,38 @@
+*******************90.5.76.0/24********************
+*******************90.6.36.0/24********************
+*******************90.8.28.0/24********************
+
+Error Configuration: edge-173.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_edge-173_to_aggregation deny 10
+ErrorLineNumber: 73
+Command: match ip address prefix-list 1
+ErrorLineNumber: 74
+Command: route-map RMap_edge-173_to_aggregation permit 100
+ErrorLineNumber: 69
+Command: neighbor 10.8.105.0 route-map RMap_edge-173_to_aggregation out
+*******************90.1.20.0/24********************
+*******************90.4.92.0/24********************
+
+Error Configuration: edge-93.cfg
+ErrorLineNumber: -1
+Command: network 90.4.92.0 mask 255.255.255.0
+*******************90.5.76.0/24********************
+*******************90.6.36.0/24********************
+*******************90.8.28.0/24********************
+
+Error Configuration: edge-173.cfg
+ErrorLineNumber: 72
+Command: route-map RMap_edge-173_to_aggregation deny 10
+ErrorLineNumber: 73
+Command: match ip address prefix-list 1
+ErrorLineNumber: 74
+Command: route-map RMap_edge-173_to_aggregation permit 100
+ErrorLineNumber: 69
+Command: neighbor 10.8.105.0 route-map RMap_edge-173_to_aggregation out
+*******************90.1.20.0/24********************
+*******************90.4.92.0/24********************
+
+Error Configuration: edge-93.cfg
+ErrorLineNumber: -1
+Command: network 90.4.92.0 mask 255.255.255.0

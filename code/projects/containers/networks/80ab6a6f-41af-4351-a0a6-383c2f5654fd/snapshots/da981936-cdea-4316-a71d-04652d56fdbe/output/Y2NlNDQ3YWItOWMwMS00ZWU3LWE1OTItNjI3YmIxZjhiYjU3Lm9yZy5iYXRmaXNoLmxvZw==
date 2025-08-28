@@ -1,0 +1,16 @@
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Generated data-plane for snapshot:da981936-cdea-4316-a71d-04652d56fdbe; iterations:2Time taken for this task: 0.056 seconds
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Loading configurations for NetworkSnapshot{network=80ab6a6f-41af-4351-a0a6-383c2f5654fd, snapshot=da981936-cdea-4316-a71d-04652d56fdbe}
+Generated data-plane for snapshot:da981936-cdea-4316-a71d-04652d56fdbe; iterations:4Time taken for this task: 0.019 seconds
+Exception in container:80ab6a6f-41af-4351-a0a6-383c2f5654fd, testrig:da981936-cdea-4316-a71d-04652d56fdbe; exception:java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at org.batfish.diagnosis.localization.RedistributionLocalizer.getPolicyName(RedistributionLocalizer.java:75)
+	at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:323)
+	at org.batfish.main.Batfish.repair(Batfish.java:2262)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1","   at org.batfish.diagnosis.localization.RedistributionLocalizer.getPolicyName(RedistributionLocalizer.java:75)","   at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:323)","   at org.batfish.main.Batfish.repair(Batfish.java:2262)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

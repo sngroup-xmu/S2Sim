@@ -1,0 +1,4308 @@
+*******************128.0.55.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.61.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+*******************128.0.2.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.3.0/24********************
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.4.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.5.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.6.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.7.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.8.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: curacao.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.22 remote-as 700
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.22 description "To venezuela"
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.9.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.10.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.11.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.12.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.13.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.14.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+*******************128.0.15.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.16.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.17.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.18.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.19.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.20.0/24********************
+
+Error Configuration: curacao.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_Curacao_from_PuertoTTRico permit 100
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.27 route-map RMap_Curacao_from_PuertoTTRico in
+ErrorLineNumber: 62
+Command: route-map RMap_Curacao_from_PuertoTTRico deny 10
+ErrorLineNumber: 63
+Command: match community 1
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.21.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.22.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.23.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.24.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.25.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+*******************128.0.26.0/24********************
+
+Error Configuration: curacao.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_Curacao_from_PuertoTTRico permit 100
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.27 route-map RMap_Curacao_from_PuertoTTRico in
+ErrorLineNumber: 62
+Command: route-map RMap_Curacao_from_PuertoTTRico deny 10
+ErrorLineNumber: 63
+Command: match community 1
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.27.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.28.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.29.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.30.0/24********************
+
+Error Configuration: curacao.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_Curacao_from_PuertoTTRico permit 100
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.27 route-map RMap_Curacao_from_PuertoTTRico in
+ErrorLineNumber: 62
+Command: route-map RMap_Curacao_from_PuertoTTRico deny 10
+ErrorLineNumber: 63
+Command: match community 1
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.31.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.32.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.33.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.34.0/24********************
+
+Error Configuration: curacao.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_Curacao_from_PuertoTTRico permit 100
+ErrorLineNumber: 90
+Command: neighbor 10.0.0.27 route-map RMap_Curacao_from_PuertoTTRico in
+ErrorLineNumber: 62
+Command: route-map RMap_Curacao_from_PuertoTTRico deny 10
+ErrorLineNumber: 63
+Command: match community 1
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.35.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.36.0/24********************
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.37.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+*******************128.0.38.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.39.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.40.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.41.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+*******************128.0.42.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.43.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.44.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.45.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.46.0/24********************
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.47.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.48.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.49.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.50.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.51.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.52.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.53.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.54.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid39.cfg
+ErrorLineNumber: 50
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic deny 10
+ErrorLineNumber: 51
+Command: match community 1
+ErrorLineNumber: 52
+Command: set local-preference 1
+ErrorLineNumber: 53
+Command: set community 100:1 additive
+ErrorLineNumber: 54
+Command: route-map RMap_NodeID39_from_DominicanTTRepublic permit 100
+ErrorLineNumber: 73
+Command: neighbor 10.0.0.131 route-map RMap_NodeID39_from_DominicanTTRepublic in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.0.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: nodeid28.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID28_from_NodeID67 deny 10
+ErrorLineNumber: 89
+Command: neighbor 10.0.0.93 route-map RMap_NodeID28_from_NodeID67 in
+ErrorLineNumber: 57
+Command: match ip address prefix-list IpL_NodeID28_NodeID67
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:0 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID28_from_NodeID67 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+
+Error Configuration: nodeid69.cfg
+ErrorLineNumber: -1
+Command: network 128.0.0.0 mask 255.255.255.0
+
+Error Configuration: nicaragua.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Nicaragua_from_NodeID69 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Nicaragua_from_NodeID69 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.163 route-map RMap_Nicaragua_from_NodeID69 in
+*******************128.0.56.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.57.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.58.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid45.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:0 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID45_from_NodeID44 permit 100
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID45_from_NodeID44 deny 10
+ErrorLineNumber: 95
+Command: neighbor 10.0.0.138 route-map RMap_NodeID45_from_NodeID44 in
+ErrorLineNumber: 63
+Command: match community 2
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.59.0/24********************
+
+Error Configuration: nodeid31.cfg
+ErrorLineNumber: 64
+Command: set local-preference 1
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID31_from_NodeID13 permit 100
+ErrorLineNumber: 85
+Command: neighbor 10.0.0.54 route-map RMap_NodeID31_from_NodeID13 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID31_from_NodeID13 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.60.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.1.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.62.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.63.0/24********************
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid49.cfg
+ErrorLineNumber: 56
+Command: route-map RMap_NodeID49_from_NodeID31 deny 10
+ErrorLineNumber: 57
+Command: match community 1
+ErrorLineNumber: 58
+Command: set local-preference 1
+ErrorLineNumber: 59
+Command: set community 100:1 additive
+ErrorLineNumber: 60
+Command: route-map RMap_NodeID49_from_NodeID31 permit 100
+ErrorLineNumber: 79
+Command: neighbor 10.0.0.102 route-map RMap_NodeID49_from_NodeID31 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.64.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.65.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.66.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.67.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.68.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid46.cfg
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.96 route-map RMap_NodeID46_from_NodeID29 in
+ErrorLineNumber: 55
+Command: route-map RMap_NodeID46_from_NodeID29 deny 10
+ErrorLineNumber: 56
+Command: match as-path 10
+ErrorLineNumber: 57
+Command: set local-preference 1
+ErrorLineNumber: 58
+Command: set community 100:0 additive
+ErrorLineNumber: 59
+Command: route-map RMap_NodeID46_from_NodeID29 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100
+*******************128.0.69.0/24********************
+
+Error Configuration: nodeid8.cfg
+ErrorLineNumber: 64
+Command: set local-preference 101
+ErrorLineNumber: 65
+Command: set community 100:1 additive
+ErrorLineNumber: 66
+Command: route-map RMap_NodeID8_from_NodeID50 permit 100
+ErrorLineNumber: 91
+Command: neighbor 10.0.0.37 route-map RMap_NodeID8_from_NodeID50 in
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID8_from_NodeID50 deny 10
+ErrorLineNumber: 63
+Command: match as-path 10
+
+Error Configuration: nodeid32.cfg
+ErrorLineNumber: 87
+Command: neighbor 10.0.0.107 route-map RMap_NodeID32_from_NodeID59 in
+ErrorLineNumber: 58
+Command: route-map RMap_NodeID32_from_NodeID59 deny 10
+ErrorLineNumber: 59
+Command: match as-path 10
+ErrorLineNumber: 60
+Command: set local-preference 101
+ErrorLineNumber: 61
+Command: set community 100:1 additive
+ErrorLineNumber: 62
+Command: route-map RMap_NodeID32_from_NodeID59 permit 100
+
+Error Configuration: honduras.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Honduras_from_NodeID67 deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Honduras_from_NodeID67 permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.170 route-map RMap_Honduras_from_NodeID67 in
+
+Error Configuration: nodeid14.cfg
+ErrorLineNumber: 66
+Command: neighbor 10.0.0.52 route-map RMap_NodeID14_from_NodeID13 in
+ErrorLineNumber: 43
+Command: route-map RMap_NodeID14_from_NodeID13 deny 10
+ErrorLineNumber: 44
+Command: match as-path 10
+ErrorLineNumber: 45
+Command: set local-preference 1
+ErrorLineNumber: 46
+Command: set community 100:1 additive
+ErrorLineNumber: 47
+Command: route-map RMap_NodeID14_from_NodeID13 permit 100

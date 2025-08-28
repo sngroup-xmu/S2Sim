@@ -1,0 +1,44 @@
+[
+    {
+        "srcNode": ["essen"],
+        "dstNode": "TheTTHague",
+        "reqDstPrefixString": "128.0.1.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    },
+    {
+        "srcNode": ["essen"],
+        "dstNode": "Anderlecht",
+        "reqDstPrefixString": "128.0.3.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    },
+    {
+        "srcNode": ["essen"],
+        "dstNode": "Antwerp",
+        "reqDstPrefixString": "128.0.4.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    },
+    {
+        "srcNode": ["Valencia"],
+        "dstNode": "Barcelona",
+        "reqDstPrefixString": "128.0.5.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    },
+    {
+        "srcNode": ["Zurich"],
+        "dstNode": "Basel",
+        "reqDstPrefixString": "128.0.7.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    },
+    {
+        "srcNode": ["Milan"],
+        "dstNode": "Bergamo",
+        "reqDstPrefixString": "128.0.8.0/24",
+        "failure":1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/Topology-zoo-cfg-diff-req/Colt/configs"
+    }
+]

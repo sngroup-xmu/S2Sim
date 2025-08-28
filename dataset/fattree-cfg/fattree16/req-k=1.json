@@ -1,0 +1,180 @@
+[
+    {
+        "srcNode": [
+            "edge-51"
+        ],
+        "dstNode": "edge-0",
+        "reqDstPrefixString": "90.0.0.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-1"
+        ],
+        "dstNode": "edge-1",
+        "reqDstPrefixString": "90.0.8.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-85"
+        ],
+        "dstNode": "edge-10",
+        "reqDstPrefixString": "90.0.80.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-81"
+        ],
+        "dstNode": "edge-100",
+        "reqDstPrefixString": "90.3.32.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-66"
+        ],
+        "dstNode": "edge-109",
+        "reqDstPrefixString": "90.3.104.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-103"
+        ],
+        "dstNode": "edge-11",
+        "reqDstPrefixString": "90.0.88.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-44"
+        ],
+        "dstNode": "edge-113",
+        "reqDstPrefixString": "90.3.136.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-76"
+        ],
+        "dstNode": "edge-12",
+        "reqDstPrefixString": "90.0.96.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-92"
+        ],
+        "dstNode": "edge-122",
+        "reqDstPrefixString": "90.3.208.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": ["edge-4"],
+        "dstNode": "edge-123",
+        "reqDstPrefixString": "90.3.216.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-105"
+        ],
+        "dstNode": "edge-127",
+        "reqDstPrefixString": "90.3.248.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-8"
+        ],
+        "dstNode": "edge-15",
+        "reqDstPrefixString": "90.0.120.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-7"
+        ],
+        "dstNode": "edge-22",
+        "reqDstPrefixString": "90.0.176.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-53"
+        ],
+        "dstNode": "edge-36",
+        "reqDstPrefixString": "90.1.32.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-12"
+        ],
+        "dstNode": "edge-50",
+        "reqDstPrefixString": "90.1.144.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-45"
+        ],
+        "dstNode": "edge-72",
+        "reqDstPrefixString": "90.2.64.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-20"
+        ],
+        "dstNode": "edge-79",
+        "reqDstPrefixString": "90.2.120.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-96"
+        ],
+        "dstNode": "edge-85",
+        "reqDstPrefixString": "90.2.168.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-48"
+        ],
+        "dstNode": "edge-91",
+        "reqDstPrefixString": "90.2.216.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    },
+    {
+        "srcNode": [
+            "edge-2"
+        ],
+        "dstNode": "edge-92",
+        "reqDstPrefixString": "90.2.224.0/24",
+        "failure": 1,
+        "configRootPath": "/home/gaohan/Scalpel-batfish/dataset-new/fattree-cfg/fattree16/configs"
+    }
+]

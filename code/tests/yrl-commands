@@ -1,0 +1,4 @@
+
+init-snapshot tests/roles/networks/example
+
+test -raw tests/questions/experimental/reachability.ref validate-template reachability actions="success", pathConstraints={startLocation: "aaa", "endLocation":"bbb", "transitLocations": "ccc", forbiddenLocations:"ddd"}, headers={srcIps: "sss", dstIps="ddd"}, ignoreFilters=False, invertSearch=False, maxTraces=1

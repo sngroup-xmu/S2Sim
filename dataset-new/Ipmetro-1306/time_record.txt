@@ -1,0 +1,120 @@
+start time : 1745593083618
+end time : 1745593127392 : 
+First Simulation Time: 43774 ms
+
+start time : 1745593196028
+end time : 1745593250690 : 
+Generate Forwarding Tree Time : 54662 ms
+
+start time : 1745598034040
+end time : 1745598071700 : 
+First Simulation Time: 37660 ms
+
+start time : 1745598095679
+end time : 1745598149500 : 
+Generate Forwarding Tree Time : 53821 ms
+
+start time : 1745598535700
+end time : 1745598584924 : 
+First Simulation Time: 49224 ms
+
+start time : 1745598612182
+end time : 1745598667337 : 
+Generate Forwarding Tree Time : 55155 ms
+
+start time : 1745599158066
+end time : 1745599204933 : 
+First Simulation Time: 46867 ms
+
+start time : 1745599217701
+end time : 1745599272094 : 
+Generate Forwarding Tree Time : 54393 ms
+
+start time : 1745599573072
+end time : 1745599622466 : 
+First Simulation Time: 49394 ms
+
+start time : 1745599642369
+end time : 1745599706718 : 
+Generate Forwarding Tree Time : 64349 ms
+
+start time : 1745600170141
+end time : 1745600217454 : 
+First Simulation Time: 47313 ms
+
+start time : 1745600290078
+end time : 1745600352464 : 
+Generate Forwarding Tree Time : 62386 ms
+
+start time : 1745600541664
+end time : 1745600589798 : 
+First Simulation Time: 48134 ms
+
+start time : 1745600599255
+end time : 1745600658604 : 
+Generate Forwarding Tree Time : 59349 ms
+
+start time : 1745600874163
+end time : 1745600923292 : 
+First Simulation Time: 49129 ms
+
+start time : 1745600934879
+end time : 1745601000147 : 
+Generate Forwarding Tree Time : 65268 ms
+
+start time : 1745601172487
+end time : 1745601219141 : 
+First Simulation Time: 46654 ms
+
+start time : 1745601233092
+end time : 1745601287835 : 
+Generate Forwarding Tree Time : 54743 ms
+
+start time : 1745601437513
+end time : 1745601484001 : 
+First Simulation Time: 46488 ms
+
+start time : 1745601495234
+end time : 1745601554271 : 
+Generate Forwarding Tree Time : 59037 ms
+
+start time : 1745602146246
+end time : 1745602193471 : 
+First Simulation Time: 47225 ms
+
+start time : 1745602205017
+end time : 1745602262096 : 
+Generate Forwarding Tree Time : 57079 ms
+
+start time : 1745602468163
+end time : 1745602514638 : 
+First Simulation Time: 46475 ms
+
+start time : 1745602535650
+end time : 1745602595045 : 
+Generate Forwarding Tree Time : 59395 ms
+
+start time : 1745602755248
+end time : 1745602802757 : 
+First Simulation Time: 47509 ms
+
+start time : 1745602858780
+end time : 1745602916642 : 
+Generate Forwarding Tree Time : 57862 ms
+
+start time : 1745603188444
+end time : 1745603233747 : 
+First Simulation Time: 45303 ms
+
+start time : 1745603252837
+end time : 1745603309817 : 
+Generate Forwarding Tree Time : 56980 ms
+
+start time : 1745603504949
+end time : 1745603553850 : 
+First Simulation Time: 48901 ms
+
+start time : 1745603576130
+end time : 1745603640429 : 
+Generate Forwarding Tree Time : 64299 ms
+

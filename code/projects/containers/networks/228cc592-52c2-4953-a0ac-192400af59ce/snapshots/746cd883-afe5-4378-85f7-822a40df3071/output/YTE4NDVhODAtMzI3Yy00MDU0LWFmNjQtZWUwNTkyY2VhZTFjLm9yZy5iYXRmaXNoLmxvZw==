@@ -1,0 +1,7 @@
+Exception in container:228cc592-52c2-4953-a0ac-192400af59ce, testrig:746cd883-afe5-4378-85f7-822a40df3071; exception:java.lang.NullPointerException
+	at java.base/java.io.File.<init>(File.java:278)
+	at org.batfish.diagnosis.common.DiagnosedFlow$Builder.build(DiagnosedFlow.java:166)
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:103)
+	at org.batfish.main.Batfish.repair(Batfish.java:2237)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

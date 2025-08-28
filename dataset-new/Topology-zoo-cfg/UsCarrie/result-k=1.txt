@@ -1,0 +1,3586 @@
+*******************128.0.52.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.145.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.2.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.3.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.4.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.5.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.6.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.7.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.8.0/24********************
+
+Error Configuration: christiansburg.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.172 remote-as 1250
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.172 description "To radford"
+*******************128.0.9.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.10.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.11.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.12.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.13.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.14.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: blacksburg.cfg
+ErrorLineNumber: -1
+Command: neighbor 10.0.0.165 remote-as 1450
+ErrorLineNumber: -2
+Command: neighbor 10.0.0.165 description "To troutville"
+*******************128.0.15.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.16.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.17.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.18.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.19.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.20.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.21.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.22.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.23.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.24.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.25.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.26.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.27.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.28.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.29.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.30.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.31.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.32.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.33.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.34.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.35.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.36.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.37.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.38.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.39.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.40.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.41.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.42.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.43.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.44.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.45.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.46.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.47.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.48.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.49.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.50.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.51.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.0.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: montgomery.cfg
+ErrorLineNumber: 64
+Command: set community 100:1 additive
+ErrorLineNumber: 65
+Command: route-map RMap_Montgomery_from_Dothan permit 100
+ErrorLineNumber: 61
+Command: route-map RMap_Montgomery_from_Dothan deny 10
+ErrorLineNumber: 94
+Command: neighbor 10.0.0.180 route-map RMap_Montgomery_from_Dothan in
+ErrorLineNumber: 62
+Command: match ip address prefix-list IpL_Montgomery_Dothan
+ErrorLineNumber: 63
+Command: set local-preference 1
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+
+Error Configuration: dothan.cfg
+ErrorLineNumber: 60
+Command: route-map Route_from_Static deny 10
+ErrorLineNumber: 61
+Command: match ip address prefix-list 1
+ErrorLineNumber: 62
+Command: route-map Route_from_Static permit 100
+ErrorLineNumber: 71
+Command: network 128.0.0.0 mask 255.255.255.0 route-map Route_from_Static
+*******************128.0.53.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.54.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.55.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.56.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.57.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.58.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.59.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.60.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.61.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.62.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.63.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.64.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.65.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.66.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.67.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.68.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.69.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.70.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.71.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.72.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.73.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.74.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.75.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.76.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.77.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.78.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.79.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.80.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.81.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.82.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.83.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.84.0/24********************
+*******************128.0.85.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.86.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.87.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.88.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.89.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.90.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.91.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.92.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.93.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.94.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.95.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.96.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.97.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.98.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.99.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.100.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.101.0/24********************
+*******************128.0.102.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.103.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.104.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.105.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.106.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.107.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.108.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.109.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.110.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.111.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.112.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.113.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.114.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.115.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.116.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.117.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.118.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.119.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.120.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.121.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.122.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.123.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.124.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.125.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.126.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.127.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.128.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.129.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.130.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.131.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.132.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.133.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.134.0/24********************
+*******************128.0.135.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.136.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.137.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.138.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.139.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.140.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.141.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.142.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.143.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.144.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.1.0/24********************
+
+Error Configuration: vadosta.cfg
+ErrorLineNumber: -1
+Command: network 128.0.1.0 mask 255.255.255.0
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: blountstown.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_Blountstown_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match ip address prefix-list 1
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_Blountstown_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.1.125 route-map RMap_Blountstown_from_Tallahassee in
+*******************128.0.146.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.147.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.148.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.149.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.150.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.151.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.152.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.153.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.154.0/24********************
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in
+*******************128.0.155.0/24********************
+*******************128.0.156.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+*******************128.0.157.0/24********************
+
+Error Configuration: winterttpark.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_WinterTTPark_from_Maitland deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:0 additive
+ErrorLineNumber: 53
+Command: route-map RMap_WinterTTPark_from_Maitland permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.127 route-map RMap_WinterTTPark_from_Maitland in
+
+Error Configuration: lakettcity.cfg
+ErrorLineNumber: 49
+Command: route-map RMap_LakeTTCity_from_Tallahassee deny 10
+ErrorLineNumber: 50
+Command: match as-path 10
+ErrorLineNumber: 51
+Command: set local-preference 1
+ErrorLineNumber: 52
+Command: set community 100:1 additive
+ErrorLineNumber: 53
+Command: route-map RMap_LakeTTCity_from_Tallahassee permit 100
+ErrorLineNumber: 77
+Command: neighbor 10.0.0.19 route-map RMap_LakeTTCity_from_Tallahassee in

@@ -1,0 +1,1 @@
+[{"node1":"r2.2.2.2","node1interface":"ATM1/0.20","node2":"r3.3.3.3","node2interface":"ATM2/0.20"},{"node1":"r3.3.3.3","node1interface":"ATM2/0.20","node2":"r2.2.2.2","node2interface":"ATM1/0.20"}]

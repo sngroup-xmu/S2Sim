@@ -1,0 +1,6 @@
+Exception in container:39d2e807-351a-4cd2-ad93-33c22b6fc16f, testrig:3c645767-fa6f-464f-843b-d485ec391231; exception:java.lang.NullPointerException: Cannot invoke "String.split(String)" because "this.existingFlowPath" is null
+	at org.batfish.diagnosis.common.DiagnosedFlow$Builder.build(DiagnosedFlow.java:164)
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:104)
+	at org.batfish.main.Batfish.repair(Batfish.java:2237)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

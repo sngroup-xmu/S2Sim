@@ -1,0 +1,17 @@
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Generated data-plane for snapshot:cf76166c-1a3b-476d-bb82-d94495f493c2; iterations:2Time taken for this task: 0.051 seconds
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Loading configurations for NetworkSnapshot{network=da301446-f5b8-4dc5-9f16-9b4083fb6bfe, snapshot=cf76166c-1a3b-476d-bb82-d94495f493c2}
+Exception in container:da301446-f5b8-4dc5-9f16-9b4083fb6bfe, testrig:cf76166c-1a3b-476d-bb82-d94495f493c2; exception:java.lang.UnsupportedOperationException
+	at com.google.common.collect.ImmutableMap.put(ImmutableMap.java:527)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:442)
+	at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)
+	at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)
+	at org.batfish.main.Batfish.repair(Batfish.java:2248)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.UnsupportedOperationException","   at com.google.common.collect.ImmutableMap.put(ImmutableMap.java:527)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:442)","   at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)","   at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)","   at org.batfish.main.Batfish.repair(Batfish.java:2248)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

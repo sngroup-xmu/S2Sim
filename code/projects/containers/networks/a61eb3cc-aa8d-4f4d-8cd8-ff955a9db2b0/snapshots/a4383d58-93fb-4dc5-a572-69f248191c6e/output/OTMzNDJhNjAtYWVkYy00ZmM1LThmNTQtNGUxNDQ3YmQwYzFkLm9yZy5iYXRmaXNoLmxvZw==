@@ -1,0 +1,6 @@
+Exception in container:a61eb3cc-aa8d-4f4d-8cd8-ff955a9db2b0, testrig:a4383d58-93fb-4dc5-a572-69f248191c6e; exception:java.lang.NullPointerException: Cannot invoke "java.util.Set.add(Object)" because "flow.srcNode" is null
+	at org.batfish.diagnosis.common.DiagnosedFlow$Builder.build(DiagnosedFlow.java:167)
+	at org.batfish.diagnosis.common.DiagnosedFlow.parse(DiagnosedFlow.java:109)
+	at org.batfish.main.Batfish.repair(Batfish.java:2193)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)

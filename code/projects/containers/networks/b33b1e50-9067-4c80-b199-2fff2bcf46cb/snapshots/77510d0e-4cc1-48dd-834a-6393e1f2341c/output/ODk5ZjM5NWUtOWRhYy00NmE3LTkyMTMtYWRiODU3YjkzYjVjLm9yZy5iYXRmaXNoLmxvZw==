@@ -1,0 +1,26 @@
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Generated data-plane for snapshot:77510d0e-4cc1-48dd-834a-6393e1f2341c; iterations:10Time taken for this task: 0.067 seconds
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Loading configurations for NetworkSnapshot{network=b33b1e50-9067-4c80-b199-2fff2bcf46cb, snapshot=77510d0e-4cc1-48dd-834a-6393e1f2341c}
+Generated data-plane for snapshot:77510d0e-4cc1-48dd-834a-6393e1f2341c; iterations:20Time taken for this task: 0.018 seconds
+Exception in container:b33b1e50-9067-4c80-b199-2fff2bcf46cb, testrig:77510d0e-4cc1-48dd-834a-6393e1f2341c; exception:java.lang.NullPointerException
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at org.batfish.diagnosis.util.ConfigTaint.policyLinesFinder(ConfigTaint.java:193)
+	at org.batfish.diagnosis.localization.RouteForbiddenLocalizer.genErrorConfigLines(RouteForbiddenLocalizer.java:124)
+	at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$5(Violation.java:335)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:334)
+	at org.batfish.diagnosis.Diagnoser.lambda$localizeErrorsFromViolations$3(Diagnoser.java:387)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.batfish.diagnosis.Diagnoser.localizeErrorsFromViolations(Diagnoser.java:386)
+	at org.batfish.diagnosis.Diagnoser.localize(Diagnoser.java:356)
+	at org.batfish.main.Batfish.repair(Batfish.java:2265)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException","   at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)","   at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)","   at java.base/java.io.FileReader.<init>(FileReader.java:60)","   at org.batfish.diagnosis.util.ConfigTaint.policyLinesFinder(ConfigTaint.java:193)","   at org.batfish.diagnosis.localization.RouteForbiddenLocalizer.genErrorConfigLines(RouteForbiddenLocalizer.java:124)","   at org.batfish.diagnosis.localization.Violation.lambda$getErrorLinesForSingleNode$5(Violation.java:335)","   at java.base/java.lang.Iterable.forEach(Iterable.java:75)","   at org.batfish.diagnosis.localization.Violation.getErrorLinesForSingleNode(Violation.java:334)","   at org.batfish.diagnosis.Diagnoser.lambda$localizeErrorsFromViolations$3(Diagnoser.java:387)","   at java.base/java.util.HashMap.forEach(HashMap.java:1421)","   at org.batfish.diagnosis.Diagnoser.localizeErrorsFromViolations(Diagnoser.java:386)","   at org.batfish.diagnosis.Diagnoser.localize(Diagnoser.java:356)","   at org.batfish.main.Batfish.repair(Batfish.java:2265)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

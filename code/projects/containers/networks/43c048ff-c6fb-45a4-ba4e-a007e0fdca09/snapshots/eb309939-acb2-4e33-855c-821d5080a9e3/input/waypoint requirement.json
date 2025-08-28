@@ -1,0 +1,7 @@
+{
+    "srcNode": "rockyttmount",
+    "dstNode": "dothan",
+    "existingFlowPath":"rockyttmount,fayetteville,tarttheel,florence,sumter,columbia,augusta,hartwell,athens,atlanta,macon,albany,tallahassee,blountstown,panamattcity,dothan",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/4.1/UsCarrie/configs"
+}

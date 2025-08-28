@@ -1,0 +1,11 @@
+*******************128.0.1.0/24********************
+
+Error Configuration: london.cfg
+ErrorLineNumber: 64
+Command: route-map RMap_London_from_Brussels permit 10
+ErrorLineNumber: 65
+Command: set local-preference 120
+ErrorLineNumber: 66
+Command: route-map RMap_London_from_Brussels permit 100
+ErrorLineNumber: 83
+Command: neighbor 10.0.0.58 route-map RMap_London_from_Brussels in

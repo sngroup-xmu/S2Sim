@@ -1,0 +1,30 @@
+Exception in container:4cf2b1e1-fe8e-47b7-a5f6-b83dd3e3efff, testrig:c89bfdb1-71aa-4fee-b108-dc2054c9f2d6; exception:java.lang.ExceptionInInitializerError
+	at org.batfish.question.routes.RoutesQuestion.getRoutingProtocolSpecifier(RoutesQuestion.java:133)
+	at org.batfish.question.routes.RoutesAnswerer.answer(RoutesAnswerer.java:86)
+	at org.batfish.main.Batfish.answer(Batfish.java:660)
+	at org.batfish.main.Batfish.run(Batfish.java:2206)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: Error creating extended parser class: Could not determine whether class 'org.batfish.specifier.parboiled.Parser$$parboiled' has already been loaded
+	at org.parboiled.Parboiled.createParser(Parboiled.java:58)
+	at org.batfish.specifier.parboiled.Parser.instance(Parser.java:118)
+	at org.batfish.specifier.parboiled.ParboiledEnumSetSpecifier.parse(ParboiledEnumSetSpecifier.java:233)
+	at org.batfish.specifier.SpecifierFactories.getEnumSetSpecifier(SpecifierFactories.java:104)
+	at org.batfish.specifier.SpecifierFactories.getEnumSetSpecifierOrDefault(SpecifierFactories.java:226)
+	at org.batfish.specifier.SpecifierFactories.getEnumSetSpecifierOrDefault(SpecifierFactories.java:174)
+	at org.batfish.specifier.RoutingProtocolSpecifier.fromString(RoutingProtocolSpecifier.java:211)
+	at org.batfish.specifier.RoutingProtocolSpecifier.<init>(RoutingProtocolSpecifier.java:230)
+	at org.batfish.specifier.RoutingProtocolSpecifier.<clinit>(RoutingProtocolSpecifier.java:197)
+	... 6 more
+Caused by: java.lang.RuntimeException: Could not determine whether class 'org.batfish.specifier.parboiled.Parser$$parboiled' has already been loaded
+	at org.parboiled.transform.AsmUtils.findLoadedClass(AsmUtils.java:217)
+	at org.parboiled.transform.ParserTransformer.transformParser(ParserTransformer.java:35)
+	at org.parboiled.Parboiled.createParser(Parboiled.java:54)
+	... 14 more
+Caused by: java.lang.reflect.InaccessibleObjectException: Unable to make protected final java.lang.Class java.lang.ClassLoader.findLoadedClass(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @74c282ca
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:354)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:297)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:199)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:193)
+	at org.parboiled.transform.AsmUtils.findLoadedClass(AsmUtils.java:210)
+	... 16 more

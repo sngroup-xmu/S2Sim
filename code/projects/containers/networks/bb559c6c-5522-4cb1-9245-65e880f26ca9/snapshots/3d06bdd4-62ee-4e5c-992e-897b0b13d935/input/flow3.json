@@ -1,0 +1,6 @@
+{
+    "srcNode": "Ogre",
+    "dstNode": "Kraslava",
+    "reqDstPrefixString": "128.0.0.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/Topology-zoo-cfg/Latnet/configs"
+}

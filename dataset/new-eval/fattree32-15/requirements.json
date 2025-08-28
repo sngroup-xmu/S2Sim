@@ -1,0 +1,15 @@
+[
+    {
+    "srcNode": [
+        "edge-50",
+        "edge-5",
+        "edge-20",
+        "edge-99",
+        "edge-108"
+    ],
+    "dstNode": "edge-505",
+    "reqDstPrefixString": "90.31.144.0/24",
+    "failure": 0,
+    "configRootPath": "/home/dell/hg/batfish-condition/dateset/fattree-cfg/fattree32/configs"
+}
+]

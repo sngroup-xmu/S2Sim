@@ -1,0 +1,11 @@
+*******************128.0.1.0/24********************
+
+Error Configuration: paris.cfg
+ErrorLineNumber: 112
+Command: set local-preference 120
+ErrorLineNumber: 113
+Command: route-map RMap_Paris_from_Lille permit 100
+ErrorLineNumber: 109
+Command: neighbor 10.0.1.62 route-map RMap_Paris_from_Lille in
+ErrorLineNumber: 111
+Command: route-map RMap_Paris_from_Lille permit 10

@@ -1,0 +1,16 @@
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Generated data-plane for snapshot:4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f; iterations:5Time taken for this task: 0.063 seconds
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Loading configurations for NetworkSnapshot{network=3a3460d5-6791-4371-8d5b-2606082d0d5d, snapshot=4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f}
+Generated data-plane for snapshot:4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f; iterations:10Time taken for this task: 0.021 seconds
+Exception in container:3a3460d5-6791-4371-8d5b-2606082d0d5d, testrig:4c98e0e9-7c45-4e1f-aebc-d8ea3886d31f; exception:java.lang.NullPointerException: Cannot invoke "String.length()" because "s" is null
+	at java.base/java.io.StringReader.<init>(StringReader.java:51)
+	at com.google.gson.JsonParser.parseString(JsonParser.java:51)
+	at org.batfish.main.Batfish.repair(Batfish.java:2256)
+	at org.batfish.main.Driver.lambda$0(Driver.java:315)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$0(Driver.java:357)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"String.length()\" because \"s\" is null","   at java.base/java.io.StringReader.<init>(StringReader.java:51)","   at com.google.gson.JsonParser.parseString(JsonParser.java:51)","   at org.batfish.main.Batfish.repair(Batfish.java:2256)","   at org.batfish.main.Driver.lambda$0(Driver.java:315)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

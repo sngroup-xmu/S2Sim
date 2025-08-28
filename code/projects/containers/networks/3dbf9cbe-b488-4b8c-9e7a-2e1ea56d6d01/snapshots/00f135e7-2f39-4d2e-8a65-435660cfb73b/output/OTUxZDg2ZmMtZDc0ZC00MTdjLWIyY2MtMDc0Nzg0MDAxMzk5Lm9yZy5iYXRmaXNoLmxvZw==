@@ -1,0 +1,10 @@
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Generated data-plane for snapshot:00f135e7-2f39-4d2e-8a65-435660cfb73b; iterations:10Time taken for this task: 0.063 seconds
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Loading configurations for NetworkSnapshot{network=3dbf9cbe-b488-4b8c-9e7a-2e1ea56d6d01, snapshot=00f135e7-2f39-4d2e-8a65-435660cfb73b}
+Generated data-plane for snapshot:00f135e7-2f39-4d2e-8a65-435660cfb73b; iterations:19Time taken for this task: 0.017 seconds
+{"answerElements":[{"class":"org.batfish.datamodel.answers.IncrementalBdpAnswerElement","bgpBestPathRibRoutesByIteration":{"1":2,"2":5,"3":11,"4":18,"5":24,"6":30,"7":30,"8":32,"9":33,"10":33},"bgpMultipathRibRoutesByIteration":{"1":2,"2":5,"3":11,"4":18,"5":24,"6":30,"7":30,"8":32,"9":33,"10":33},"dependentRoutesIterations":10,"mainRibRoutesByIteration":{"1":202,"2":205,"3":211,"4":218,"5":224,"6":230,"7":230,"8":232,"9":233,"10":233},"ospfInternalIterations":1,"version":"0.36.0","warnings":{}}],"status":"SUCCESS","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

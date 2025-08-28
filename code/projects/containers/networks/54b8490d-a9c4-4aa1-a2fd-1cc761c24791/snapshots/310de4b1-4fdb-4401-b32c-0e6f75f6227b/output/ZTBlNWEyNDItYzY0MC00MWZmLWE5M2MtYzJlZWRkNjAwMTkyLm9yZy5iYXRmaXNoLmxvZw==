@@ -1,0 +1,14 @@
+Loading configurations for NetworkSnapshot{network=54b8490d-a9c4-4aa1-a2fd-1cc761c24791, snapshot=310de4b1-4fdb-4401-b32c-0e6f75f6227b}
+Loading configurations for NetworkSnapshot{network=54b8490d-a9c4-4aa1-a2fd-1cc761c24791, snapshot=310de4b1-4fdb-4401-b32c-0e6f75f6227b}
+Loading configurations for NetworkSnapshot{network=54b8490d-a9c4-4aa1-a2fd-1cc761c24791, snapshot=310de4b1-4fdb-4401-b32c-0e6f75f6227b}
+Loading configurations for NetworkSnapshot{network=54b8490d-a9c4-4aa1-a2fd-1cc761c24791, snapshot=310de4b1-4fdb-4401-b32c-0e6f75f6227b}
+Loading configurations for NetworkSnapshot{network=54b8490d-a9c4-4aa1-a2fd-1cc761c24791, snapshot=310de4b1-4fdb-4401-b32c-0e6f75f6227b}
+Exception in container:54b8490d-a9c4-4aa1-a2fd-1cc761c24791, testrig:310de4b1-4fdb-4401-b32c-0e6f75f6227b; exception:java.lang.NullPointerException: Cannot invoke "org.batfish.datamodel.Configuration.getAllInterfaces()" because the return value of "java.util.Map.get(Object)" is null
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.nextTopologyContext(IncrementalBdpEngine.java:235)
+	at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:397)
+	at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)
+	at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)
+	at org.batfish.main.Batfish.run(Batfish.java:2219)
+	at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:312)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+{"answerElements":[{"class":"org.batfish.common.BatfishException$BatfishStackTrace","answer":["org.batfish.common.BatfishException: Batfish job failed","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:356)","   at java.base/java.lang.Thread.run(Thread.java:833)","Caused by: java.lang.NullPointerException: Cannot invoke \"org.batfish.datamodel.Configuration.getAllInterfaces()\" because the return value of \"java.util.Map.get(Object)\" is null","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.nextTopologyContext(IncrementalBdpEngine.java:235)","   at org.batfish.dataplane.ibdp.IncrementalBdpEngine.computeDataPlane(IncrementalBdpEngine.java:397)","   at org.batfish.dataplane.ibdp.IncrementalDataPlanePlugin.computeDataPlane(IncrementalDataPlanePlugin.java:48)","   at org.batfish.main.Batfish.computeDataPlane(Batfish.java:828)","   at org.batfish.main.Batfish.run(Batfish.java:2219)","   at org.batfish.main.Driver.lambda$runBatfish$0(Driver.java:312)","   ... 1 more",""]}],"status":"FAILURE","summary":{"numFailed":0,"numPassed":0,"numResults":0}}

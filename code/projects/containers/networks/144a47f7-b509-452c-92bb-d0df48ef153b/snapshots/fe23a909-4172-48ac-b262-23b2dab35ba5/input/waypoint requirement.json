@@ -1,0 +1,7 @@
+{
+    "srcNode": "trinidadttandtttobago",
+    "dstNode": "stttcroix",
+    "existingFlowPath":"trinidadttandtttobago,grenada,nodeid24,nodeid22,stttcroix",
+    "reqDstPrefixString": "128.0.1.0/24",
+    "configRootPath": "/home/dell/hg/batfish-condition/yrl-sse-data/networks/Columbus/configs/"
+}
